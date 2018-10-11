@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>No Coin</title>
+        
+        <link rel="stylesheet" type="text/css" href="../styles/popup.css" />
+    </head>
+    <body>
+        <a class="header" href="https://github.com/keraf/NoCoin" target="_blank">
+            <div class="logo">
+                <img src="../img/logo_enabled.png" />
+            </div>
+            <div class="title">
+                <h1>No Coin</h1>
+                <small>Version <span class="version">0.0.0</span></small>
+            </div>
+        </a>
+        <div class="content">
+            <p class="detected box">A coin miner has been detected on this page.</p>
+            <div class="whitelisting">
+                <select class="dropdown">
+                    <option value="1">White list for 1 minute</option>
+                    <option value="30">White list for 30 minutes</option>
+                    <option value="0">White list permanently</option>
+                </select>
+                <button class="btn whitelist">White list</button>
+                <p class="whitelisted box"></p>
+                <button class="btn unwhitelist">Remove from white list</button>
+            </div>
+            <button class="btn toggle"></button>
+        </div>
+        
+        <script src="../js/popup.js"></script>
+    </body>
+</html>

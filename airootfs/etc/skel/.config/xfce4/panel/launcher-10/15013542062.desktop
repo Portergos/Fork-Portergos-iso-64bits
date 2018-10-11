@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=PlayOnLinux
+Comment=PlayOnLinux
+Type=Application
+Exec=playonlinux
+Icon=/usr/share/playonlinux/etc/playonlinux.png
+Categories=Application;Game
+X-XFCE-Source=file:///usr/share/applications/playonlinux.desktop

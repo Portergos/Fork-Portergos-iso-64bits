@@ -1,0 +1,19 @@
+compton &
+
+### exo-open can open .desktop from ~/.config/autostart
+exo-open ~/.config/autostart/*
+
+#VBoxClient-all &
+dbus-launch xfce4-panel --disable-wm-check &
+lxpolkit &
+#(sleep 10s && xrandr -s 1280x720 && feh --bg-scale /etc/portergos/portergos_pics/wallpaper.jpg) &
+#(sleep 5s && bash -c "~/scripts/resolution.sh") &
+#feh --bg-scale /etc/portergos/portergos_pics/wallpaper.jpg &
+#nm-applet &
+#volumeicon &
+conky -c ~/.conky/xfce_shortcuts/Gotham
+feh --bg-scale /etc/portergos/portergos_pics/wallpaper_portergos.png &
+dconf load / < /etc/skel/dconf.dconf
+rm -r ~/.config/openbox/autostart
+mv -f ~/.config/openbox/autostart.bak ~/.config/openbox/autostart
+

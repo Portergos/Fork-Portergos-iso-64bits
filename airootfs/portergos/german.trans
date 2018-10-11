@@ -1,0 +1,372 @@
+## 
+## 
+##Englische ##-Übersetzungsdatei 
+## 
+## 
+##, der von Carl Duff (am 15. Feb. 2016) geschrieben ist 
+## 
+## 
+
+#Allgemeiner 
+_UseSpaceBar="Gebrauch [Leertaste] zu de/select Optionen hat Schlagseite gehabt." 
+_AlreadyInst="Bereits installiert": 
+_All="Alle" 
+_Done="Getan" 
+_PlsWaitBody="\nPlease warten...\n\n" 
+_PassReEntBody="gehen ins Kennwort \n \nRe-ein" 
+_ErrTitle="Fehler" 
+_PassErrBody="\nThe eingegangene Kennwörter passen nicht zusammen. Versuchen Sie bitte wieder \n\n" 
+
+#-Sicherheit und Kniffe 
+_SecMenuTitle="Sicherheit und Systemd-Kniffe" 
+_SecJournTitle="Amendieren Journald-Protokollierung" 
+_SecCoreTitle="Machen Coredump-Protokollierung unbrauchbar" 
+_SecKernTitle="Beschränken Zugang zum Kernklotz" 
+_Edit="Editieren Konfigurationsdatei" 
+_Disable="machen Unbrauchbar" 
+_SecMenuBody="\nA wenige nützliche und anfängerfreundliche Kniffe sind verfügbar, um Systemsicherheit und Leistung \n\nSelecting zu verbessern, die eine Auswahl Details darüber zur Verfügung stellen wird." 
+_SecJournBody="\nsystemd-journald sammelt und versorgt Kernklotz, System-Loge, Bilanzaufzeichnungen, und Standardproduktionen und Fehlermeldungen vom Dienst\n\nByverzug, eine beharrliche (unvergängliche) Zeitschriftengrößengrenze ist 10 % der Wurzelteilungsgröße: 500G bedeutet Wurzel 50G beschränken auf in/var/log/journal versorgte Daten. 50M sollte sufficent sein. Protokollierung kann auch arbeitsunfähig sein, obwohl das Beheben von Systemproblemen schwieriger \n\n sein kann" 
+_SecCoreBody="\nA Kernmüllkippe ist eine Aufzeichnung des Speichers, wenn ein Prozess für Entwickler, aber nicht den durchschnittlichen Benutzer, die Kernmüllkippenverschwendungssystemressourcen \n\nUseful abstürzt und auch empfindliche Daten wie Kennwörter enthalten kann und Verschlüsselungsschlüssel\n\nTheverzug systemd Verhalten ist, Kernmüllkippen für alle Prozesse in/var/lib/systemd/coredump zu erzeugen. Dieses Verhalten kann durch das Schaffen einer Konfigurationsdatei im/etc/systemd/coredump.conf.d/Verzeichnis \n\n überritten werden" 
+
+# btrfs 
+_btrfsSVTitle="btrfs Subvolumina" 
+_btrfsSVBody="Schaffen btrfs Subvolumina? \n\nAn-Initialensubvolumen wird geschaffen und dann bestiegen. Andere Subvolumina, die sich davon verzweigen, können dann geschaffen \n\nOtherwise werden Sie können direkt zu den steigenden Optionen \n hüpfen" 
+_btrfsMSubBody1="Geben den Namen des anfänglichen Subvolumens ein um (z.B. Wurzel) zu steigen. Das Besteigen von Optionen kann dann ausgewählt werden. Einmal bestiegen, alle anderen Subvolumina, die für geschaffen sind" 
+_btrfsMSubBody2="wird Niederlassung davon." 
+_btrfsSVErrBody="Formblätter oder Räume werden nicht erlaubt. Versuchen Sie bitte wieder \n" 
+_btrfsSVBody1="Geben den Namen des Subvolumens ein" 
+_btrfsSVBody2="um innerhalb zu schaffen" 
+_btrfsSVBody3="\n\nThis Prozess wird wiederholt, bis in ein Sternchen (*) als der Subvolumenname \n\nCreated Subvols eingegangen wird:" 
+_btrfsMntBody="Gebrauch [Raum] zu de/select die gewünschten Gestelloptionen und Rezension sorgfältig. Wählen Sie bitte vielfache Versionen derselben Auswahl nicht aus." 
+_btrfsMntConfBody="Bestätigen das folgende Gestell options:\n\n" 
+
+#-Autoteilung 
+_AutoPartBody1="Warnung: ALLE Daten auf" 
+_AutoPartBody2="wird zerstört \n\nA 512 Mb starten Teilung wird zuerst geschaffen, um eine Sekunde (Wurzel oder '/') Teilung mit dem ganzen restlichen Raum gefolgt." 
+_AutoPartBody3="Wenn sie vorhaben, TAUSCH zu verwenden, wählen Sie die '' Swapdateiauswahl aus, wenn sie \n\nDo besteigen, dass Sie weitermachen möchten?" 
+
+#-Fehlermeldungen. Alles werden andere durch den HEFTIGEN SCHLAG erzeugt. 
+_ErrNoMount="\nPartition (s) muss zuerst \n\n bestiegen werden" 
+_ErrNoBase="\nThe Basis von Arch muss zuerst \n\n installiert werden" 
+_ErrNoKernel="\nAt kleinster ein Kern (linux oder linux-lts) muss ausgewählt \n\n werden" 
+
+# Vbox Installationen 
+_VBoxInstTitle="Installation von VirtualBox" 
+_VBoxInstBody="\nIf aus irgendeinem Grund laden die Gastmodule von VirtualBox für das installierte System nicht (z.B. niedrige Entschlossenheit und scrollbars nach dem Starten), eine einmalige Reihe von Befehlen wird this:\n\n$ su\n# depmod-a\n# modprobe-a vboxvideo vboxguest vboxsf\n# Neustart befestigen" 
+
+# wählen Config Dateien aus 
+_SeeConfOptTitle="Rezensionskonfigurationsdateien" 
+_SeeConfOptBody="\nSelect jede Datei hat unten Schlagseite gehabt, um nachgeprüft oder amendiert \n zu werden" 
+_SeeConfErrBody="\nFile besteht nicht \n\n" 
+
+# Pacman 
+_PrepPacKey="erfrischen Schlüssel von Pacman" 
+
+# LUKS / DM-Gruft / Verschlüsselung 
+_PrepLUKS="LUKS (fakultative) Verschlüsselung" 
+_LuksMenuBody="\nDevices und Volumina encrypted, dm_crypt verwendend, kann nicht zugegriffen oder sogar gesehen werden, ohne über einen Schlüssel oder Kennwort aufgeschlossen zu werden." 
+_LuksMenuBody2="\n\nA seperate Stiefelteilung ohne Verschlüsselung oder logisches Volumenmanagement (LVM - wenn mit der BIOS Made) ist erforderlich." 
+_LuksMenuBody3="\n\nThe Automatische Auswahl verwendet Verzugverschlüsselungseinstellungen, und wird für Anfänger empfohlen. Sonst ist es möglich, Ziffer und Schlüsselgrößenparameter manuell anzugeben." 
+_LuksOpen="öffnen Encrypted Teilung" 
+_LuksOpenBody="\nSpecify ein Name für den encrypted blockieren Gerät. Es ist für das Präfix es mit/dev/mapper/nicht notwendig. Ein Beispiel ist zur Verfügung gestellt worden." 
+_LuksEncrypt="automatische LUKS-Verschlüsselung" 
+_LuksEncryptAdv="Definieren Key-Size und Cypher" 
+_LuksEncryptBody="\nSelect eine Teilung zu encrypt." 
+_LuksEncruptSucc="\nDone! Geöffnet und bereit zu LVM (empfohlen) oder direkt zu zu steigen \n" 
+_LuksPartErrBody="\nA Minimum von zwei Teilungen sind für encryption:\n\n1 erforderlich. Wurzel (/) - Standard oder lvm Teilungstypen \n\n2. Stiefel (/Stiefel oder/boot/efi) - Standardteilungstypen nur (außer lvm wo mit der BIOS Made).\n" 
+_SelLuksRootBody="\nSelect die WURZEL (/) Teilung zu encrypt. Das ist, wo Arch installiert \n\n wird" 
+_LuksPassBody="\nEnter ein Kennwort zu un/encrypt die Teilung. Das sollte nicht dasselbe als die Wurzelrechnung oder Benutzerkontokennwörter \n sein" 
+_LuksWaitBody="\nCreating encrypted Wurzelteilung:" 
+_LuksWaitBody2="Gerät oder verwendetes Volumen": 
+_LuksCipherKey="\nOnce die angegebenen Fahnen sind amendiert worden, sie werden mit dem 'cryptsetup-q luksFormat/dev/...' Befehl \n\nNOTE automatisch verwendet: Schlüsseldateien werden nicht unterstützt; sie können manuell Postinstallation hinzugefügt werden. Geben Sie keine zusätzlichen Fahnen wie-v an (-wortreich), oder-y (-prüfen nach-passphrase).\n" 
+
+# logisches Volumenmanagement 
+_PrepLVM="logisches Volumenmanagement" 
+_PrepLVM2="(fakultativ)" 
+_LvmMenu="\nLogical Volumenmanagement (LVM) erlaubt 'virtuellen' Festplatten (Volumengruppen) und Teilungen (Logische Volumina), von vorhandenen Laufwerken und Teilungen geschaffen zu werden. Eine Volumengruppe muss zuerst, dann ein geschaffen werden, oder Logischere Volumina darin können auch mit einer encrypted Teilung verwendet werden, um vielfache logische Volumina (z.B. Wurzel und nach Hause) darin zu schaffen." 
+_LvmCreateVG="Schaffen VG und LV (s)" 
+_LvmDelVG="löschen Volumengruppen" 
+_LvMDelAll="löschen *ALLE* VGs, LVs, PVs" 
+_LvmDetBody="\nExisting Logical Volume Management (LVM) entdeckt. Das Aktivieren. Warten Sie bitte...\n\n" 
+_LvmPartErrBody="\nThere sind keine lebensfähigen Teilungen, die verfügbar sind, um für das Logische Volumenmanagement zu verwenden. Ein Minimum von ist einem erforderlich \n\nIf LVM ist bereits im Gebrauch, das Ausschalten davon wird der für sein Physisches Volumen (Volumina) verwendeten Teilung (Teilungen) erlauben, wieder \n\n verwendet zu werden" 
+_LvmNameVgBody="\nEnter der Name von Volume Group (VG), um VG zu schaffen \n\nThe, ist das neue 'virtuelle Gerät / Festplatte', um aus der Teilung (Teilungen) zu schaffen, hat als nächstes \n ausgewählt" 
+_LvmNameVgErr="\nInvalid eingegebener Name. Der Volumengruppenname kann alphanumerisch sein, aber kann Räume nicht enthalten, mit '/' anzufangen, oder bereits im Gebrauch \n\n zu sein" 
+_LvmPvSelBody="\nSelect die Teilung (Teilungen), um für Physical Volume (PV).\n\n zu verwenden" 
+_LvmPvConfBody1="\nConfirm Schaffung der Volumengruppe" 
+_LvmPvConfBody2="mit dem folgenden partitions:\n\n" 
+_LvmPvActBody1="\nCreating und Aktivierenvolumengruppe" 
+_LvmPvDoneBody1="\nVolume Gruppe" 
+_LvmPvDoneBody2="ist geschaffen worden" 
+_LvmLvNumBody1="\nUse [Leertaste], um die Zahl von Logischen Volumina (LVs) auszuwählen, um in zu schaffen" 
+_LvmLvNumBody2="\n\nThe letzt (oder nur) LV wird 100 % des restlichen Raums in der Volumengruppe automatisch verwenden." 
+_LvmLvNameBody1="\nEnter der Name von Logical Volume (LV), um zu schaffen \n\nThis, ist dem Bestimmen eines Namens / Etikett für eine Teilung \n ähnlich" 
+_LvmLvNameBody2="\nNOTE: Dieses LV wird den ganzen Raum automatisch verbrauchen, der auf der Volumengruppe bleibt" 
+_LvmLvNameErrBody="\nInvalid eingegebener Name. Der Name von Logical Volume (LV) kann alphanumerisch sein, aber kann Räume nicht enthalten oder mit '/'.\n\n vorangegangen werden"
+_LvmLvSizeBody1="restlich" 
+_LvmLvSizeBody2="\n\nEnter die Größe von Logical Volume (LV) in Megabytes (M) oder Gigabytes (G). Zum Beispiel, 100M wird 100 Megabyte LV. 10G schaffen wird einen 10-Gigabyte-LV.\n schaffen" 
+_LvmLvSizeErrBody="\nInvalid Eingegangener Wert. In einen numerischen Wert muss mit einer 'M' (Megabytes) eingegangen werden, oder 'G' (Gigabytes) am Ende \n\nExamples schließen, 100M, 10G, oder 250M ein. Der Wert kann auch dem nicht gleich oder größer sein als die restliche Größe des VG.\n\n" 
+_LvmCompBody="\nDone! Alle Logischen Volumina sind für die Volumengruppe \n\nDo geschaffen worden Sie möchten das neue LVM-Schema ansehen? \n\n" 
+_LvmDelQ="\nConfirm Auswischen der Volumengruppe (Gruppen) und des Logischen Volumens (Volumina).\n\nIf das Löschen einer Volumengruppe, alle Logischen Volumina innerhalb werden als gut \n\n gelöscht" 
+_LvmSelVGBody="\nSelect Volumengruppe, um zu löschen. Alle Logischen Volumina innerhalb werden auch gelöscht \n" 
+_LvmVGErr="\nNo Volumengruppen hat gefunden \n\n" 
+
+#-Showgeräte und Teilungen 
+_DevShowOpt="(Fakultative) Listengeräte" 
+
+#-Kontrollenvoraussetzungen 
+_ChkTitle="Wiederüberprüfung von Voraussetzungen" 
+_ChkBody="\nRechecking Monteur ist als Wurzel geführt worden, und dass es eine aktive Internetverbindung gibt. Warten Sie bitte...\n\n" 
+_RtFailBody="\nThe Monteur muss als Wurzel geführt werden. Austritt \n\n" 
+_ConFailBody="\nInternet Verbindungstest hat gescheitert. Austritt \n\n" 
+_ReqMetTitle="entsprochene Anforderungen" 
+_ReqMetBody="\nAll Kontrollen ist gegangen! \n\n" 
+
+
+#-Monteur Mirrorlist 
+_MirrorlistTitle="Mirrorlist" 
+_MirrorlistBody="\nThe mirrorlist enthält durch pacman verwendete Serveradressen, um Pakete zu installieren. Um die schnellsten Server zu finden, erzeugen Sie ZUERST einen mirrorlist durch das Land VOR der Führung von RankMirrors, sonst wird der Prozess eine LANGE Zeit \n\nThe pacman nehmen Konfigurationsdatei kann editiert werden, um Mehrbefreiungskampf und andere Behältnisse \n\nNOTE zu ermöglichen: Nahe Textdateien mit' [STRG] + [x]'. Wenn editiert, dann drücken Sie [y], um zu sparen, oder [n], um Änderungen \n zu verwerfen" 
+_MirrorbyCountry="Erzeugen mirrorlist durch das Land" 
+_MirrorEdit="Editieren manuell mirrorlist" 
+_MirrorRankTitle="Geführter RankMirrors" 
+_MirrorRestTitle="Stellen ursprünglichen mirrorlist wieder her" 
+_MirrorRankBody="\nFinding die schnellsten Server vom mirrorlist." 
+_MirrorNoneBody="\nA Kopie des ursprünglichen mirrorlist wurde nicht gefunden \n\n" 
+_MirrorCntryBody="\nA Liste von Spiegeln durch das ausgewählte Land wird erzeugt \n" 
+_MirrorGenQ="Gebrauch erzeugte mirrorlist für den Monteur?" 
+_MirrorPacman="Editieren pacman Konfiguration" 
+_MIrrorPacQ="\nUse editierte pacman Konfiguration für das installierte System? Wenn Ja, die Datei nach der Installation der Basis \n\n kopiert wird" 
+
+#-Satzübersichtskarte (vconsole) 
+_VCKeymapTitle="Satz virtuelle Konsole" 
+_VCKeymapBody="\nA virtuelle Konsole ist eine in einer nichtgrafischen Umgebung schnelle Schale. Seine Übersichtskarte ist einer Tischumgebung / Terminal unabhängig." 
+
+#-Satz Xkbmap (Umgebung) 
+_XkbmapBody="\nSelect Tischumgebungsübersichtskarte." 
+
+#-Satzschauplatz 
+_localeBody="Schauplätze bestimmen die Sprachen gezeigt, Zeit und Datumsformate, formatieren usw. \n\nThe ist language_COUNTRY (z.B. en_US ist, die Vereinigten Staaten englisch; en_GB ist, Großbritannien englisch)." 
+
+#-Satz Timezone 
+_TimeZBody="\nThe Zeitzone wird verwendet, um Ihre Systemuhr richtig zu setzen." 
+_TimeSubZBody="\nSelect die Stadt am nächsten zu Ihnen." 
+_TimeZQ="\nSet Zeitzone als" 
+
+#-Satzhardwareuhr 
+_HwCBody="\nUTC ist der Weltzeitstandard, und wird wenn Doppelstarten mit Windows empfohlen." 
+
+# erzeugen FSTAB 
+_FstabBody="setzt \nThe FSTAB Datei (Dateisystem-TISCH) das, welche Speichergeräte und Teilungen bestiegen werden sollen, und wie sie verwendet \n\nUUID werden sollen (Allgemein Einzigartiger Bezeichner) wird empfohlen \n\nIf keine Etiketten wurden für die Teilungen früher gesetzt, Gerätnamen werden für die Etikettauswahl verwendet." 
+_FstabErr="\nThe Teil UUID Auswahl ist nur für UEFI/GPT-Installationen \n\n" 
+_FstabDevName="Gerätname" 
+_FstabDevLabel="Gerätetikett" 
+_FstabDevUUID="Gerät UUID" 
+_FstabDevPtUUID="UEFI Teil UUID" 
+
+#-Satz Hostname 
+_HostNameBody="\nThe Hostname wird verwendet, um sich zu identifizieren, das System in einem Netz \n\nIt wird auf alphanumerische Charaktere eingeschränkt, kann einen Bindestrich (-) - aber nicht am Anfang oder Ende enthalten - und muss nicht mehr sein als 63 Charaktere \n" 
+
+#-Satzwurzelkennwort 
+_PassRtBody="\nEnter Wurzel password\n\n" 
+_PassRtBody2="gehen in Wurzel password\n\n \nRe-ein" 
+
+# schaffen neuen Benutzer 
+_NUsrTitle="schaffen neuen Benutzer" 
+_NUsrBody="\nEnter der Benutzername. Briefe MÜSSEN niedrigerer Fall \n sein" 
+
+#-Benutzernamefehler 
+_NUsrErrTitle="Benutzernamefehler" 
+_NUsrErrBody="\nAn falscher Benutzername wurde eingegangen. Versuchen Sie bitte wieder \n\n" 
+
+#-Satzbenutzer 
+_PassNUsrBody="\nEnter Kennwort für" 
+_NUsrSetBody="\nCreating Benutzer und untergehende Gruppen...\n\n" 
+
+#Das -Steigen (Teilungen) 
+_MntStatusTitle="Gestellstatus" 
+_MntStatusSucc="\nMount Erfolgreich! \n\n" 
+_MntStatusFail="\nMount Gefehlt! \n\n" 
+_WarnMount1="\nIMPORTANT: Teilungen können bestiegen werden, ohne sie durch das Auswählen zu formatieren" 
+_WarnMount2="Auswahl, die an der Oberseite vom Dateisystemmenü \n\nEnsure verzeichnet ist, das die richtigen Wahlen, um zu steigen und zu formatieren, als keine Warnungen gemacht werden, wird mit Ausnahme von der UEFI-Stiefelteilung \n\n zur Verfügung gestellt" 
+
+# ausgesuchtes Gerät (Installation) 
+_DevSelTitle="Ausgesuchtes Gerät" 
+_DevSelBody="\nDevices (/dev/) sind verfügbare Festplatten, und USB - steckt, um darauf zu installieren. Das erste ist/sda, der zweite/sdb, und so beim Verwenden von USB - stecken, um Architekten zu starten, sorgfältig zu sein, weil es auch verzeichnet wird!" 
+
+#-Verteilenwerkzeug 
+_PartToolTitle="das Verteilen des Werkzeugs" 
+_PartToolBody="\nAn automatische Verteilenauswahl ist für Anfänger verfügbar. Sonst wird cfdisk für BIOS empfohlen, geteilt für UEFI.\n\nDO NICHT wählen einen UEFI/GPT-only das Verteilen des Werkzeugs für ein BIOS/MBR-System aus, weil das ernste Probleme einschließlich einer unurladefähigen Installation verursachen konnte." 
+_PartOptAuto="das Automatische Verteilen" 
+_PartOptWipe="Wischen sicher (fakultatives) Gerät" 
+_AutoPartWipeBody1="\nWARNING: ALLE Daten auf" 
+_AutoPartWipeBody2="wird mit dem Befehl zerstört 'wischen-Ifre'. Dieser Prozess kann auch viel Zeit in Anspruch nehmen abhängig von der Größe des Geräts \n\nDo möchten Sie weitermachen? \n" 
+
+#-Verteilenfehler 
+_PartErrBody="\nBIOS Systeme verlangen, dass ein minmum einer Teilung (WURZEL).\n\nUEFI Systeme ein Minimum von zwei Teilungen (WURZEL und UEFI).\n\n verlangt" 
+
+#-Dateisystem 
+_FSTitle="Wählen Filesystem" 
+_FSBody="\nExt4 wird empfohlen. Nicht alle filesystems sind für Wurzel- oder Stiefelteilungen lebensfähig. Alle haben verschiedene Eigenschaften und Beschränkungen." 
+_FSSkip="Hopser / Niemand" 
+
+# ausgesuchte Wurzel 
+_SelRootBody="\nSelect LASSEN Teilung EINWURZELN. Das ist, wo Arch installiert wird." 
+
+# ausgesuchter TAUSCH 
+_SelSwpBody="\nSelect TAUSCHEN Teilung. Wenn man Swapfile verwenden wird, wird es dieselbe Größe wie Ihr RAM am Anfang gesetzt." 
+_SelSwpNone="Niemand" 
+_SelSwpFile="Swapfile" 
+
+# wählen UEFI aus 
+_SelUefiBody="\nSelect UEFI Teilung. Das ist eine spezielle Teilung, um UEFI-Systeme zu starten." 
+
+# formatieren UEFI 
+_FormUefiBody="Die UEFI-Teilung" 
+_FormUefiBody2="ist bereits formatiert \n\nReformat worden? Das Tun wird so ALLE Daten bereits auf dieser Teilung \n\n löschen" 
+
+# UEFI Mountpoint 
+_MntUefiBody="\nSelect UEFI Mountpoint.\n\Nsystemd-Stiefel verlangt/-Stiefel. Made wird mit irgendeinem mountpoint arbeiten." 
+
+# Extrateilungen 
+_ExtPartBody="\nSelect zusätzliche Teilungen in jeder Ordnung, oder 'Getan', um fertig zu sein." 
+
+# Extrateilungen 
+_ExtPartBody1="\nSpecify Teilung mountpoint. Stellen Sie sicher, dass der Name mit einem Vorwärtshieb (/) beginnt. Beispiele include:\n\n" 
+
+# Extrateilungsnamengebenfehler 
+_ExtErrBody="\nPartition kann wegen eines Problems mit dem Mountpoint-Namen nicht bestiegen werden. Ein Name muss nach einem fortgeschrittenen Hieb \n\n gegeben werden" 
+
+# installieren Basis 
+_InstBseTitle="Installieren Basis" 
+_InstBseBody="\nStandard: Empfohlen für Anfänger. Wählen Sie bis zu zwei Kerne (linux und linux-lts) und fakultativ die Grund-Devel-Paketgruppe. sudo, btrfs-progs, werden F2fs-Werkzeuge auch installiert \n\nAdvanced: Wählen Sie bis zu vier Kerne (linux, lts, grsec, Zen) und kontrollieren Sie individuelle Basis und Grund-Devel-Pakete. Die zusätzliche Konfiguration für grsec und Zen kann für Virtualbox und NVIDIA.\n\nNOTE erforderlich sein: Wenn bereits nicht installiert, muss mindestens ein Kern ausgewählt werden." 
+_InstStandBseBody="\nThe Grundpaketgruppe wird automatisch installiert. Die Grund-Devel-Paketgruppe ist erforderlich, Arch User Repository (AUR).\n\n zu verwenden" 
+_InstStandBase="Standardinstallation" 
+_InstAdvBase="Fortgeschrittene Installation" 
+_InstAdvBseBody="\nWARNING: Das ist für erfahrene Benutzer nur. Neuere Benutzer sollten die 'Standard'-Installationsauswahl verwenden." 
+_InstAdvWait="\nGathering Paketbeschreibungen." 
+
+# installieren BIOS Bootloader 
+_InstBiosBtTitle="installieren BIOS Bootloader" 
+_InstBiosBtBody="\nGrub2 wird für Anfänger empfohlen. Das Installationsgerät kann auch ausgewählt \n\nSyslinux werden ist eine leichtere und einfachere Alternative, die nur mit ext/btrfs filesystems arbeiten wird." 
+_InstSysTitle="Installieren Syslinux" 
+_InstSysBody="\nInstall syslinux zu Master Boot Record (MBR) oder (/) Einzuwurzeln? \n\n" 
+
+# installieren UEFI Bootloader 
+_InstUefiBtTitle="installieren UEFI Bootloader" 
+_InstUefiBtBody="\Nsystemd-Stiefel verlangt/-Stiefel. Made wird mit irgendeinem mountpoint arbeiten." 
+_SetBootDefBody="kann \nSome UEFI firmware nicht den bootloader entdecken, wenn es als Verzug durch das Kopieren seines efi Stummels zu nicht gesetzt wird" 
+_SetBootDefBody2="und Umbenennung davon zu bootx64.efi.\n\nIt wird empfohlen, so wenn bereits mit einem Verzug bootloader, oder wo zu tun, vorhabend, vielfachen bootloaders.\n\nSet bootloader als Verzug zu verwenden? \n\n" 
+
+# efi Datei gehen für die Made unter 
+_SetDefDoneBody="ist als der Verzug bootloader.\n\n gesetzt worden" 
+
+#-Grafikkartenmenü 
+_GCtitle="Grafikkartenmenü" 
+_GCBody="Picken Nouveau für ältere NVIDIA-Karten auf. Wenn Ihre Karte nicht verzeichnet wird, picken Sie 'Unbekannt / Allgemeiner '.\n"
+_GCUnknOpt="Unbekannt / Allgemein" 
+
+# NVIDIA Configruation Kontrolle 
+_NvidiaConfTitle="NVIDIA Konfigurationskontrolle" 
+_NvidiaConfBody="\nA grundlegende NVIDIA-Konfigurationsdatei ist geschaffen worden. Überprüfen Sie es bitte vor dem Schließen, um weiterzugehen \n" 
+
+#-Grafikkartenentdeckung 
+_GCDetTitle="Entdeckt" 
+_GCDetBody="\nIs Ihre Grafikkarte oder Virtualisierungssoftware" 
+_GCDetBody2="-Select 'Ja', um sein OPEN SOURCE zu installieren, wählen 'Nein' driver.\n\n-aus, um das Grafikkartenmenü zu öffnen, das NVIDIA-Eigentumstreiber einschließt." 
+
+# Install DE Info 
+_DEInfoBody="\nMultiple Umgebungen kann installiert \n\nGnome werden, und LXDE kommen mit einem Anzeigebetriebsleiter \n\nCinnamon, Zwerg und KDE kommen mit einem Betriebsleiter \n\n von Network" 
+
+# Install DE Menu 
+_InstDETitle="installieren Tischumgebungen" 
+_InstDEBody="Tischumgebungen und ihre verwandten Paketgruppen werden zuerst verzeichnet." 
+
+# installieren allgemeine Pakete 
+_InstComTitle="installieren allgemeine Pakete" 
+_InstComBody="Einige Umgebungen verlangen, dass zusätzliche Pakete besser fungieren." 
+
+# zeigen Betriebsleiter 
+_DmChTitle="installieren Anzeigebetriebsleiter" 
+_DmChBody="gdm verzeichnet Zwergschale als eine Abhängigkeit. sddm wird für Plasma empfohlen. lightdm wird incude lightdm-gtk-greeter. schlank wird nicht mehr aufrechterhalten." 
+_DmDoneBody="\nDisplay Betriebsleiter ist installiert und ermöglicht \n\n worden" 
+
+#-Netzverwalter 
+_InstNMTitle="installieren Netzverwalter" 
+_InstNMBody="\nNetwork Betriebsleiter wird, besonders für das Radio und die PPPoE/DSL-Verbindungen \n empfohlen" 
+_InstNMErrBody="\nNetwork Verbindungsbetriebsleiter ist installiert und ermöglicht \n\n worden" 
+
+#-Gruss 
+_WelTitle="Willkommen in" 
+_WelBody="\nThis Monteur wird die letzten Pakete von den Behältnissen von Arch herunterladen. Nur die minimale notwendige Konfiguration ist übernommene \n\nMENU OPTIONEN: Wählen Sie Aus, indem Sie die Gruppennummer drücken, oder indem Sie/unten Pfeilschlüssel verwenden, bevor das Drücken [hereingeht], um zu bestätigen. Der Schalter zwischen Knöpfen durch das Verwenden [Etikett] oder die linken/richtigen Pfeilschlüssel vor dem Drücken [geht herein], um zu bestätigen. Lange Listen können mit [pg] und [pg unten] Schlüssel, und/oder durch das Drücken des ersten Briefs der gewünschten Auswahl \n\nCONFIGURATION & PAKETOPTIONEN befahren werden: Verzugpakete in Checklisten werden vorüberprüft. Verwenden Sie [Leertaste] an de/select." 
+
+#-Vorbereitungsmenü 
+_PrepMenuTitle="Bereiten Installation Vor" 
+_PrepMenuBody="\nThe Konsolentastaturenlay-Out wird sowohl für den Monteur als auch für das installierte System \n verwendet" 
+_PrepKBLayout="Satztischtastaturenlay-Out" 
+_PrepMirror="konfigurieren Monteur Mirrorlist" 
+_PrepPartDisk="Teilungsplatte" 
+_PrepMntPart="Gestellteilungen" 
+_Back="Zurück" 
+
+# installieren Grundmenü 
+_InstBsMenuTitle="Installieren Basis" 
+_InstBseMenuBody="\nPackages, um installiert zu werden, muss von Spiegelservern heruntergeladen werden. Die Pacstrap-Schrift installiert das Grundsystem. Um Pakete vom AUR oder mit ABS zu bauen, ist die Grund-Devel-Gruppe auch erforderlich." 
+_InstBse="installieren Grundpakete" 
+_InstBootldr="Installieren Bootloader" 
+
+# konfigurieren Grundmenü 
+_ConfBseMenuTitle="Konfigurieren Basis" 
+_ConfBseBody="\nBasic Konfiguration der Basis." 
+_ConfBseFstab="Erzeugen FSTAB" 
+_ConfBseHost="Satz Hostname" 
+_ConfBseTimeHC="Satz Timezone und Uhr" 
+_ConfBseSysLoc="Satzsystemschauplatz" 
+_MMRunMkinit="Geführter Mkinitcpio" 
+
+#-Benutzermenü 
+_ConfUsrRoot="Satzwurzelkennwort" 
+_ConfUsrNew="Trägt neuer Benutzer bei" 
+
+#-Grafikmenü 
+_InstGrMenuTitle="installieren grafische Schnittstelle" 
+_InstGrMenuBody="\nPrior zur Installation einer Tischumgebung, Grafik, Eingangs und gesunder Fahrer MUSS zuerst installiert werden. Das wird installierende Grafikkartentreiber einschließen." 
+_InstGrMenuDS="installieren Anzeigeserver" 
+_InstGrMenuDSBody="Zusätzlich zu xorg und Wayland-Optionen, Fahrer für Eingangsgeräte (xf86-Eingang-) werden auch verzeichnet." 
+_InstGrMenuDD="installieren Anzeigetreiber" 
+_InstGrMenuGE="installieren grafische Umgebung" 
+_InstGrMenuDM="installieren Anzeigebetriebsleiter" 
+
+#-Netzwerkmenü 
+_InstNMMenuTitle="installieren Netzwerkanschluss Capabilties" 
+_InstNMMenuBody="\nSupplementary Pakete kann für den Netzwerkanschluss und die Radiogeräte erforderlich sein. Einige Radiogeräte können auch verlangen, dass zusätzlicher firmware \n\n fungiert" 
+_InstNMMenuPkg="installieren Radiogerätpakete" 
+_InstNMMenuNM="installieren Netzverbindungsbetriebsleiter" 
+_InstNMMenuCups="Installieren POKALE / Druckerpakete" 
+_InstNMMenuPkgBody="Schlüssel wifi Pakete wird vorüberprüft, wenn ein Radiogerät entdeckt wurde. Wenn unsicher, von zusätzlichem firmware können alle Pakete installiert werden." 
+_SeeWirelessDev="Zeigen (fakultatives) Radiogerät" 
+_WirelessShowTitle="Radiogerät" 
+_WirelessErrBody="\nNone Entdeckt \n" 
+_InstCupsBody="POKALE (Allgemeiner Unix Drucksystem) ist das standardbasierte, offene Quelldrucksystem, das von Apple Inc. für OS X und andere UNIX ähnliche Betriebssysteme entwickelt ist. Samba erlaubt Datei und Drucker, der sich zwischen Linux und Windows-Systemen teilt." 
+_InstCupsQ="\nEnable org.cups.cupsd.service auf dem installierten System? \n\n" 
+
+# installieren Multimediaunterstützungsmenü 
+_InstMultMenuTitle="installieren Multimediaunterstützung" 
+_InstMultMenuBody="\nAccessibility Pakete helfen denjenigen mit dem Anblick und/oder Hören von Schwächungen. Die Kundenspezifische Paketauswahl berücksichtigt benutzerbestimmte zu installierende \n Pakete" 
+_InstMulSnd="Installieren den gesunden Fahrer" 
+_InstMulSndBody="\nALSA stellt Kern gesteuerte gesunde Kartenfahrer zur Verfügung. PulseAudio dient als eine Vertretung ALSA." 
+_InstMulCodec="Installieren Codecs" 
+_InstMulAcc="installieren Zugänglichkeitspakete" 
+_InstMulAccBody="\nSelect hat Zugänglichkeitspakete \n\n gewünscht" 
+_InstMulCust="installieren kundenspezifische Pakete" 
+
+#-Codecmenü 
+_InstMulCodBody="GStreamer ist ein rohrleitungsbasiertes Multimediafachwerk. Die ersten zwei Optionen sind der Strom und das Vermächtnis (gstreamer0.10) Paketgruppen. Xine wird auch verzeichnet \n\n" 
+
+#-Gewohnheitspaketkasten 
+_InstMulCustBody="\nEnter die Namen von Paketen, um von den Behältnissen von Arch zu installieren, die durch Räume getrennt sind. Es ist nicht notwendig, den pacstrap (oder irgendwelcher) Befehl anzugeben. Es ist notwendig, die Paketnamen richtig \n\nFor Beispiel anzugeben, Firefox, VLC und HTop zu installieren: firefox vlc htop\n" 
+
+# Hauptmenü 
+_MMTitle="Hauptmenü" 
+_MMBody="\nEach Schritt muss IN der Ordnung gefolgt werden. Einmal abgeschlossen, wählen Sie 'Getan' aus, um die Installation \n richtig zu beenden" 
+
+# naher Monteur 
+_CloseInstBody="Naher Monteur?" 

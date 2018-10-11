@@ -1,0 +1,8 @@
+NAME="Portergos Linux"
+PRETTY_NAME="Portergos Linux"
+ID=arch
+ID_LIKE=archlinux
+ANSI_COLOR="0;36"
+HOME_URL="https://github.com/Portergos/portergos-iso"
+SUPPORT_URL=""
+BUG_REPORT_URL="https://github.com/Portergos/portergos-iso/issues"

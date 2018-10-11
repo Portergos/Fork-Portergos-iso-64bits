@@ -1,0 +1,95 @@
+{
+  "options_generalSettings": {
+    "message": "General Settings"
+  }, 
+  "menu_blockUnencryptedRequests": {
+    "message": "ກັ້ນທຸກໆການຮ້ອງຂໍທີ່ບໍ່ເຂົ້າລະຫັດ"
+  }, 
+  "chrome_add_new_rule": {
+    "message": "ໃສ່ກົດໃໝ່ໃຫ້ກັບເວັບໄຊຕ໌ນີ້."
+  }, 
+  "about_version": {
+    "message": "ເວີຊັນ"
+  }, 
+  "chrome_hide_advanced": {
+    "message": "ເຊື່ອງການສະແດງລວງເລິກ"
+  }, 
+  "chrome_stable_rules": {
+    "message": "ກົດທີ່ໝັ້ນຄົງ"
+  }, 
+  "chrome_stable_rules_description": {
+    "message": "ບັງຄັບການເຊື່ອມຕໍ່ເຂົ້າລະຫັດໄປຍັງເວັບໄຊເຫຼົ່ານີ້."
+  }, 
+  "options_imported": {
+    "message": "ການຕັ້ງຄ່າຂອງທ່ານໄດ້ຖືກນຳເຂົ້າແລ້ວ."
+  }, 
+  "chrome_host": {
+    "message": "Host:"
+  }, 
+  "menu_globalEnable": {
+    "message": "ເປີດໃຊ້ງານ HTTPS Everywhere"
+  }, 
+  "chrome_regex": {
+    "message": "ການຈັບຄູ່ການສະແດງອອກປົກກະຕິ"
+  }, 
+  "about_add_new_rule": {
+    "message": "ເພີ່ມກົດໃຫມ່"
+  }, 
+  "menu_viewAllRules": {
+    "message": "ສະແດງເບິ່ງກົດທັງໝົດ"
+  }, 
+  "about_ext_description": {
+    "message": "ເຂົ້າລະຫັດເວັບ! ໃຊ້ ຄວາມປອດໄພ HTTPS ໃນຫລາຍໆເວັບໄຊຕ໌"
+  }, 
+  "about_title": {
+    "message": "ກ່ຽວກັບ HTTPS ທຸກໆບ່ອນ"
+  }, 
+  "options_importSettings": {
+    "message": "ການຕັ້ງຄ່າການນຳເຂົ້າ"
+  }, 
+  "options_import": {
+    "message": "ນໍາເຂົ້າ"
+  }, 
+  "chrome_redirect_to": {
+    "message": "ປ່ຽນເສັ້ນທາງໄປສູ່"
+  }, 
+  "chrome_status_cancel_button": {
+    "message": "ຍົກເລີກ"
+  }, 
+  "about_ext_name": {
+    "message": "HTTPS ທຸກໆບ່ອນ"
+  }, 
+  "menu_observatory": {
+    "message": "ການຕັ້ງຄ່າສັງເກດການ SSL"
+  }, 
+  "prefs_reset_defaults": {
+    "message": "ປັບຄືນເປັນຄ່າເລີ່ມຕົ້ນ"
+  }, 
+  "chrome_add_rule": {
+    "message": "ໃສ່ກົດໃຫ້ກັບເວັບໄຊຕ໌ນີ້."
+  }, 
+  "menu_showCounter": {
+    "message": "ສະແດງເຄື່ອງນັບ"
+  }, 
+  "chrome_show_advanced": {
+    "message": "ສະແດງລວງເລິກ"
+  }, 
+  "chrome_always_https_for_host": {
+    "message": "ໃຊ້ https ໃຫ້ກັບ ໂຮສຕ໌ ນີ້ທຸກໆເທື່ອ."
+  }, 
+  "menu_donate_eff_imperative": {
+    "message": "ບໍລິຈາກໃຫ້ແກ່ EFF"
+  }, 
+  "chrome_experimental_rules": {
+    "message": "ກົດການທົດລອງ"
+  }, 
+  "prefs_export_settings": {
+    "message": "ການຕັ້ງຄ່າການສົ່ງອອກ"
+  }, 
+  "chrome_rule_name": {
+    "message": "ຊື່ກົດ"
+  }, 
+  "chrome_experimental_rules_description": {
+    "message": "ອາດເກີດມີການເຕືອນ ຫຼື ສະງັກ. ຄ່າເລີ່ມຕົ້ນ ແມ່ນ ປິດໃຊ້ງານ."
+  }
+}

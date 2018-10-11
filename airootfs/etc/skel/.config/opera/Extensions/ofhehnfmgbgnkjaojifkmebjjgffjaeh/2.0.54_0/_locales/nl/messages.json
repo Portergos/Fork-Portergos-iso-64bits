@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Toevoegen"
+   },
+   "auto_cinema_mode": {
+      "message": "Automatisch inschakelen van de bioscoopmodus."
+   },
+   "auto_enable_filters": {
+      "message": "Filters automatisch inschakelen."
+   },
+   "auto_enlarge_player": {
+      "message": "Vergroot de videospeler automatisch."
+   },
+   "auto_execute_script": {
+      "message": "Voer het script automatisch uit wanneer YouTube™ in een tabblad is geladen."
+   },
+   "auto_expand_description": {
+      "message": "Breid de video beschrijvingen automatisch uit."
+   },
+   "auto_pause_videos": {
+      "message": "Pauzeer video's die in achtergrond tabs worden geopend automatisch."
+   },
+   "auto_remove_ads": {
+      "message": "Automatisch reclame uit de video verwijderen."
+   },
+   "auto_remove_annotations": {
+      "message": "Annotaties automatisch verwijderen."
+   },
+   "auto_select_quality": {
+      "message": "Automatisch video's in mijn voorkeur kwaliteit afspelen."
+   },
+   "auto_sort_comments": {
+      "message": "Sorteer reacties automatisch van nieuwste naar oudste."
+   },
+   "border": {
+      "message": "Rand:"
+   },
+   "brightness": {
+      "message": "Helderheid:"
+   },
+   "buttons": {
+      "message": "Knoppen"
+   },
+   "buttons_label": {
+      "message": "Knoppen:"
+   },
+   "cinema_mode": {
+      "message": "Bioscoop modus"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Vergroot de videospeler automatisch wanneer de bioscoopmodus is ingeschakeld."
+   },
+   "clean_button_instructions": {
+      "message": "Info: Klik met de rechtermuisknop op deze knop om annotaties te tonen of te verbergen."
+   },
+   "color": {
+      "message": "Kleur:"
+   },
+   "color_inversion": {
+      "message": "kleurinversie:"
+   },
+   "colors": {
+      "message": "Kleuren"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Info: Typ opera://settings/configureCommands in de adresbalk om sneltoetsen te configureren."
+   },
+   "contrast": {
+      "message": "Contrast:"
+   },
+   "control_volume": {
+      "message": "Beheer het volumeniveau met het muiswiel tijdens het zweven over de video speler met de muis cursor."
+   },
+   "custom_script": {
+      "message": "Aangepast script"
+   },
+   "custom_script_instructions": {
+      "message": "Plak of typ je JavaScript-code hier, sla het op met de onderstaande knop en klik vervolgens op de knop \"Aangepast script\" op de werkbalk als je het wilt uitvoeren."
+   },
+   "custom_script_warning": {
+      "message": "Waarschuwing: Uit veiligheidsoverwegingen moet je alleen code gebruiken die je zelf snapt, of code geschreven door een ontwikkelaar die je vertrouwt."
+   },
+   "custom_theme": {
+      "message": "Aangepast thema"
+   },
+   "custom_theme_instructions": {
+      "message": "Plak of typ uw CSS-code hier, en sla het dan op met de onderstaande knop."
+   },
+   "default_playback_speed": {
+      "message": "Standaard afspeel snelheid:"
+   },
+   "default_volume_level": {
+      "message": "Standaard volume niveau:"
+   },
+   "description": {
+      "message": "Tal van functies om uw gebruikerservaring te verbeteren op YouTube™."
+   },
+   "disable_preloading": {
+      "message": "Schakel vooraf inladen van video's uit als de automatisch gepauzeerd zijn."
+   },
+   "donate": {
+      "message": "Doneer"
+   },
+   "filters": {
+      "message": "Filters"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Doe een rechtermuisklik op deze knop om de filters te bewerken. U kan ook de filters in/uit schakelen wanneer u de \"Control\" toets (Ctrl) en de \"Shift\" toets ingedrukt houd wanneer u op de video speler klikt."
+   },
+   "fourth_choice": {
+      "message": "Vierde keuze:"
+   },
+   "gaussian_blur": {
+      "message": "Gaussiaanse vervaging:"
+   },
+   "grayscale": {
+      "message": "grijstinten:"
+   },
+   "html5_player_only": {
+      "message": "(Enkel HTML5 speler)"
+   },
+   "hue_rotation": {
+      "message": "Hue rotatie:"
+   },
+   "ignore_playlists": {
+      "message": "Pauzeer video's in afspeellijsten niet."
+   },
+   "keyboard_shortcuts": {
+      "message": "Toetsenbord sneltoetsen"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "locale_code": {
+      "message": "nl"
+   },
+   "loop_video": {
+      "message": "Video herhalen"
+   },
+   "miscellaneous": {
+      "message": "Diversen"
+   },
+   "not_now": {
+      "message": "Niet Nu"
+   },
+   "opacity": {
+      "message": "Transparantie:"
+   },
+   "options": {
+      "message": "Opties"
+   },
+   "override_playback_speeds": {
+      "message": "Overschrijf standaard afspeel snelheden."
+   },
+   "pause_foreground_tab": {
+      "message": "Pauzeer ook video's in de voorgrond tab."
+   },
+   "pause_videos": {
+      "message": "Pauzeer video's die afspelen in achtergrond tabs wanneer een video begint te spelen op de voorgrond tab."
+   },
+   "pin_video_player": {
+      "message": "Maak de video-speler vast aan de onderkant van het scherm aan als u de pagina naar beneden scrollt."
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Vastgemaakte video-speler grootte:"
+   },
+   "preferred_quality": {
+      "message": "Voorkeur kwaliteit:"
+   },
+   "preview": {
+      "message": "Voorbeeld"
+   },
+   "rate": {
+      "message": "Rate"
+   },
+   "rate_message": {
+      "message": "Indien je Enhancer for YouTube™ leuk vindt en je graag hebt dat het onderhouden en verbeterd wordt, gelieve dan nu een rating te geven van vijf sterren.Een beoordeling schrijven is aangeraden maar geen verplichting, dus als je geen tijd hebt om er 1tje te schrijven of je liever anoniem wenst te blijven, dan is dat geen enkel probleem. Je kan anoniem een rating achterlaten. Wat er echt toe doet, is dat je ★★★★★ geeft. Dank je wel!"
+   },
+   "remove": {
+      "message": "Verwijderen"
+   },
+   "remove_ads": {
+      "message": "Reclames verwijderen"
+   },
+   "reset_filters": {
+      "message": "Reset filters"
+   },
+   "resize_player": {
+      "message": "Grootte van videospeler wijzigen"
+   },
+   "restore_default_colors": {
+      "message": "Herstel standaard kleuren"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "saturation": {
+      "message": "Verzadiging:"
+   },
+   "save": {
+      "message": "Opslaan"
+   },
+   "second_choice": {
+      "message": "Tweede keuze:"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "share": {
+      "message": "Deel"
+   },
+   "share_message": {
+      "message": "Vertel je vrienden en volgers over Enhancer for YouTube™. Dank je wel!"
+   },
+   "share_on_facebook": {
+      "message": "Deel op Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Deel op Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Deel op Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Deel op Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Deel op Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Toon/verberg annotaties"
+   },
+   "slide_effect": {
+      "message": "Schuif omhoog/omlaag effecten"
+   },
+   "speed": {
+      "message": "Snelheid"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Gebruik het muiswiel om de afspeel snelheid te regelen wanneer u over deze knop zweeft met de muis cursor. Klik erop om de standaard afspeel snelheid te gebruiken. U kan ook het muiswiel gebruiken om de afspeel snelheid te regelen wanneer u over de video speler zweeft, en erop te klikken om de standaard snelheid te gebruiken, indien je de \"Control\" toets (Ctrl) ingedrukt houdt."
+   },
+   "speed_variation": {
+      "message": "Snelheidsvariatie wanneer het muiswiel roteert:"
+   },
+   "support": {
+      "message": "Support"
+   },
+   "support_request_instructions": {
+      "message": "Geef deze informatie op wanneer u ondersteuning vraagt of een probleem rapporteert."
+   },
+   "theme": {
+      "message": "Thema"
+   },
+   "theme_by_default": {
+      "message": "Standaard thema"
+   },
+   "third_choice": {
+      "message": "Derde keuze:"
+   },
+   "toolbar": {
+      "message": "Toolbar"
+   },
+   "toolbar_label": {
+      "message": "Toolbar:"
+   },
+   "tooltips": {
+      "message": "Tooltips"
+   },
+   "translate": {
+      "message": "Vertaal"
+   },
+   "transparency": {
+      "message": "Transparantie:"
+   },
+   "video_player": {
+      "message": "Video speler"
+   },
+   "volume_variation": {
+      "message": "Volume variatie wanneer het muiswiel roteert:"
+   },
+   "whitelisted_channels": {
+      "message": "Whitelist kanalen:"
+   }
+}

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=/usr/bin/oblogout
+Icon=~/Pictures/Antergos_pics/power-button.png
+Hidden=false
+Name=oblogout

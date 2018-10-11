@@ -1,0 +1,3202 @@
+{
+  "data": [
+    {
+      "id": "49b843cc-a8fc-4ede-be0c-a0da56d0214f",
+      "schema": 1508434882687,
+      "os": "Linux",
+      "last_modified": 1508434912670,
+      "infoURL": "https://get.adobe.com/flashplayer/",
+      "versionRange": [
+        {
+          "maxVersion": "27.0.0.159",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Flash Player Plugin on Linux 27.0.0.159 and older (click-to-play)",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1410169",
+        "why": "Old versions of the Flash Player plugin have known vulnerabilities. All users are strongly recommended to check for updates <a href=\"https://get.adobe.com/flashplayer/\">on Adobe's Flash page</a>."
+      },
+      "enabled": true,
+      "matchFilename": "libflashplayer\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "832dc9ff-3314-4df2-abcf-7bd65a645371",
+      "schema": 1508355697986,
+      "matchFilename": "(NPSWF32.*\\.dll)|(NPSWF64.*\\.dll)|(Flash\\ Player\\.plugin)",
+      "last_modified": 1508434882680,
+      "infoURL": "https://get.adobe.com/flashplayer/",
+      "versionRange": [
+        {
+          "maxVersion": "27.0.0.159",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Flash Player Plugin 27.0.0.159 and older (click-to-play)",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1410169",
+        "why": "Old versions of the Flash Player plugin have known vulnerabilities. All users are strongly recommended to check for updates <a href=\"https://get.adobe.com/flashplayer/\">on Adobe's Flash page</a>."
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "f24ffd6f-e02b-4cf4-91d9-d54cd793e4bf",
+      "schema": 1500496906605,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1502481457892,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 8 Update 140",
+          "minVersion": "Java 8 Update",
+          "vulnerabilityStatus": 1,
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Java Plugin 8 update 76 to 140 (click-to-play), Mac OS X",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1381926",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on <a href=\"https://java.com/\">java.com</a>."
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "ab59635e-2e93-423a-9d57-871dde8ae675",
+      "schema": 1500495010145,
+      "matchName": "Java(\\(TM\\))? Plug-in 11\\.(7[6-9]|[8-9]\\d|1([0-3]\\d|40))(\\.\\d+)?([^\\d\\._]|$)",
+      "last_modified": 1500496878423,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Java Plugin 8 update 76 to 140 (click-to-play), Linux",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1381926",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on <a href=\"https://java.com/\">java.com</a>."
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "fdc40de3-95ab-41a5-94cf-9b400221a713",
+      "schema": 1500495010145,
+      "matchName": "Java(\\(TM\\))? Plug-in 10\\.(97|98|99|1([0-4]\\d|50))(\\.\\d+)?([^\\d\\._]|$)",
+      "last_modified": 1500496563565,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Java Plugin 7 update 97 to 150 (click-to-play), Linux",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1381926",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on <a href=\"https://java.com/\">java.com</a>."
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "33147281-45b2-487e-9fea-f66c6517252d",
+      "schema": 1500495010145,
+      "matchName": "Java\\(TM\\) Platform SE 8 U(7[6-9]|[8-9]\\d|1([0-3]\\d|40))(\\s[^\\d\\._U]|$)",
+      "last_modified": 1500496209129,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Java Plugin 8 update 76 to 140 (click-to-play), Windows",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1381926",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"https://java.com/\">java.com</a>."
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "427f5ec6-d1a7-4725-ac29-d5c5e51de537",
+      "schema": 1500495010145,
+      "matchName": "Java\\(TM\\) Platform SE 7 U(97|98|99|1([0-4][0-9]|50))(\\s[^\\d\\._U]|$)",
+      "last_modified": 1500495743046,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Java Plugin 7 update 97 to 150 (click-to-play), Windows",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1381926",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"https://java.com/\">java.com</a>."
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "d70fdf87-0441-479c-833f-2213b769eb40",
+      "schema": 1500487232492,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1500495010135,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 150",
+          "minVersion": "Java 7 Update 97",
+          "vulnerabilityStatus": 1,
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Java Plugin 7 update 97 to 150 (click-to-play), Mac OS X",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1381926",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on <a href=\"https://java.com/\">java.com</a>."
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "97647cd8-03c5-416c-b9d3-cd5ef87ab39f",
+      "schema": 1491558238694,
+      "matchFilename": "np32dsw_1227197\\.dll",
+      "last_modified": 1491558336903,
+      "versionRange": [
+        {
+          "maxVersion": "12.2.7.197",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "name": "Adobe Shockwave for Director, version 12.2.7.197",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1347194",
+        "why": "Old versions of this plugin have critical security vulnerabilities. You can update your plugin on <a href=\"https://get.adobe.com/shockwave/\">Adobe's website</a>."
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "43b45ad8-a373-42c1-89c6-64e2746885e5",
+      "schema": 1487276364384,
+      "matchFilename": "(nppdf32\\.dll)|(AdobePDFViewerNPAPI\\.plugin)",
+      "last_modified": 1487276517183,
+      "infoURL": "https://get.adobe.com/reader/",
+      "versionRange": [
+        {
+          "maxVersion": "15.020.20042",
+          "minVersion": "15.020",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1330483",
+        "why": "Old versions of the Adobe Reader plugin have known vulnerabilities. All users are strongly recommended to check for updates <a href=\"https://get.adobe.com/reader/\">on Adobe's Reader page</a>.",
+        "name": "Adobe Reader 15.020.20042 and lower"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "3f136e56-4c93-4619-8c0d-d86258c1065d",
+      "schema": 1487276364384,
+      "matchFilename": "(nppdf32\\.dll)|(AdobePDFViewerNPAPI\\.plugin)",
+      "last_modified": 1487276505064,
+      "infoURL": "https://get.adobe.com/reader/",
+      "versionRange": [
+        {
+          "maxVersion": "15.006.30244",
+          "minVersion": "15.006",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1330483",
+        "why": "Old versions of the Adobe Reader plugin have known vulnerabilities. All users are strongly recommended to check for updates <a href=\"https://get.adobe.com/reader/\">on Adobe's Reader page</a>.",
+        "name": "Adobe Reader 15.006.30244 and lower"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "59c31ade-88d6-4b22-8601-5316f82e3977",
+      "schema": 1487276364384,
+      "matchFilename": "(nppdf32\\.dll)|(AdobePDFViewerNPAPI\\.plugin)",
+      "last_modified": 1487276496750,
+      "infoURL": "https://get.adobe.com/reader/",
+      "versionRange": [
+        {
+          "maxVersion": "11.0.18",
+          "minVersion": "11.0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1330483",
+        "why": "Old versions of the Adobe Reader plugin have known vulnerabilities. All users are strongly recommended to check for updates <a href=\"https://get.adobe.com/reader/\">on Adobe's Reader page</a>.",
+        "name": "Adobe Reader XI 11.0.18 and lower"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "abdcbe90-5575-6b4b-12de-bbabd93ecf57",
+      "schema": 1480349144394,
+      "matchFilename": "npctrl\\.dll",
+      "last_modified": 1480349149757,
+      "blockID": "p152",
+      "versionRange": [
+        {
+          "maxVersion": "4.1.10328.0",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=797378",
+        "created": "2012-10-05T10:34:12Z",
+        "why": "This plugin is outdated and is potentially insecure. Affected users should go to  <a href=\"http://www.mozilla.com/plugincheck/\">the plugin check page</a> and update to the latest version.",
+        "name": "Silverlight 4.1.10328.0 and lower"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "47f6217d-0aa6-1e39-a9c9-cc64d57bb91f",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349149710,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 8 Update 44",
+          "minVersion": "Java 8",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p904",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1159917",
+        "created": "2015-05-19T09:01:42Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 44 and lower (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "69196ada-69bd-6454-eea8-6f8b2037368c",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 7 U(8[1-9]|90)(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349149684,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1061",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1217932",
+        "created": "2015-12-02T12:39:41Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 81 to 90 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "f0bfeb8c-04ee-d5ef-6670-b28c0e0d0f58",
+      "schema": 1480349144394,
+      "matchFilename": "(Silverlight\\.plugin|npctrl\\.dll)",
+      "last_modified": 1480349149661,
+      "infoURL": "https://www.microsoft.com/getsilverlight",
+      "versionRange": [
+        {
+          "maxVersion": "5.1.41105.0",
+          "minVersion": "5.1.20125",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1120",
+      "details": {
+        "who": "All users who have these versions of the Silverlight plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1241237",
+        "created": "2016-02-03T09:42:43Z",
+        "why": "Old versions of the Silverlight plugin are known to have critical security vulnerabilities. You can get the latest version of Silverlight <a href=\"http://www.microsoft.com/getsilverlight/get-started/install/default.aspx\">here</a>.",
+        "name": "Silverlight plugin 5.1.41105.0 and lower (click to play)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "2e001e2f-483b-7595-8810-3672e0346950",
+      "schema": 1480349144394,
+      "matchFilename": "npmozax\\.dll",
+      "last_modified": 1480349149636,
+      "blockID": "p102",
+      "versionRange": [
+        {
+          "minVersion": "0",
+          "targetApplication": [],
+          "maxVersion": "*"
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=695927",
+        "created": "2012-06-07T17:43:57Z",
+        "why": "This plugin was discontinued years ago and only worked up to Firefox version 1.5. Because plugins aren't marked as incompatible, there are still many users who have it installed and have recently been experiencing crashes related to it.",
+        "name": "Mozilla ActiveX Plug-in"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "821ddb3d-bba4-6479-28b6-9974383fa8c9",
+      "schema": 1480349144394,
+      "os": "Darwin",
+      "last_modified": 1480349149567,
+      "versionRange": [
+        {
+          "maxVersion": "11.0.01",
+          "minVersion": "11.0.0",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "blockID": "p252",
+      "details": {
+        "who": "All Firefox users on Mac OS X who have installed the Adobe Reader XI plugin. Users are recommended to update when a new version of Adobe Reader becomes available, or to downgrade to the latest version of Adobe Reader 10.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=826002",
+        "created": "2013-01-15T10:56:30Z",
+        "why": "The Adobe Reader XI plugin is causing frequent crashes on Firefox for Mac OS X. The impact and this block are currently limited to versions 11.0.0 and 11.0.01.",
+        "name": "Adobe Reader XI for Mac OS X"
+      },
+      "enabled": true,
+      "matchFilename": "AdobePDFViewerNPAPI\\.plugin",
+      "_status": "synced"
+    },
+    {
+      "id": "d64e08b6-66b2-f534-53d8-1cbcbb139f2a",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 6 U(39|40|41)(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349149520,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p300",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=843373",
+        "created": "2013-02-25T12:36:25Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 6 updates 39 to 41 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "2a741cac-32d7-a67e-0bf7-b5b53a0ff22b",
+      "schema": 1480349144394,
+      "matchFilename": "Flash\\ Player\\.plugin",
+      "last_modified": 1480349149472,
+      "infoURL": "https://get.adobe.com/flashplayer/",
+      "versionRange": [
+        {
+          "maxVersion": "10.2.159.1",
+          "minVersion": "0",
+          "targetApplication": [
+            {
+              "maxVersion": "17.0.1",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.13.*",
+              "minVersion": "0",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p94",
+      "details": {
+        "who": "All Firefox users who have a version of the Flash Player Plugin older than 10.2.159.1.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=754723",
+        "created": "2012-05-23T09:15:23Z",
+        "why": "Old versions of the Flash Player plugin are targeted by known security vulnerabilities, and cause frequent Firefox crashes. We strongly recommend all users to visit <a href=\"http://get.adobe.com/flashplayer/\">the Flash Player homepage</a> to download and install the latest available version of this plugin.\r\n\r\nThis is not an ordinary block. It's just an upgrade notification that will be shown to all users who have these old versions installed, asking them to download the latest version. If they choose to ignore the notification, the plugin will continue to work normally.",
+        "name": "Flash Player Plugin"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "1206e79a-4817-16e9-0f5e-7762a8d19216",
+      "schema": 1480349144394,
+      "matchFilename": "npViewpoint.dll",
+      "last_modified": 1480349149141,
+      "blockID": "p32",
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "3.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            }
+          ]
+        }
+      ],
+      "details": {
+        "who": "All users of the Viewpoint plugin for Firefox 3 and later.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=539282",
+        "created": "2011-03-31T16:28:26Z",
+        "why": "This plugin causes a high volume of Firefox crashes.",
+        "name": "Viewpoint"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "12f38c07-c1e1-2464-2eab-d454cf471eab",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349149087,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 10",
+          "minVersion": "Java 7 Update 0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p180",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox 17 and above.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=829111",
+        "created": "2012-10-30T14:29:51Z",
+        "why": "The Java plugin is causing significant security problems. All users are strongly recommended to keep the plugin disabled unless necessary.",
+        "name": "Java Plugin 7 update 10 and lower (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "5a0b69cb-a516-e7a2-ea3b-b4fafcc13c6b",
+      "schema": 1480349144394,
+      "matchFilename": "Unity Web Player\\.plugin",
+      "last_modified": 1480349149017,
+      "matchDescription": "^($|Unity Web Player version 5.0(\\.([0-2]|3f1))?[^0-9.])",
+      "blockID": "p1004",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=974012",
+        "created": "2015-09-09T14:11:57Z",
+        "why": "These versions of the Unity Web Player plugin have known vulnerabilities that can put users at risk.",
+        "name": "Unity Web Player 5.0 to 5.0.3f1 (click-to-play), Mac OS"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "91618232-c650-5dc6-00fe-293c0baedc34",
+      "schema": 1480349144394,
+      "matchFilename": "[Nn][Pp][Jj][Pp][Ii]1[56]0_[0-9]+\\.[Dd][Ll][Ll]",
+      "last_modified": 1480349148971,
+      "blockID": "p34",
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "3.6a1pre",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            }
+          ]
+        }
+      ],
+      "details": {
+        "who": "Users of Java 2 Plugin versions 1.5_00 to 1.6_99 in Firefox 3.6 and later.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=634639",
+        "created": "2011-02-17T17:20:54Z",
+        "why": "These versions of the Java plugin are no longer supported by Oracle and cause a high volume of Firefox crashes.",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "28b5baa1-6490-38e2-395f-53fc84aa12df",
+      "schema": 1480349144394,
+      "matchFilename": "Scorch\\.plugin",
+      "last_modified": 1480349148945,
+      "blockID": "p248",
+      "versionRange": [
+        {
+          "maxVersion": "6.2.0b88",
+          "minVersion": "0",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All users who have Firefox 18 or above installed, and the Sibelius Scorch plugin.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=829054",
+        "created": "2013-01-14T09:26:47Z",
+        "why": "The Sibelius Scorch plugin is not compatible with Firefox 18 and above, and is crashing whenever loaded on affected versions of Firefox. ",
+        "name": "Sibelius Scorch plugin"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "2dd1b53a-52db-2d0f-392a-410d5aade9d6",
+      "schema": 1480349144394,
+      "matchFilename": "PDF Browser Plugin\\.plugin",
+      "last_modified": 1480349148920,
+      "blockID": "p254",
+      "versionRange": [
+        {
+          "maxVersion": "2.4.2",
+          "minVersion": "0",
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "18.0a1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All Firefox users on Mac OS X who are using the affected versions of the PDF Browser Plugin.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=830410",
+        "created": "2013-01-15T11:54:24Z",
+        "why": "The PDF Browser Plugin is causing frequent crashes on Firefox 18 and above. All users are recommended to keep the plugin disabled and update it if a new version becomes available.",
+        "name": "PDF Browser Plugin 2.4.2 and below"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "da3808c0-b460-e177-1c78-0496b3671480",
+      "schema": 1480349144394,
+      "matchFilename": "DirectorShockwave\\.plugin",
+      "last_modified": 1480349148897,
+      "infoURL": "https://get.adobe.com/shockwave/",
+      "versionRange": [
+        {
+          "maxVersion": "12.2.0.162",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1055",
+      "details": {
+        "who": "All users who have these versions of this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1218880",
+        "created": "2015-11-13T14:17:24Z",
+        "why": "Versions 12.2.0.162 and earlier of this plugin are affected by a critical security vulnerability that puts users at risk.",
+        "name": "Shockwave for Director 12.2.0.162 and earlier, Mac OS X (click-to-play)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "bb8db302-9579-42d2-ff75-c61500f6a020",
+      "schema": 1480349144394,
+      "matchFilename": "npqtplugin\\.dll",
+      "last_modified": 1480349148852,
+      "infoURL": "https://support.apple.com/en-us/HT205771",
+      "versionRange": [
+        {
+          "maxVersion": "*",
+          "minVersion": "0",
+          "vulnerabilityStatus": 2,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1151",
+      "details": {
+        "who": "All users who have the QuickTime Plugin for Windows installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1264874",
+        "created": "2016-04-18T17:41:00Z",
+        "why": "The QuickTime Plugin for Windows has been <a href=\"https://support.apple.com/en-us/HT205771\">discontinued by Apple</a> and has known critical security vulnerabilities. All users are strongly encouraged to remove it or keep it disabled.",
+        "name": "QuickTime Plugin for Windows"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "c85a4a9c-d61c-130f-d525-ea36becac235",
+      "schema": 1480349144394,
+      "matchFilename": "NPFFAddOn.dll",
+      "last_modified": 1480349148829,
+      "blockID": "p28",
+      "versionRange": [
+        {
+          "targetApplication": [],
+          "maxVersion": "*"
+        }
+      ],
+      "details": {
+        "who": "All users of Internet Saving Optimizer for all Mozilla applications.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=512406",
+        "created": "2011-03-31T16:28:26Z",
+        "why": "This plugin causes a high volume of Firefox crashes and is considered malware.",
+        "name": "Internet Saving Optimizer (plugin)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "5942b7ae-bcdc-e329-9f17-f7a795c9ec83",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 7 U(1[6-9]|2[0-4])(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349148736,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p420",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=885362",
+        "created": "2013-06-28T12:47:32Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 16 to 24 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "d199d513-3c49-b53c-9447-33c8021c0df2",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 7 U(2[5-9]|3\\d|4[0-4])(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349148711,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p458",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=927273",
+        "created": "2013-10-16T16:29:18Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 25 to 44 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "5cc4739b-ba83-7a19-4d85-c5362f5e0ccd",
+      "schema": 1480349144394,
+      "matchFilename": "np32dsw_[0-9]+\\.dll",
+      "last_modified": 1480349148638,
+      "infoURL": "https://get.adobe.com/shockwave/",
+      "versionRange": [
+        {
+          "maxVersion": "12.2.0.162",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1054",
+      "details": {
+        "who": "All users who have these versions of this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1218880",
+        "created": "2015-11-13T14:15:12Z",
+        "why": "Versions 12.2.0.162 and earlier of this plugin are affected by a critical security vulnerability that puts users at risk.",
+        "name": "Shockwave for Director 12.2.0.162 and earlier, Windows (click-to-play)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "cfd76877-e79d-8e8c-c6a7-6b596fd344e8",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349148613,
+      "blockID": "p298",
+      "versionRange": [
+        {
+          "maxVersion": "Java 6 Update 41",
+          "minVersion": "Java 6 Update 39",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=843373",
+        "created": "2013-02-25T12:35:34Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.\r\n",
+        "name": "Java Plugin 6 updates 39 to 41 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "0cfaaefe-88a4-dda4-96bc-110e402ca9d5",
+      "schema": 1480349144394,
+      "matchFilename": "npvlc\\.dll",
+      "last_modified": 1480349148527,
+      "blockID": "p456",
+      "versionRange": [
+        {
+          "maxVersion": "2.0.5",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who are using old versions of the VLC player plugin.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=470936",
+        "created": "2013-09-30T14:35:07Z",
+        "why": "Old versions of the VLC player are known to cause stability problems in Firefox. All users are recommended to update to the latest version of their VLC software.",
+        "name": "VLC Player plugin 2.0.5 and lower (click-to-play)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "b3c55844-79d2-66dd-0d44-82fb4533307e",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 8 U(6[4-9]|7[0-6])(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349148133,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1144",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1259458",
+        "created": "2016-03-31T16:18:15Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 64 to 76 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "5b7aaf34-48a3-dfa5-1db8-550faef41501",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.7\\.0_1[2-5]([^\\d\\._]|$)",
+      "last_modified": 1480349148080,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p296",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=843373",
+        "created": "2013-02-25T12:34:37Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 12 to 15 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "4f39cd0f-976c-1f71-2d9c-2abe1b4706d9",
+      "schema": 1480349144394,
+      "matchFilename": "QuickTime Plugin\\.plugin",
+      "last_modified": 1480349148032,
+      "blockID": "p408",
+      "versionRange": [
+        {
+          "maxVersion": "7.6.5",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have affected versions of the QuickTime plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=837377",
+        "created": "2013-06-28T09:52:37Z",
+        "why": "Old versions of the QuickTime plugin are known to be insecure and cause stability problems. All users are recommended to update to the latest version available. You can check for updates in the <a href=\"http://www.mozilla.org/plugincheck/\">plugin check page</a>.",
+        "name": "QuickTime Plugin 7.6.5 and lower (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "799c4f10-d75d-30a0-5570-56df6be628e0",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349148009,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 90",
+          "minVersion": "Java 7 Update 81",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1059",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1217932",
+        "created": "2015-12-02T12:37:58Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 81 to 90 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "bbf83e70-65f5-75af-b841-7cebcf3e38c1",
+      "schema": 1480349144394,
+      "matchFilename": "Unity Web Player\\.plugin",
+      "last_modified": 1480349147963,
+      "matchDescription": "^($|Unity Web Player version ([0-3]|(4\\.([0-5]|6(\\.([0-5]|6f1)))?[^0-9.])))",
+      "blockID": "p558",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have these versions of the plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=974012",
+        "created": "2014-02-25T08:29:51Z",
+        "why": "Current versions of the Unity Web Player plugin have known vulnerabilities that can put users at risk.",
+        "name": "Unity Web Player 4.6.6f1 and lower (click-to-play), Mac OS"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "d4e75c8c-9c32-6093-12cc-1de0fd8f9e87",
+      "schema": 1480349144394,
+      "matchName": "Java(\\(TM\\))? Plug-in 10\\.(9[1-7])(\\.[0-9]+)?([^\\d\\._]|$)",
+      "last_modified": 1480349147940,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1145",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1259458",
+        "created": "2016-03-31T16:18:53Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 91 to 97 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "b12b4282-d327-06d6-6e62-4788ba2c4b2f",
+      "schema": 1480349144394,
+      "matchName": "[0-6]\\.0\\.[01]\\d{2}\\.\\d+",
+      "last_modified": 1480349147892,
+      "versionRange": [
+        {
+          "maxVersion": "",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "blockID": "p33",
+      "details": {
+        "who": "Users of Java Deployment Toolkit versions 6.0.200.0 and older in all versions of Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=558584",
+        "created": "2010-04-16T17:52:32Z",
+        "why": "This plugin has publicly-known security vulnerabilities. For more information, please <a href=\"http://java.com/en/download/help/firefox_addons.xml\">visit the vendor page</a>.",
+        "name": "Java Deployment Toolkit"
+      },
+      "enabled": true,
+      "matchFilename": "npdeploytk.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "aee0ad26-018f-392b-91f7-6a8aaf332774",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349147868,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 8 Update 64",
+          "minVersion": "Java 8 Update 46",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1060",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1217932",
+        "created": "2015-12-02T12:38:53Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 46 to 64 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "473f4d9c-e38e-a348-26d1-de7b842893d9",
+      "schema": 1480349144394,
+      "os": "Darwin",
+      "last_modified": 1480349147844,
+      "versionRange": [
+        {
+          "maxVersion": "10.1.3",
+          "minVersion": "0",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "blockID": "p89",
+      "details": {
+        "who": "Firefox users on Mac OS X who have installed the Adobe Acrobat plugin.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=750387",
+        "created": "2012-05-04T11:29:46Z",
+        "why": "The Adobe Acrobat plugin doesn't work on Mac OS X in default (64-bit) mode, showing a blank page when users click on links to PDF files in Firefox. It also causes a significant number of crashes in 32-bit mode.\r\n\r\nThere's more information on <a href=\"http://blog.mozilla.org/addons/2012/05/04/adobe-reader-blocked-mac/\">this blog post</a>.",
+        "name": "Adobe Acrobat NPAPI Plug-in"
+      },
+      "enabled": true,
+      "matchFilename": "AdobePDFViewerNPAPI\\.plugin",
+      "_status": "synced"
+    },
+    {
+      "id": "572d0485-3388-7c2a-a062-b062e42c8710",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.7\\.0(_0?([5-6]))?([^\\d\\._]|$)",
+      "last_modified": 1480349147820,
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "blockID": "p132",
+      "details": {
+        "who": "All Firefox users who have the Java 7 plugin, updates 6 and below.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=794247",
+        "created": "2012-08-31T15:21:34Z",
+        "why": "The Java 7 Runtime Environment, update versions 6 and below, has a <a href=\"https://blog.mozilla.org/security/2012/08/28/protecting-users-against-java-security-vulnerability/\">serious security vulnerability</a> that is fixed in the latest update. All Firefox users are strongly encouraged to update as soon as possible. This can be done on the <a href=\"http://www.mozilla.com/plugincheck/\">Plugin Check</a> page.",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "abaff0eb-314f-e882-b96c-5c5a4755688f",
+      "schema": 1480349144394,
+      "matchFilename": "libflashplayer\\.so",
+      "last_modified": 1480349147797,
+      "infoURL": "https://get.adobe.com/flashplayer/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "19.0a1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.16a1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            },
+            {
+              "maxVersion": "17.0.*",
+              "minVersion": "17.0.4",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p330",
+      "details": {
+        "who": "All Firefox users who have these versions on the Abode Flash plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=854550",
+        "created": "2013-03-26T09:43:25Z",
+        "why": "Old versions of the Adobe Flash plugin are potentially insecure and unstable. All users are recommended to visit our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check</a> page and check for updates.",
+        "name": "Adobe Flash for Linux 10.3.182.* and lower (click-to-play)"
+      },
+      "enabled": true,
+      "matchDescription": "^Shockwave Flash (([1-9]\\.[0-9]+)|(10\\.([0-2]|(3 r(([0-9][0-9]?)|1(([0-7][0-9])|8[0-2]))))))( |$)",
+      "_status": "synced"
+    },
+    {
+      "id": "caec8103-dec9-8018-eb3d-9cf21cbf68a6",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.6\\.0_(39|40|41)([^\\d\\._]|$)",
+      "last_modified": 1480349147773,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p302",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=843373",
+        "created": "2013-02-25T12:37:17Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.\r\n",
+        "name": "Java Plugin 6 updates 39 to 41 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "ab861311-9c24-5f55-0d3a-f0072868357c",
+      "schema": 1480349144394,
+      "matchFilename": "Silverlight\\.plugin",
+      "last_modified": 1480349147746,
+      "blockID": "p129",
+      "versionRange": [
+        {
+          "maxVersion": "5.0.99999",
+          "minVersion": "0",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All Firefox users on Mac OS X who have old versions of the Silverlight plugin.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=782672",
+        "created": "2012-08-22T10:37:12Z",
+        "why": "Old versions of the Silverlight plugin for Mac OS X are causing serious stability problems in Firefox.  Affected users can visit <a href=\"https://www.microsoft.com/getsilverlight/Get-Started/Install/Default.aspx\">the official Silverlight page</a> and get the latest version of the Silverlight plugin to correct this problem.",
+        "name": "Silverlight for Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "646ebafe-dd54-e45f-9569-c245ef72259d",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349147694,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 8 Update 76",
+          "minVersion": "Java 8 Update 64",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1142",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1259458",
+        "created": "2016-03-31T16:16:46Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 64 to 76 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "5ec1cd0f-d478-e6e0-989e-c91694b2a411",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349147671,
+      "blockID": "p212",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 07",
+          "minVersion": "Java 7 Update 07",
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have the Java 7 plugin, updates 7 and below.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=812896",
+        "created": "2012-11-22T09:33:07Z",
+        "why": "The Java 7 Runtime Environment, update version 7, has a <a href=\"http://www.oracle.com/technetwork/topics/security/javacpuoct2012-1515924.html\">serious security vulnerability</a> that is fixed in the latest update. All Firefox users are strongly encouraged to update as soon as possible. This can be done on the <a href=\"http://www.mozilla.com/plugincheck/\">Plugin Check</a> page.",
+        "name": "Java Plugin 1.7u7 (Mac OS X)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "c6299be0-ab77-8bbd-bcaf-c886cec4e799",
+      "schema": 1480349144394,
+      "matchFilename": "npFoxitReaderPlugin\\.dll",
+      "last_modified": 1480349147648,
+      "blockID": "p250",
+      "versionRange": [
+        {
+          "maxVersion": "2.2.1.530",
+          "minVersion": "0",
+          "vulnerabilityStatus": 2,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users on Windows who have installed the Foxit Reader Plugin, versions 2.2.1.530 and below.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=828982",
+        "created": "2013-01-14T13:07:03Z",
+        "why": "The Foxit Reader plugin is vulnerable to a <a href=\"http://secunia.com/advisories/51733/\">critical security bug</a> that can compromise a user's system by visiting a malicious site.",
+        "name": "Foxit Reader Plugin 2.2.1.530 and below"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "4df1324d-8236-b7ae-db55-4fb1b7db2754",
+      "schema": 1480349144394,
+      "matchFilename": "JavaPlugin2_NPAPI\\.plugin",
+      "last_modified": 1480349147625,
+      "blockID": "p85",
+      "versionRange": [
+        {
+          "maxVersion": "13.6.0",
+          "minVersion": "0",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have installed the Java plugin, JRE versions below 1.6.0_31 or between 1.7.0 and 1.7.0_2.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=741592",
+        "created": "2012-04-16T13:58:43Z",
+        "why": "Outdated versions of the Java plugin are vulnerable to an actively exploited security issue. All Mac OS X users are strongly encouraged to update their Java plugin through Software Update, or disable it if no alternatives are available. For more information, please <a href=\"http://blog.mozilla.org/addons/2012/04/30/java-block-complete-for-mac-os-x\">read our blog post</a> or <a href=\"http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html\">Oracle's Advisory</a>.\r\n\r\n",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "b9f6998a-7a45-7d83-7ee6-897e6b193e42",
+      "schema": 1480349144394,
+      "matchFilename": "(nppdf32\\.dll)|(AdobePDFViewerNPAPI\\.plugin)",
+      "last_modified": 1480349147602,
+      "infoURL": "https://get.adobe.com/reader",
+      "versionRange": [
+        {
+          "maxVersion": "15.016.20045",
+          "minVersion": "15.016.20045",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1250",
+      "details": {
+        "who": "All users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1286972",
+        "created": "2016-07-21T22:22:11Z",
+        "why": "Old versions of the Adobe Reader plugin have known vulnerabilities. All users are strongly recommended to check for updates on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Adobe Reader (Continuous) 15.016.20045"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "2a6a7300-fac0-6518-c44a-35b3c4c714c3",
+      "schema": 1480349144394,
+      "matchFilename": "nprpplugin\\.dll",
+      "last_modified": 1480349147260,
+      "infoURL": "https://real.com/",
+      "versionRange": [
+        {
+          "maxVersion": "17.0.10.7",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1053",
+      "details": {
+        "who": "All users who have these versions of the Real Player plugin. Affected users can visit our <a href=\"http://www.mozilla.org/plugincheck/\">plugin check page</a> and check for updates.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1222130",
+        "created": "2015-11-12T09:07:04Z",
+        "why": "Old versions of the Real Player plugin have serious security problems that could lead to system compromise.",
+        "name": "Real Player for Windows, 17.0.10.7 and lower, click-to-play"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "2a432d6e-9545-66be-9f93-aefe9793f450",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349147237,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 97",
+          "minVersion": "Java 7 Update 91",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1141",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1259458",
+        "created": "2016-03-31T16:16:02Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 91 to 97 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "709960a7-d268-0c70-d6ad-17bbed0cd1c4",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349147214,
+      "blockID": "p422",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 24",
+          "minVersion": "Java 7 Update 16",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=885362",
+        "created": "2013-06-28T12:48:54Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 16 to 24 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "385d9911-f8bc-83e0-8cd2-94c98087938c",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 7 U([0-9]|(1[0-1]))(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349147191,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p182",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox 17 and above.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=829111",
+        "created": "2012-10-30T14:33:04Z",
+        "why": "The Java plugin is causing significant security problems. All users are strongly recommended to keep the plugin disabled unless necessary.",
+        "name": "Java Plugin 7 update 11 and lower (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "ee5c1584-0170-8702-5f99-e0325b4a91a8",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.7\\.0_(1[6-9]|2[0-4])([^\\d\\._]|$)",
+      "last_modified": 1480349147123,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p418",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=885362",
+        "created": "2013-06-28T12:46:18Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 16 to 24 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "107c9a8c-2ef8-da26-75c3-bc26f8ae90fa",
+      "schema": 1480349144394,
+      "matchFilename": "nppdf32\\.dll",
+      "last_modified": 1480349147100,
+      "blockID": "p158",
+      "versionRange": [
+        {
+          "maxVersion": "10.1.5.9999",
+          "minVersion": "10.0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=850745",
+        "created": "2012-10-05T10:40:20Z",
+        "why": "This plugin is outdated and is potentially insecure. Affected users should go to  <a href=\"http://www.mozilla.com/plugincheck/\">the plugin check page</a> and update to the latest version.",
+        "name": "Adobe Reader 10.0 to 10.1.5.*"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "990fa997-1d4a-98ee-32de-a7471e81db42",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 8 U45(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349147055,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p960",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1183369",
+        "created": "2015-07-15T10:50:25Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 45 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "ea3b767d-933b-3f54-f447-09bd2bfbc6e0",
+      "schema": 1480349144394,
+      "matchFilename": "npuplaypc\\.dll",
+      "last_modified": 1480349147031,
+      "blockID": "p113",
+      "versionRange": [
+        {
+          "maxVersion": "1.0.0.0",
+          "minVersion": "0",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=778686",
+        "created": "2012-07-30T12:11:59Z",
+        "why": "Version 1.0.0.0 of the Ubisoft Uplay plugin has a security vulnerability that can be exploited by malicious websites to gain control of the user's system.",
+        "name": "Ubisoft Uplay"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "43ec430a-75ec-6853-f62b-1a54489fea5f",
+      "schema": 1480349144394,
+      "matchFilename": "Scorch\\.plugin",
+      "last_modified": 1480349147009,
+      "blockID": "p366",
+      "versionRange": [
+        {
+          "maxVersion": "6.2.0",
+          "minVersion": "6.2.0",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All users who have Firefox 18 or above installed, and the Sibelius Scorch plugin.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=879128",
+        "created": "2013-06-11T13:20:32Z",
+        "why": "The Sibelius Scorch plugin is not compatible with Firefox 18 and above, and is crashing whenever loaded on affected versions of Firefox. ",
+        "name": "Sibelius Scorch plugin"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "9f9eb0ae-6495-aaa6-041a-d802cdb8e134",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.6\\.0_3[1-8]([^\\d\\._]|$)",
+      "last_modified": 1480349146961,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p190",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox 17 and above.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=829111",
+        "created": "2012-10-30T14:55:37Z",
+        "why": "The Java plugin is causing significant security problems. All users are strongly recommended to keep the plugin disabled unless necessary.",
+        "name": "Java Plugin 6 updates 31 through 38 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "c2431673-3478-f1e1-5555-28e2d5377adc",
+      "schema": 1480349144394,
+      "matchName": "Java(\\(TM\\))? Plug-in 11\\.45(\\.[0-9]+)?([^\\d\\._]|$)",
+      "last_modified": 1480349146890,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p964",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1183369",
+        "created": "2015-07-15T10:51:57Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 45 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "48e45eea-fd32-2304-2776-fe75211a69e5",
+      "schema": 1480349144394,
+      "matchFilename": "npUnity3D32\\.dll",
+      "last_modified": 1480349146867,
+      "blockID": "p1002",
+      "versionRange": [
+        {
+          "maxVersion": "5.0.3f1",
+          "minVersion": "5.0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=974012",
+        "created": "2015-09-09T14:07:27Z",
+        "why": "These versions of the Unity Web Player plugin have known vulnerabilities that can put users at risk.",
+        "name": "Unity Web Player 5.0 to 5.0.3f1 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "46bf36a7-1934-38f8-1fcc-c9c4bcc8343e",
+      "schema": 1480349144394,
+      "matchFilename": "JavaPlugin2_NPAPI\\.plugin",
+      "last_modified": 1480349146842,
+      "blockID": "p123",
+      "versionRange": [
+        {
+          "maxVersion": "14.2.0",
+          "minVersion": "0",
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have installed the Java plugin, JRE versions below 1.6.0_33 or between 1.7.0 and 1.7.0_4.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=780717",
+        "created": "2012-08-14T09:29:42Z",
+        "why": "Outdated versions of the Java plugin are vulnerable to an actively exploited security issue. All users are strongly encouraged to <a href=\"http://java.com/inc/BrowserRedirect1.jsp\">update their Java plugin</a>. For more information, please <a href=\"http://blog.mozilla.org/addons/2012/08/14/new-java-blocklist/\">read our blog post</a> or <a href=\"http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html\">Oracle's Advisory</a>.",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "1f519b98-a4b6-2a98-b1ff-b642f7b4d2bb",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 7 U[5-6](\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349146749,
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "blockID": "p134",
+      "details": {
+        "who": "All Firefox users who have the Java 7 plugin, update 6 and below.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=794247",
+        "created": "2012-08-31T15:22:51Z",
+        "why": "The Java 7 Runtime Environment, update versions 6 and below, has a <a href=\"https://blog.mozilla.org/security/2012/08/28/protecting-users-against-java-security-vulnerability/\">serious security vulnerability</a> that is fixed in the latest update. All Firefox users are strongly encouraged to update as soon as possible. This can be done on the <a href=\"http://www.mozilla.com/plugincheck/\">Plugin Check</a> page.",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "7538347d-ca2e-09b8-c5d8-0a9d140f8c87",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE ((6( U(\\d|([0-2]\\d)|3[0-2]))?)|(7(\\sU[0-4])?))(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349146351,
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "blockID": "p125",
+      "details": {
+        "who": "All Firefox users who have installed the Java plugin, JRE versions below 1.6.0_33 or between 1.7.0 and 1.7.0_4.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=780717",
+        "created": "2012-08-14T09:31:17Z",
+        "why": "Outdated versions of the Java plugin are vulnerable to an actively exploited security issue. All users are strongly encouraged to <a href=\"http://java.com/inc/BrowserRedirect1.jsp\">update their Java plugin</a>. For more information, please <a href=\"http://blog.mozilla.org/addons/2012/08/14/new-java-blocklist/\">read our blog post</a> or <a href=\"http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html\">Oracle's Advisory</a>.",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "9a09fe22-c3d8-57e6-4e99-ecd06fb03081",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349146304,
+      "blockID": "p292",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 15",
+          "minVersion": "Java 7 Update 12",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=843373",
+        "created": "2013-02-25T12:32:41Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 12 to 15 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "61944828-8178-71ab-e9c6-d846b5f45d96",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349146280,
+      "blockID": "p188",
+      "versionRange": [
+        {
+          "maxVersion": "Java 6 Update 38",
+          "minVersion": "Java 6 Update 0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox 17 and above.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=829111",
+        "created": "2012-10-30T14:48:54Z",
+        "why": "The Java plugin is causing significant security problems. All users are strongly recommended to keep the plugin disabled unless necessary.",
+        "name": "Java Plugin 6 updates 38 and lower (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "5b0bbf0e-dbae-7896-3c31-c6cb7a74e6fa",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349146253,
+      "blockID": "p459",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 44",
+          "minVersion": "Java 7 Update 25",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=927273",
+        "created": "2013-10-16T16:29:27Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 25 to 44 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "6a1b6dfe-f463-3061-e8f8-6e896ccf2a8a",
+      "schema": 1480349144394,
+      "matchName": "^Yahoo Application State Plugin$",
+      "last_modified": 1480349146230,
+      "matchDescription": "^Yahoo Application State Plugin$",
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "3.*",
+              "minVersion": "3.0a1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            }
+          ]
+        }
+      ],
+      "blockID": "p26",
+      "details": {
+        "who": "Users of all versions of Yahoo Application State Plugin for Firefox 3 and later.\r\n\r\nUsers of all versions of Yahoo Application State Plugin for SeaMonkey 1.0.0.5 and later.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=421993",
+        "created": "2011-03-31T16:28:26Z",
+        "why": "This plugin causes a high volume of Firefox and SeaMonkey crashes.",
+        "name": "Yahoo Application State Plugin"
+      },
+      "enabled": true,
+      "matchFilename": "npYState.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "72de1aa2-6afe-2f5b-a93e-baa4c8c4578d",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349146207,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 78",
+          "minVersion": "Java 7 Update 45",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p902",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1159917",
+        "created": "2015-05-19T09:00:27Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 45 to 78 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "64b50946-53f8-182d-a239-bd585b0e0b0e",
+      "schema": 1480349144394,
+      "matchFilename": "npctrl\\.dll",
+      "last_modified": 1480349146182,
+      "blockID": "p154",
+      "versionRange": [
+        {
+          "maxVersion": "5.1.20124.9999",
+          "minVersion": "5.0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=850744",
+        "created": "2012-10-05T10:35:55Z",
+        "why": "This plugin is outdated and is potentially insecure. Affected users should go to  <a href=\"http://www.mozilla.com/plugincheck/\">the plugin check page</a> and update to the latest version.",
+        "name": "Silverlight 5.0 to 5.1.20124.*"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "cef6f402-bdf8-0ba6-66d8-8ac42c72d4be",
+      "schema": 1480349144394,
+      "os": "Darwin",
+      "last_modified": 1480349146153,
+      "matchDescription": "Flip4Mac",
+      "versionRange": [
+        {
+          "maxVersion": "2.4.3.999",
+          "minVersion": "0",
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "18.0a1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "blockID": "p242",
+      "details": {
+        "who": "All Firefox (18 and above) users on Mac OS X who have installed a version of Flip4Mac older than 2.4.4.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=821422",
+        "created": "2012-12-21T13:32:36Z",
+        "why": "Old versions of the Flip4Mac WMV plugin are causing significant stability problems in Firefox 18 and above. Users are encouraged update to the latest version of the plugin, available at <a href=\"http://www.telestream.net/flip4mac/overview.htm\">the Flip4Mac site</a>.",
+        "name": "Flip4Mac WMV Plugin"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "8488cdb0-1f00-1349-abfc-f50e85c9163b",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 6 U3[1-8](\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349146106,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p186",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox 17  and above.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=829111",
+        "created": "2012-10-30T14:45:39Z",
+        "why": "The Java plugin is causing significant security problems. All users are strongly recommended to keep the plugin disabled unless necessary.",
+        "name": "Java Plugin 6 updates 31 through 38 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "eba24802-0c93-b8d4-ca2d-c9c194c7462b",
+      "schema": 1480349144394,
+      "matchFilename": "(nppdf32\\.dll)|(AdobePDFViewerNPAPI\\.plugin)",
+      "last_modified": 1480349146079,
+      "infoURL": "https://get.adobe.com/reader",
+      "versionRange": [
+        {
+          "maxVersion": "15.006.30174",
+          "minVersion": "15.006.30174",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1247",
+      "details": {
+        "who": "All users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1286972",
+        "created": "2016-07-21T16:21:52Z",
+        "why": "Old versions of the Adobe Reader plugin have known vulnerabilities. All users are strongly recommended to check for updates on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Adobe Reader (Classic) 15.006.30174"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "38797744-cb92-1a49-4c81-2a900691fdba",
+      "schema": 1480349144394,
+      "matchFilename": "libflashplayer\\.so",
+      "last_modified": 1480349146047,
+      "infoURL": "https://get.adobe.com/flashplayer/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "19.0a1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.16a1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            },
+            {
+              "maxVersion": "17.0.*",
+              "minVersion": "17.0.4",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p332",
+      "details": {
+        "who": "All Firefox users who have these versions of the Adobe Flash Player plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=854550",
+        "created": "2013-03-26T09:46:14Z",
+        "why": "Old versions of the Adobe Flash Player plugin are potentially insecure and unstable. All users are recommended to visit our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check</a> to check for updates.",
+        "name": "Adobe Flash for Linux 11.0 to 11.1.* (click-to-play)"
+      },
+      "enabled": true,
+      "matchDescription": "^Shockwave Flash 11.(0|1) r[0-9]{1,3}$",
+      "_status": "synced"
+    },
+    {
+      "id": "ab8aff96-ead4-615d-be44-bcb7c31699f0",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 7 U1[2-5](\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349146005,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p294",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=843373",
+        "created": "2013-02-25T12:33:48Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 12 to 15 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "5ca97332-f4b7-81f5-d441-6acb1834f332",
+      "schema": 1480349144394,
+      "matchName": "Java(\\(TM\\))? Plug-in ((1\\.7\\.0_(2[5-9]|3\\d|4[0-4]))|(10\\.4[0-4](\\.[0-9]+)?))([^\\d\\._]|$)",
+      "last_modified": 1480349145942,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p457",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=927273",
+        "created": "2013-10-16T16:28:58Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 25 to 44 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "5e898a46-8ea9-2fab-5dfe-a43e51641d81",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349145894,
+      "blockID": "p138",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 06",
+          "minVersion": "Java 7 Update 01",
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have the Java 7 plugin, update 6 and below.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=794247",
+        "created": "2012-09-13T14:49:52Z",
+        "why": "The Java 7 Runtime Environment, update versions 6 and below, has a <a href=\"https://blog.mozilla.org/security/2012/08/28/protecting-users-against-java-security-vulnerability/\">serious security vulnerability</a> that is fixed in the latest update. All Firefox users are strongly encouraged to update as soon as possible. This can be done on the <a href=\"http://www.mozilla.com/plugincheck/\">Plugin Check</a> page.",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "2b2b85e9-4f64-9894-e3fa-3c05ead892b3",
+      "schema": 1480349144394,
+      "matchFilename": "NPMySrch.dll",
+      "last_modified": 1480349145872,
+      "blockID": "p31",
+      "versionRange": [
+        {
+          "targetApplication": [],
+          "maxVersion": "*"
+        }
+      ],
+      "details": {
+        "who": "All users of MyWebSearch for all Mozilla applications.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=449062",
+        "created": "2011-03-31T16:28:26Z",
+        "why": "This plugin causes a high volume of Firefox crashes.",
+        "name": "MyWebSearch"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "8a416fb1-29bf-ace9-02de-605d805b6e79",
+      "schema": 1480349144394,
+      "matchFilename": "npdjvu\\.dll",
+      "last_modified": 1480349145775,
+      "blockID": "p572",
+      "versionRange": [
+        {
+          "maxVersion": "6.1.4.27993",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed. Updated versions can be found <a href=\"https://www.cuminas.jp/en/downloads/download/?pid=1\">on this site</a>.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=992976",
+        "created": "2014-04-08T14:42:05Z",
+        "why": "Versions 6.1.4.27993 and earlier of this plugin are known to have security vulnerabilities.",
+        "name": "DjVu Plugin Viewer 6.1.4.27993 and earlier (Windows)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "1f9f9b90-e733-3929-821f-1b78a8698747",
+      "schema": 1480349144394,
+      "matchFilename": "CiscoWebCommunicator\\.plugin",
+      "last_modified": 1480349145382,
+      "blockID": "p592",
+      "versionRange": [
+        {
+          "maxVersion": "3.0.5.99999999999999",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have installed a version of the Cisco Web Communicator plugin lower than 3.0.6.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=980355",
+        "created": "2014-06-11T16:48:48Z",
+        "why": "Versions lower than 3.0.6 of the Cisco Web Communicator plugin are known to have security issues and should not be used. All users should update to version 3.0.6 or later. <a href=\"https://developer.cisco.com/site/collaboration/jabber/websdk/develop-and-test/voice-and-video/troubleshooting/#plugin_vulnerabilities_user\">Find updates here.</a>",
+        "name": "Cisco Web Communicator < 3.0.6 (Mac OS X)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "8f52a562-5438-731b-5c64-7f76009f1489",
+      "schema": 1480349144394,
+      "matchName": "^Yahoo Application State Plugin$",
+      "last_modified": 1480349145359,
+      "matchDescription": "^Yahoo Application State Plugin$",
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "1.0.0.5",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ]
+        }
+      ],
+      "blockID": "p29",
+      "details": {
+        "who": "Users of all versions of Yahoo Application State Plugin for Firefox 3 and later.\r\n\r\nUsers of all versions of Yahoo Application State Plugin for SeaMonkey 1.0.0.5 and later.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=421993",
+        "created": "2011-03-31T16:28:26Z",
+        "why": "This plugin causes a high volume of Firefox and SeaMonkey crashes.",
+        "name": "Yahoo Application State Plugin (SeaMonkey)"
+      },
+      "enabled": true,
+      "matchFilename": "npYState.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "8f652c63-cda4-1640-0b0c-23025e336b20",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.6\\.0_4[2-5]([^\\d\\._]|$)",
+      "last_modified": 1480349145336,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p412",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=885362",
+        "created": "2013-06-28T12:42:20Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 6 updates 42 to 45 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "06621403-39a8-3867-ba6e-406dc20c88af",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.7\\.0(_0?([0-9]|(1[0-1]))?)?([^\\d\\._]|$)",
+      "last_modified": 1480349145223,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p184",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox 17 and above.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=829111",
+        "created": "2012-10-30T14:39:15Z",
+        "why": "The Java plugin is causing significant security problems. All users are strongly recommended to keep the plugin disabled unless necessary.",
+        "name": "Java Plugin 7 update 11 and lower (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "f0a40537-9a13-1b4b-60e5-b9121835c1ca",
+      "schema": 1480349144394,
+      "matchName": "Java(\\(TM\\))? Plug-in 11\\.(\\d|[1-3]\\d|4[0-4])(\\.[0-9]+)?([^\\d\\._]|$)",
+      "last_modified": 1480349145119,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p912",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1159917",
+        "created": "2015-05-19T09:05:55Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 44 and lower (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "79e165b4-599b-433d-d618-146f0c121ead",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 8( U([1-3]?\\d|4[0-4]))?(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349145082,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p908",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1159917",
+        "created": "2015-05-19T09:03:44Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 44 and lower (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "bc99ed93-b527-12e2-c6e6-c61668a2e7d0",
+      "schema": 1480349144394,
+      "matchName": "Java(\\(TM\\))? Plug-in 11\\.(6[4-9]|7[0-6])(\\.[0-9]+)?([^\\d\\._]|$)",
+      "last_modified": 1480349145057,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1146",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1259458",
+        "created": "2016-03-31T16:19:31Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 64 to 76 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "2cfa79ef-a2ab-d868-467d-d182242136a5",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 7 U(79|80)(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349144983,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p958",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1183369",
+        "created": "2015-07-15T10:49:33Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 79 to 80 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "0dce3611-19e7-e8e4-5b5c-13593230f83c",
+      "schema": 1480349144394,
+      "matchFilename": "nppdf32\\.dll",
+      "last_modified": 1480349144959,
+      "blockID": "p156",
+      "versionRange": [
+        {
+          "maxVersion": "9.5.1",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=797378",
+        "created": "2012-10-05T10:38:46Z",
+        "why": "This plugin is outdated and is potentially insecure. Affected users should go to  <a href=\"http://www.mozilla.com/plugincheck/\">the plugin check page</a> and update to the latest version.",
+        "name": "Adobe Reader 9.5.1 and lower"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "c841472f-f976-c49a-169e-0c751012c3b1",
+      "schema": 1480349144394,
+      "matchFilename": "NPDjVu\\.plugin",
+      "last_modified": 1480349144910,
+      "blockID": "p574",
+      "versionRange": [
+        {
+          "maxVersion": "6.1.1",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed. Updated versions can be found <a href=\"https://www.cuminas.jp/en/downloads/download/?pid=1\">on this site</a>.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=992976",
+        "created": "2014-04-08T14:43:54Z",
+        "why": "Versions 6.1.1 and earlier of this plugin are known to have security vulnerabilities.\r\n",
+        "name": "DjVu Plugin Viewer 6.1.1 and earlier (Mac OS)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "b90eb83c-1314-5b27-687b-98d8115b6106",
+      "schema": 1480349144394,
+      "matchFilename": "npUnity3D32\\.dll",
+      "last_modified": 1480349144865,
+      "blockID": "p556",
+      "versionRange": [
+        {
+          "maxVersion": "4.6.6f1",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have these versions of the plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=974012",
+        "created": "2014-02-25T08:29:41Z",
+        "why": "Current versions of the Unity Web Player plugin have known vulnerabilities that can put users at risk.",
+        "name": "Unity Web Player 4.6.6f1 and lower (click-to-play), Windows"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "e36516a6-8bb3-09cc-02e3-72c67046b42e",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 6 U4[2-5](\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349144842,
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "blockID": "p414",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=885362",
+        "created": "2013-06-28T12:43:43Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 6 updates 42 to 45 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "524ff62f-9564-a2b2-2585-88b88ea4c2f9",
+      "schema": 1480349144394,
+      "matchName": "Java\\(TM\\) Platform SE 7 U7(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349144817,
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "blockID": "p214",
+      "details": {
+        "who": "All Firefox users who have the Java 7 plugin, updates 7 and below.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=812896",
+        "created": "2012-11-22T09:34:13Z",
+        "why": "The Java 7 Runtime Environment, update version 7 and below, has a <a href=\"http://www.oracle.com/technetwork/topics/security/javacpuoct2012-1515924.html\">serious security vulnerability</a> that is fixed in the latest update. All Firefox users are strongly encouraged to update as soon as possible. This can be done on the <a href=\"http://www.mozilla.com/plugincheck/\">Plugin Check</a> page.",
+        "name": "Java Plugin 1.7u7 (Windows)"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "111881f9-a5bd-4919-4bab-9d7581d959d3",
+      "schema": 1480349144394,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349144793,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 8 Update 45",
+          "minVersion": "Java 8 Update 45",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p956",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1183369",
+        "created": "2015-07-15T10:48:44Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 45 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "34deed93-d9d9-81b4-7983-0594fb829ae7",
+      "schema": 1480349144394,
+      "matchName": "\\(TM\\)",
+      "last_modified": 1480349144745,
+      "matchDescription": "[^\\d\\._]((0(\\.\\d+(\\.\\d+([_\\.]\\d+)?)?)?)|(1\\.(([0-5](\\.\\d+([_\\.]\\d+)?)?)|(6(\\.0([_\\.](0?\\d|1\\d|2\\d|30))?)?)|(7(\\.0([_\\.][0-2])?)?))))([^\\d\\._]|$)",
+      "versionRange": [
+        {
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "blockID": "p80",
+      "details": {
+        "who": "All Firefox users who have installed the Java plugin, JRE versions below 1.6.0_31 or between 1.7.0 and 1.7.0_2.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=739955",
+        "created": "2012-04-02T15:18:50Z",
+        "why": "Outdated versions of the Java plugin are vulnerable to an actively exploited security issue. All users are strongly encouraged to <a href=\"http://java.com/inc/BrowserRedirect1.jsp\">update their Java plugin</a>. For more information, please <a href=\"http://blog.mozilla.com/addons/2012/04/02/blocking-java/\">read our blog post</a> or <a href=\"http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html\">Oracle's Advisory</a>.",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "matchFilename": "(npjp2\\.dll)|(libnpjp2\\.so)",
+      "_status": "synced"
+    },
+    {
+      "id": "8e562dba-7ae7-fa85-2c31-479c4e661056",
+      "schema": 1480343754054,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.7\\.0(_0?7)?([^\\d\\._]|$)",
+      "last_modified": 1480349144360,
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "blockID": "p210",
+      "details": {
+        "who": "All Firefox users who have the Java 7 plugin, updates 7 and below.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=812896",
+        "created": "2012-11-22T09:31:33Z",
+        "why": "The Java 7 Runtime Environment, update version 7, has a <a href=\"http://www.oracle.com/technetwork/topics/security/javacpuoct2012-1515924.html\">serious security vulnerability</a> that is fixed in the latest update. All Firefox users are strongly encouraged to update as soon as possible. This can be done on the <a href=\"http://www.mozilla.com/plugincheck/\">Plugin Check</a> page.",
+        "name": "Java Plugin 1.7u7 (Linux)"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "dd81b232-09cb-e31d-ed8b-c5cc6ea28dd0",
+      "schema": 1480343754054,
+      "matchFilename": "Silverlight\\.plugin",
+      "last_modified": 1480349144312,
+      "blockID": "p328",
+      "versionRange": [
+        {
+          "maxVersion": "5.1.20124.9999",
+          "minVersion": "5.1",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "19.0a1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.16a1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            },
+            {
+              "maxVersion": "17.0.*",
+              "minVersion": "17.0.4",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have these versions of the plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=853629",
+        "created": "2013-03-26T09:35:05Z",
+        "why": "Old versions of this plugin are potentially insecure and unstable. All affected users should visit the <a href=\"http://www.mozilla.com/plugincheck/\">plugin check</a> page to look for updates for their Silverlight plugin.",
+        "name": "Silverlight for Mac OS X between 5.1 and 5.1.20124.* (click-to-play)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "c62a171f-7564-734f-0310-bae88c3baf85",
+      "schema": 1480343754054,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349144290,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 11",
+          "minVersion": "Java 7 Update 11",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1052",
+      "details": {
+        "who": "All users who have this version of the plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=829111",
+        "created": "2015-11-06T13:30:02Z",
+        "why": "The Java plugin is causing significant security problems. All users are strongly recommended to keep the plugin disabled unless necessary.",
+        "name": "Java Plugin 7 update 11 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "d1aa9366-d40b-a68d-b3ed-4b36e4939442",
+      "schema": 1480343754054,
+      "matchName": "Java\\(TM\\) Plug-in 1\\.(6\\.0_(\\d|[0-2]\\d?|3[0-2])|7\\.0(_0?([1-4]))?)([^\\d\\._]|$)",
+      "last_modified": 1480349144265,
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "maxVersion": "17.*",
+              "minVersion": "0.1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "2.14.*",
+              "minVersion": "0.1",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 1
+        }
+      ],
+      "blockID": "p119",
+      "details": {
+        "who": "All Firefox users who have installed the Java plugin, JRE versions below 1.6.0_33 or between 1.7.0 and 1.7.0_4.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=780717",
+        "created": "2012-08-14T09:27:32Z",
+        "why": "Outdated versions of the Java plugin are vulnerable to an actively exploited security issue. All users are strongly encouraged to <a href=\"http://java.com/inc/BrowserRedirect1.jsp\">update their Java plugin</a>. For more information, please <a href=\"http://blog.mozilla.org/addons/2012/08/14/new-java-blocklist/\">read our blog post</a> or <a href=\"http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html\">Oracle's Advisory</a>.",
+        "name": "Java Plugin"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "f322be12-1b08-0d57-ed51-f7a6d6ec2c17",
+      "schema": 1480343754054,
+      "matchName": "Java(\\(TM\\))? Plug-in 10\\.(4[5-9]|(5|6)\\d|7[0-8])(\\.[0-9]+)?([^\\d\\._]|$)",
+      "last_modified": 1480349144233,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p910",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1159917",
+        "created": "2015-05-19T09:04:46Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 45 to 78 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "d30a5b90-b84a-dfec-6147-fc04700a0d8b",
+      "schema": 1480343754054,
+      "matchFilename": "np[dD]eployJava1\\.dll",
+      "last_modified": 1480349144210,
+      "blockID": "p428",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 2,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=636633",
+        "created": "2013-07-18T15:39:12Z",
+        "why": "The Java Deployment Toolkit plugin is known to be insecure and is unnecessary in most cases. Users should keep it disabled unless strictly necessary.",
+        "name": "Java Deployment Toolkit (click-to-play)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "02a5865d-f6ea-a330-674e-7dea7390680f",
+      "schema": 1480343754054,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349144187,
+      "blockID": "p416",
+      "versionRange": [
+        {
+          "maxVersion": "Java 6 Update 45",
+          "minVersion": "Java 6 Update 42",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [
+            {
+              "maxVersion": "*",
+              "minVersion": "17.0",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            },
+            {
+              "maxVersion": "*",
+              "minVersion": "2.14",
+              "guid": "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            }
+          ],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=885362",
+        "created": "2013-06-28T12:44:58Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 6 updates 42 to 45 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "f11f91d6-f65e-8a05-310b-ad20494a868a",
+      "schema": 1480343754054,
+      "matchFilename": "npCiscoWebCommunicator\\.dll",
+      "last_modified": 1480349144164,
+      "blockID": "p594",
+      "versionRange": [
+        {
+          "maxVersion": "3.0.5.99999999999999",
+          "minVersion": "0",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have installed a version of the Cisco Web Communicator plugin lower than 3.0.6.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=980355",
+        "created": "2014-06-11T16:49:00Z",
+        "why": "Versions lower than 3.0.6 of the Cisco Web Communicator plugin are known to have security issues and should not be used. All users should update to version 3.0.6 or later. <a href=\"https://developer.cisco.com/site/collaboration/jabber/websdk/develop-and-test/voice-and-video/troubleshooting/#plugin_vulnerabilities_user\">Find updates here.</a>",
+        "name": "Cisco Web Communicator < 3.0.6 (Windows)"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "d5cb1745-d144-5375-f3ff-cd603d4c2cee",
+      "schema": 1480343754054,
+      "matchName": "Java(\\(TM\\))? Plug-in 11\\.(4[6-9]|5\\d|6[0-4])(\\.[0-9]+)?([^\\d\\._]|$)",
+      "last_modified": 1480349144096,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1064",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1217932",
+        "created": "2015-12-02T12:42:34Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 46 to 64 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "f254e5bc-12c7-7954-fe6b-8f1fdab0ae88",
+      "schema": 1480343754054,
+      "matchName": "Java\\(TM\\) Platform SE 7 U(4[5-9]|(5|6)\\d|7[0-8])(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349144073,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p906",
+      "details": {
+        "who": "All users who have these versions of the plugin installed in Firefox.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1159917",
+        "created": "2015-05-19T09:02:45Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 45 to 78 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "d7f644bb-61aa-4594-f9fc-8dba7d9f3306",
+      "schema": 1480343754054,
+      "matchFilename": "DivXBrowserPlugin\\.plugin",
+      "last_modified": 1480349144049,
+      "blockID": "p240",
+      "versionRange": [
+        {
+          "maxVersion": "1.4",
+          "minVersion": "0",
+          "targetApplication": [],
+          "severity": 1
+        }
+      ],
+      "details": {
+        "who": "All Firefox users who have versions of the DivX Web Player plugin lower than 1.4.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=821972",
+        "created": "2012-12-19T13:03:27Z",
+        "why": "Old versions of the DivX Web Player plugin are causing significant stability problems on Firefox 18 and above, on Mac OS X. All users should update their DivX software to the latest available version, available at <a href=\"http://www.divx.com\">divx.com</a>.",
+        "name": "DivX Web Player 1.4 (DivX 7) and below"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "7120e3c2-b293-65b5-2498-6451eab1e2c5",
+      "schema": 1480343754054,
+      "matchName": "Java(\\(TM\\))? Plug-in 10\\.(79|80)(\\.[0-9]+)?([^\\d\\._]|$)",
+      "last_modified": 1480349144026,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p962",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1183369",
+        "created": "2015-07-15T10:51:12Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 79 to 80 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    },
+    {
+      "id": "a20c77af-721b-833b-8fa8-49091d1c69d4",
+      "schema": 1480343754054,
+      "matchName": "Java\\(TM\\) Platform SE 8 U(4[6-9]|5\\d|6[0-4])(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349143930,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1062",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1217932",
+        "created": "2015-12-02T12:40:28Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 8 update 46 to 64 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "be53f658-e719-fa77-e7fe-6bd6086f888e",
+      "schema": 1480343754054,
+      "matchName": "Java\\(TM\\) Platform SE 7 U(9[1-7])(\\s[^\\d\\._U]|$)",
+      "last_modified": 1480349143905,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1143",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1259458",
+        "created": "2016-03-31T16:17:32Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 91 to 97 (click-to-play), Windows"
+      },
+      "enabled": true,
+      "matchFilename": "npjp2\\.dll",
+      "_status": "synced"
+    },
+    {
+      "id": "9b6830b4-a4b0-ee63-ee21-e0bd6ba0d6fe",
+      "schema": 1480343754054,
+      "matchFilename": "JavaAppletPlugin\\.plugin",
+      "last_modified": 1480349143879,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "maxVersion": "Java 7 Update 80",
+          "minVersion": "Java 7 Update 79",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p954",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1183369",
+        "created": "2015-07-15T10:47:55Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 79 to 80 (click-to-play), Mac OS X"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "4e29bd83-d074-bd40-f238-5ea38ff0d8d0",
+      "schema": 1480343754054,
+      "matchFilename": "(nppdf32\\.dll)|(AdobePDFViewerNPAPI\\.plugin)",
+      "last_modified": 1480349143855,
+      "infoURL": "https://get.adobe.com/reader",
+      "versionRange": [
+        {
+          "maxVersion": "11.0.16 ",
+          "minVersion": "10.1.6",
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1246",
+      "details": {
+        "who": "All users who have this plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1286972",
+        "created": "2016-07-20T19:19:58Z",
+        "why": "Old versions of the Adobe Reader plugin have known vulnerabilities. All users are strongly recommended to check for updates on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Adobe Reader 10.1.6 to 11.0.16"
+      },
+      "enabled": true,
+      "_status": "synced"
+    },
+    {
+      "id": "b6b9c6b9-b8c4-66a9-ed07-125b32e7a5ef",
+      "schema": 1480343754054,
+      "matchName": "Java(\\(TM\\))? Plug-in 10\\.(8[1-9]|90)(\\.[0-9]+)?([^\\d\\._]|$)",
+      "last_modified": 1480349143832,
+      "infoURL": "https://java.com/",
+      "versionRange": [
+        {
+          "vulnerabilityStatus": 1,
+          "targetApplication": [],
+          "severity": 0
+        }
+      ],
+      "blockID": "p1063",
+      "details": {
+        "who": "All users who have these versions of the Java plugin installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1217932",
+        "created": "2015-12-02T12:41:34Z",
+        "why": "Old versions of the Java plugin are potentially insecure and unstable. All users are strongly recommended to update on our <a href=\"http://www.mozilla.com/plugincheck/\">plugin check page</a>.",
+        "name": "Java Plugin 7 update 81 to 90 (click-to-play), Linux"
+      },
+      "enabled": true,
+      "matchFilename": "libnpjp2\\.so",
+      "_status": "synced"
+    }
+  ]
+}

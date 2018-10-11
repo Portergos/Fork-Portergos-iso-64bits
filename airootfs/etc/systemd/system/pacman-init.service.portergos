@@ -1,0 +1,19 @@
+[Unit]
+Description=Initializes Pacman keyring
+Wants=haveged.service
+After=haveged.service
+Requires=etc-pacman.d-gnupg.mount
+After=etc-pacman.d-gnupg.mount
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/pacman-key -add /usr/share/pacman/keyrings/portergos.gpg
+ExecStart=/usr/bin/pacman-key --lsign-key 4F4B983A
+ExecStart=/usr/bin/haveged -w 1024
+ExecStart=/usr/bin/pacman-key --init
+ExecStart=/usr/bin/pacman-key --populate archlinux
+ExecStart=/usr/bin/pkill haveged
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Oblogout
+Comment=Oblogout
+Icon=/etc/portergos/portergos_pics/power-button.png
+Exec=/usr/bin/oblogout
+NoDisplay=false
+Categories=X-XFCE;X-Xfce-Toplevel;
+StartupNotify=false
+Terminal=false

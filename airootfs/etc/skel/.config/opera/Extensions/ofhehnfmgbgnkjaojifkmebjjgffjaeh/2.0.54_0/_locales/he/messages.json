@@ -1,0 +1,287 @@
+{
+  "gaussian_blur": {
+    "message": "טישטוש גאוסיאני:"
+  }, 
+  "colors": {
+    "message": "צבעים"
+  }, 
+  "share_on_reddit": {
+    "message": "שתף ב־Reddit"
+  }, 
+  "filters": {
+    "message": "מסננים"
+  }, 
+  "speed": {
+    "message": "מהירות"
+  }, 
+  "rate_message": {
+    "message": "אם אתה אוהב את המשפר ל־Enhancer for YouTube™ ורוצה שהוא יתוחזק וישופר, אנא דרג אותו עם חמישה כוכבים כעת. מומלץ גם לכתוב סקירה אבל לא חובה, אז אם אין לך זמן לכתוב אחת או אם אתה רוצה להישאר אנונימי באינטרנט זה לא בעיה, אתה יכול לדרג באופן אנונימי, מה שחשוב זה שאתה תתן לנו ★★★★★. תודה!"
+  }, 
+  "buttons": {
+    "message": "כפתורים"
+  }, 
+  "theme": {
+    "message": "ערכת נושא"
+  }, 
+  "show_hide_annotations": {
+    "message": "הצג / הסתר הערות"
+  }, 
+  "save": {
+    "message": "שמור"
+  }, 
+  "control_volume": {
+    "message": "שינוי עוצמת הקול עם גלגלת העכבר בעת שסמן העכבר על הוידאו."
+  }, 
+  "filters_button_instructions": {
+    "message": "מידע: לחץ על המקש הימני על כפתור זה כדי לשנות את המסננים. ניתן גם להפעיל או להשבית מסננים אם אתה שומר על מקש Ctrl ועל מקש Shift לחוץ בעת לחיצה על נגן הווידאו."
+  }, 
+  "tooltips": {
+    "message": "תיאור קופץ"
+  }, 
+  "saturation": {
+    "message": "רוויה:"
+  }, 
+  "clean_button_instructions": {
+    "message": "רמז: לחץ על המקש ימני על לחצן זה כדי להציג או להסתיר את ההסברים."
+  }, 
+  "volume_variation": {
+    "message": "מהירות שינוי עוצמת הקול בגלילת הגלגלת:"
+  }, 
+  "custom_theme": {
+    "message": "ערכת נושא מותאמת אישית"
+  }, 
+  "cinema_mode": {
+    "message": "מצב קולנוע"
+  }, 
+  "speed_button_instructions": {
+    "message": "מידע: השתמש בגלילה כדי לשלוט על מהירות הקליפ בעת ריחוף על לחצן זה עם סמן העכבר. לחץ על הגלגלת כדי להשתמש במהירות ברירת המחדל להפעלה. תוכל גם להשתמש בגלילה כדי לשלוט על מהירות ההשמעה על ידי לחיצה על Ctrl כאשר סמן העכבר נמצא מעל נגן הווידאו, וגם כאן לחץ על הגלגלת כדי לחזור למהירות ברירת המחדל של השמעה."
+  }, 
+  "brightness": {
+    "message": "בהירות:"
+  }, 
+  "remove": {
+    "message": "הסר"
+  }, 
+  "locale_code": {
+    "message": "he"
+  }, 
+  "cinema_mode_enlarge_player": {
+    "message": "הגדלה אוטומטית של נגן הווידאו כאשר מצב הקולנוע מופעל."
+  }, 
+  "pause_foreground_tab": {
+    "message": "השהה סרטונים הפתוחים גם בחזית הלשונית."
+  }, 
+  "configure_keyboard_shortcuts": {
+    "message": "מידע: הקלד opera://settings/configureCommands בשורת הכתובת כדי להגדיר את קיצורי מקשים."
+  }, 
+  "resize_player": {
+    "message": "שנה את גודל הנגן"
+  }, 
+  "default_playback_speed": {
+    "message": "מהירות ניגון ברירת המחדל:"
+  }, 
+  "auto_select_quality": {
+    "message": "נגן סרטונים באיכות המועדפת עלי אוטומטית."
+  }, 
+  "reset_filters": {
+    "message": "אפס מסננים"
+  }, 
+  "default_volume_level": {
+    "message": "עוצמת ברירת מחדל:"
+  }, 
+  "share_on_pinterest": {
+    "message": "שתף ב־Pinterest"
+  }, 
+  "share_message": {
+    "message": "ספר לחברך ולעוקביך על המשפר ל־Enhancer for YouTube™. תודה!"
+  }, 
+  "rate": {
+    "message": "דירוג"
+  }, 
+  "custom_script_warning": {
+    "message": "אזהרה: מסיבות אבטחה עליך להשתמש בקוד שאתה מבין או קוד אשר נכתב על ידי מפתח שאתה סומך עליו."
+  }, 
+  "donate": {
+    "message": "תרומה"
+  }, 
+  "slide_effect": {
+    "message": "אפקט גלילה למעלה או למטה"
+  }, 
+  "contrast": {
+    "message": "ניגודיות:"
+  }, 
+  "ignore_playlists": {
+    "message": "אל תשהה סרטונים ברשימת השמעה."
+  }, 
+  "disable_preloading": {
+    "message": "השבת טעינה מראש כאשר הסרטונים משהים באופן אוטומטי."
+  }, 
+  "html5_player_only": {
+    "message": "(נגן HTML5 בלבד)"
+  }, 
+  "auto_remove_ads": {
+    "message": "הסר מודעות באופן אוטומטי."
+  }, 
+  "fourth_choice": {
+    "message": "בחירה רביעית:"
+  }, 
+  "speed_variation": {
+    "message": "מהירות שינוי בגלילת הגלגלת:"
+  }, 
+  "toolbar": {
+    "message": "סרגל כלים"
+  }, 
+  "restore_default_colors": {
+    "message": "שחזר את ברירת המחדל של צבעים"
+  }, 
+  "auto_execute_script": {
+    "message": "בצע באופן אוטומטי את הסקריפט כאשר YouTube™ נטען בכרטיסייה."
+  }, 
+  "color": {
+    "message": "צבע:"
+  }, 
+  "right": {
+    "message": "ימין"
+  }, 
+  "share_on_google_plus": {
+    "message": "שתף ב-Google+"
+  }, 
+  "custom_theme_instructions": {
+    "message": "הדבק או הקלד את קוד ה־CSS שלך כאן, ולאחר מכן שמור אותו באמצעות הלחצן שבהמשך."
+  }, 
+  "pause_videos": {
+    "message": "השהה סרטונים שמופעלים בכרטיסיות רקע כאשר סרטון פועל בכרטיסיה הנוכחית."
+  }, 
+  "support": {
+    "message": "תמיכה"
+  }, 
+  "add": {
+    "message": "הוסף"
+  }, 
+  "video_player": {
+    "message": "נגן וידאו"
+  }, 
+  "custom_script_instructions": {
+    "message": "הדבק או הקלד את קוד JavaScript שלך כאן, שמור אותו באמצעות הכפתור למטה, ולאחר מכן לחץ על \"סקריפט מותאם אישית\" כפתור בסרגל הכלים כאשר אתה רוצה לבצע את זה."
+  }, 
+  "auto_remove_annotations": {
+    "message": "הסר ביאורים באופן אוטומטי."
+  }, 
+  "translate": {
+    "message": "תרגום"
+  }, 
+  "auto_pause_videos": {
+    "message": "השהה סרטונים הפועלים ברקע הלשוניות באופן אוטומטי."
+  }, 
+  "override_playback_speeds": {
+    "message": "עקוף את מהירות הניגון הרגילה."
+  }, 
+  "auto_expand_description": {
+    "message": "הרחב אוטומטית את תיאורי הסרטונים."
+  }, 
+  "grayscale": {
+    "message": "שחור לבן:"
+  }, 
+  "custom_script": {
+    "message": "סקריפט מותאם אישית"
+  }, 
+  "share_on_facebook": {
+    "message": "שתף בפייסבוק"
+  }, 
+  "whitelisted_channels": {
+    "message": "ערוצים מורשים:"
+  }, 
+  "auto_enlarge_player": {
+    "message": "הגדל באופן אוטומטי את נגן הווידאו."
+  }, 
+  "loop_video": {
+    "message": "נגן שוב ושוב ללא הפסקה"
+  }, 
+  "keyboard_shortcuts": {
+    "message": "קיצורי מקשים"
+  }, 
+  "transparency": {
+    "message": "שקיפות:"
+  }, 
+  "buttons_label": {
+    "message": "כפתורים:"
+  }, 
+  "pin_video_player": {
+    "message": "הצמד את נגן הווידאו לתחתית המסך בעת גלילה כלפי מטה."
+  }, 
+  "theme_by_default": {
+    "message": "ערכת נושא כברירת מחדל"
+  }, 
+  "sepia": {
+    "message": "סופיה:"
+  }, 
+  "share": {
+    "message": "שתף"
+  }, 
+  "border": {
+    "message": "גבול:"
+  }, 
+  "toolbar_label": {
+    "message": "סרגל כלים:"
+  }, 
+  "pinned_video_player_position": {
+    "message": "מיקום נגן ווידאו מוצמד:"
+  }, 
+  "auto_sort_comments": {
+    "message": "מיין אוטומטית את התגובות מהחדש לישן."
+  }, 
+  "third_choice": {
+    "message": "בחירה שלישית:"
+  }, 
+  "pinned_video_player_size": {
+    "message": "גודל נגן וידאו מוצמד:"
+  }, 
+  "opacity": {
+    "message": "אטימות:"
+  }, 
+  "description": {
+    "message": "טונות של תכונות לשיפור חוויית המשתמש שלך ב־YouTube™."
+  }, 
+  "color_inversion": {
+    "message": "היפוך צבעים:"
+  }, 
+  "miscellaneous": {
+    "message": "שונות"
+  }, 
+  "support_request_instructions": {
+    "message": "ספק את התצורה הזו בעת בקשת תמיכה או דיווח על בעיה."
+  }, 
+  "preferred_quality": {
+    "message": "איכות מועדפת:"
+  }, 
+  "not_now": {
+    "message": "לא עכשיו"
+  }, 
+  "share_on_twitter": {
+    "message": "שתף בטוויטר"
+  }, 
+  "hue_rotation": {
+    "message": "רוטצית הגוון:"
+  }, 
+  "options": {
+    "message": "אפשרויות"
+  }, 
+  "remove_ads": {
+    "message": "הסר פרסומות"
+  }, 
+  "second_choice": {
+    "message": "בחירה שנייה:"
+  }, 
+  "auto_cinema_mode": {
+    "message": "הפעל אוטומטית את מצב קולנוע."
+  }, 
+  "preview": {
+    "message": "תצוגה מקדימה"
+  }, 
+  "auto_enable_filters": {
+    "message": "הפעל מסננים באופן אוטומטי."
+  }, 
+  "left": {
+    "message": "שמאל"
+  }
+}

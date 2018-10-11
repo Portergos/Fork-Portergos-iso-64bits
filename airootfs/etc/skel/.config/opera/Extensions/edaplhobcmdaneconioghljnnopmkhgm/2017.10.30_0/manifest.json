@@ -1,0 +1,34 @@
+{
+   "author": {
+      "email": "eff.software.projects@gmail.com"
+   },
+   "background": {
+      "scripts": [ "bootstrap.js", "util.js", "rules.js", "store.js", "incognito.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "38": "icons/icon-active-38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_about_ext_name__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_about_ext_description__",
+   "devtools_page": "devtools.html",
+   "homepage_url": "https://www.eff.org/https-everywhere",
+   "icons": {
+      "128": "icons/icon-active-128.png",
+      "48": "icons/icon-active-48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/8FzbtfnZ5/+F3htukCVnSphp2ksR70WQM4trx+sEUVXTkFWa2l7Ucrs+6SLClEDLRjhbGqJFK3UfAFDkGsAy3ALpuBqQ+XVC8LKHG8fSCOtY46Bumcxu7/X1xNSl/IieQZJOlje2BQ58gcf0aU3OqWZlcJ+0DenFWUcV5mRKQQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "55",
+   "name": "__MSG_about_ext_name__",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "webNavigation", "webRequest", "webRequestBlocking", "tabs", "cookies", "storage", "*://*/*" ],
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "2017.10.30"
+}

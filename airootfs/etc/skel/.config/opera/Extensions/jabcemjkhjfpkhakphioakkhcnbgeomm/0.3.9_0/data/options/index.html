@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Options Page :: Popup Blocker</title>
+  <style>
+    body {
+      padding: 10px;
+      font-size: 13px;
+      font-family: arial, sans-serif;
+      width: 500px;
+    }
+    input[type=number] {
+      width: 50px;
+    }
+    input[type=text] {
+      width: 100%;
+    }
+    table {
+      width: 100%;
+    }
+    hr {
+      margin: 10px 0;
+      border: none;
+      height: 1px;
+      border-bottom: dashed 1px #ccc;
+    }
+    summary {
+      outline: none;
+    }
+    a {
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <colgroup>
+      <col>
+      <col width="10">
+    </colgroup>
+    <tr>
+      <td><span data-i18n="options_item1"></span></td>
+      <td><input type="number" id="numbers" min=1></td>
+    </tr>
+    <tr>
+      <td><span data-i18n="options_item2"></span><sup>1</sup></td>
+      <td><input type="number" id="timeout" min=5></td>
+    </tr>
+    <tr>
+      <td><span data-i18n="options_item9"></span><sup>2</sup></td>
+      <td><input type="number" id="countdown" min=0></td>
+    </tr>
+    <tr>
+      <td><span data-i18n="options_item17"></span></td>
+      <td>
+      <select id="default-action">
+        <option value="ignore" data-i18n="options_item18"></option>
+        <option value="popup-denied" data-i18n="options_item19"></option>
+        <option value="open-tab" data-i18n="options_item20"></option>
+        <option value="popup-redirect" data-i18n="options_item21"></option>
+      </select>
+      </td>
+    <tr>
+      <td><span data-i18n="options_item22"></span></td>
+      <td><input type="color" id="badge-color"></td>
+    </tr>
+
+    </tr>
+  </table>
+  <p>
+    <label><input type="checkbox" id="domain"> <span data-i18n="options_item3"></span><sup><a href="#n1">1</a></sup></label>
+    <br>
+    <label><input type="checkbox" id="target"> <span data-i18n="options_item4"></span><sup><a href="#n1">1</a></sup></label>
+    <br>
+    <label><input type="checkbox" id="badge"> <span data-i18n="options_item5"></span><sup><a href="#n1">1</a></sup></label>
+    <br>
+    <label><input type="checkbox" id="block-page-redirection"> <span data-i18n="options_item15"></span><sup><a href="#n6">6</a></sup></label>
+    <br>
+    <label><input type="checkbox" id="immediate-action"> <span data-i18n="options_item23"></span><sup><a href="#n7">7</a></sup></label>
+    <br>
+    <label><input type="checkbox" id="faqs"> <span data-i18n="options_item26"></span></label>
+  </p>
+  <p>
+    <span data-i18n="options_item6"></span><sup><a href="#n1">1</a>, <a href="#n3">3</a></sup>
+    <input type="text" id="popup-hosts" rows="2">
+  </p>
+  <p>
+    <span data-i18n="options_item7"></span><sup><a href="#n1">1</a>, <a href="#n4">4</a></sup>
+    <input type="text" id="top-hosts" rows="2">
+  </p>
+  <p>
+    <span data-i18n="options_item13"></span><sup><a href="#n1">1</a>, <a href="#n5">5</a></sup>
+    <input type="text" id="blacklist" rows="2">
+  </p>
+
+  <div>
+    <button id="save" data-i18n="options_save"></button> <span id="status"></span>
+  </div>
+
+  <hr>
+
+  <details>
+    <summary data-i18n="options_item25"></summary>
+    <p>
+      1: <span data-i18n="options_item8" id="n1"></span>
+      <br>
+      2: <span data-i18n="options_item10" id="n2"></span>
+      <br>
+      3: <span data-i18n="options_item11" id="n3"></span>
+      <br>
+      4: <span data-i18n="options_item12" id="n4"></span>
+      <br>
+      5: <span data-i18n="options_item14" id="n5"></span>
+      <br>
+      6: <span data-i18n="options_item16" id="n6"></span>
+      <br>
+      7: <span data-i18n="options_item24" id="n7"></span>
+    </p>
+  </details>
+
+  <script src="index.js"></script>
+</body>
+</html>

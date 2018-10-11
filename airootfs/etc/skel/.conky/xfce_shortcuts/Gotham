@@ -1,0 +1,67 @@
+use_xft yes
+xftfont 123:size=8
+xftalpha 1
+update_interval 1
+total_run_times 0
+own_window yes
+own_window_class Conky
+own_window_type yes
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour 000000
+own_window_argb_visual no
+own_window_argb_value 178
+background yes
+double_buffer yes
+minimum_size 0 0
+maximum_width 400
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color white
+default_shade_color red
+default_outline_color green
+alignment middle_right
+gap_x 0
+gap_y 0
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 1
+override_utf8_locale yes
+use_spacer yes
+minimum_size 0 0
+TEXT
+${alignc}${font sans:bold:size=8}${time %d} ${time  %B} ${time %Y}${font sans:bold:size=8}
+${color FFA300}CPU ${cpubar cpu0}
+${color FFA300}RAM $mem / $memmax
+${color FFA300}HD ${fs_free /} / ${fs_size /}
+${offset 9}$color
+${font sans:bold:size=8}NET   ${addr enp3s0} ($gw_iface)
+${font sans:normal:size=8}Rx: ${downspeedgraph enp3s0 10,90}${alignr}${downspeed enp3s0}
+${font sans:normal:size=8}Tx: ${upspeedgraph enp3s0 10,90}${alignr}${upspeed enp3s0}
+${font sans:bold:size=8}SYSTEM ${hr 2}
+${font sans:normal:size=8}$sysname $kernel $alignr $machine
+Host:$alignr$nodename
+Uptime:$alignr$uptime
+${font sans:bold:size=8}TOP PROCESSES ${hr 2}
+${font sans:normal:size=8}${top_mem name 1}${alignr}${top mem 1} %
+${top_mem name 2}${alignr}${top mem 2} %
+${font sans:bold:size=8}SHORTCUT KEYS ${hr 2}${font sans:normal:size=8}
+mod${goto 120} = "Windows" key
+mod+z${goto 120} = open/close panel
+mod+d${goto 120} = dmenu
+mod+c${goto 120} = open file manager
+mod+Enter${goto 120} = open terminal
+F12${goto 120} = open/close tilix dropdown
+mod+m${goto 120}= wallpaper reload 
+mod+n${goto 120}= conky reload
+mod+p${goto 120}= Portergos Utility
+
+${font sans:bold:size=8}INSTALLERS ${hr 2}
+mod+i${goto 120} = Portergos installer
+mod+o${goto 120} = Antergos installer
+
+${font sans:bold:size=8}${time %A} $alignr${time %H:%M}  
+${font}

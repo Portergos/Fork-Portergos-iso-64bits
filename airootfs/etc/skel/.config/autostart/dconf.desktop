@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=dconf
+Comment=load dconf config
+Exec=bash -c "dconf load / < /etc/skel/dconf.dconf && rm -rf ~/.config/autostart/dconf.desktop"
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
+

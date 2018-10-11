@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Hinzufügen"
+   },
+   "auto_cinema_mode": {
+      "message": "Aktiviere den Kinomodus automatisch."
+   },
+   "auto_enable_filters": {
+      "message": "Filter automatisch aktivieren."
+   },
+   "auto_enlarge_player": {
+      "message": "Skaliere den Video-Player automatisch."
+   },
+   "auto_execute_script": {
+      "message": "Führe das eigene Skript automatisch aus, wenn YouTube™ in einem neuen Fenster geladen wird."
+   },
+   "auto_expand_description": {
+      "message": "Automatisch die Videobeschreibung ausklappen."
+   },
+   "auto_pause_videos": {
+      "message": "Automatisch Videos pausieren, die in Hintergrund-Tabs geöffnet werden."
+   },
+   "auto_remove_ads": {
+      "message": "Automatisch die Werbung bei Videos entfernen."
+   },
+   "auto_remove_annotations": {
+      "message": "Anmerkungen automatisch entfernen."
+   },
+   "auto_select_quality": {
+      "message": "Videos automatisch in der bevorzugten Qualität abspielen lassen."
+   },
+   "auto_sort_comments": {
+      "message": "Automatisch die Kommentare von neu nach alt sortieren."
+   },
+   "border": {
+      "message": "Grenze:"
+   },
+   "brightness": {
+      "message": "Helligkeit:"
+   },
+   "buttons": {
+      "message": "Schaltflächen"
+   },
+   "buttons_label": {
+      "message": "Knöpfe:"
+   },
+   "cinema_mode": {
+      "message": "Kinomodus"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Vergrößert die Größe des Video-Players automatisch, wenn der Kinomodus aktiviert ist."
+   },
+   "clean_button_instructions": {
+      "message": "Info: Mache einen Rechtsklick auf diesen Knopf, um Anmerkungen zu zeigen/verstecken."
+   },
+   "color": {
+      "message": "Farbe:"
+   },
+   "color_inversion": {
+      "message": "Farbumkehrung:"
+   },
+   "colors": {
+      "message": "Farben"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Info: Kopiere das in die Adressleiste deines Browsers, um die Tastenkürzel zu konfigurieren: opera://settings/configureCommands"
+   },
+   "contrast": {
+      "message": "Kontrast:"
+   },
+   "control_volume": {
+      "message": "Ändern des Lautstärkepegels mit dem Mausrad, wenn über das Video gefahren wird."
+   },
+   "custom_script": {
+      "message": "Eigenes Skript"
+   },
+   "custom_script_instructions": {
+      "message": "Füge oder schreibe deinen Javascript-Code hierhin, speichere es ab, indem du den Knopf unten drückst, und drücke dann auf den \"Eigenes Skript\"-Knopf beim Werkzeugkasten, um es auszuführen."
+   },
+   "custom_script_warning": {
+      "message": "Warnung: Aus Sicherheitsgründen solltest du nur Code verwenden, den du verstehst, oder der von einem Entwickler stammt, dem du vertraust."
+   },
+   "custom_theme": {
+      "message": "Eigenes Thema"
+   },
+   "custom_theme_instructions": {
+      "message": "Hier den eigenen CSS Code einfügen oder eingeben, dann mit dem Knopf unten speichern."
+   },
+   "default_playback_speed": {
+      "message": "Standard-Wiedergabegeschwindigkeit:"
+   },
+   "default_volume_level": {
+      "message": "Standard-Lautstärkepegel:"
+   },
+   "description": {
+      "message": "Eine Vielfalt an Möglichkeiten, um deine Nutzererfahrung auf YouTube™ zu verbessern."
+   },
+   "disable_preloading": {
+      "message": "Vorausladen deaktivieren, wenn Videos automatisch pausiert werden."
+   },
+   "donate": {
+      "message": "Spenden"
+   },
+   "filters": {
+      "message": "Filter"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Mache einen Rechtsklick auf diesen Knopf, um die Filter zu bearbeiten. Du kannst die Filter auch aktivieren/deaktivieren, indem du \"Control\" (Ctrl bzw. Strg) und \"Shift\" gedrückt hältst und auf den Video-Player klickst."
+   },
+   "fourth_choice": {
+      "message": "Vierte Wahl:"
+   },
+   "gaussian_blur": {
+      "message": "Gaußsche Unschärfe:"
+   },
+   "grayscale": {
+      "message": "Graustufen:"
+   },
+   "html5_player_only": {
+      "message": "(Nur HTML5 Player)"
+   },
+   "hue_rotation": {
+      "message": "Farbton:"
+   },
+   "ignore_playlists": {
+      "message": "Videos in Playlisten nicht pausieren."
+   },
+   "keyboard_shortcuts": {
+      "message": "Tastenkürzel"
+   },
+   "left": {
+      "message": "Links"
+   },
+   "locale_code": {
+      "message": "de"
+   },
+   "loop_video": {
+      "message": "Endlosschleife"
+   },
+   "miscellaneous": {
+      "message": "Sonstiges"
+   },
+   "not_now": {
+      "message": "Nicht jetzt"
+   },
+   "opacity": {
+      "message": "Deckkraft:"
+   },
+   "options": {
+      "message": "Optionen"
+   },
+   "override_playback_speeds": {
+      "message": "Überschreibe die Standard-Wiedergabegeschwindigkeiten."
+   },
+   "pause_foreground_tab": {
+      "message": "Videos, die in Fordergrund-Tabs geöffnet werden, ebenfalls pausieren."
+   },
+   "pause_videos": {
+      "message": "Videos, die in Hintergrund-Tabs laufen, automatisch pausieren, wenn im Vordergrund-Tab ein Video startet."
+   },
+   "pin_video_player": {
+      "message": "Video-Player unten an den Bildschirm heften, wenn zu den Kommentaren gescrollt wird."
+   },
+   "pinned_video_player_position": {
+      "message": "Position des angehefteten Video-Players:"
+   },
+   "pinned_video_player_size": {
+      "message": "Größe des angehefteten Video-Players:"
+   },
+   "preferred_quality": {
+      "message": "Bevorzugte Qualität:"
+   },
+   "preview": {
+      "message": "Vorschau"
+   },
+   "rate": {
+      "message": "Bewerten"
+   },
+   "rate_message": {
+      "message": "Wenn dir das Plugin „Enhancer for YouTube™“ gefällt und du willst, dass es erhalten bleibt und verbessert wird, dann bewerte es jetzt bitte mit fünf Sternen! Eine Rezension zu schreiben ist empfohlen, aber nicht notwendig. Also wenn du keine Zeit hast, eine zu schreiben, oder anonym bleiben willst, ist es kein Problem, da du auch eine anonyme Bewertung geben kannst. Hauptsache mit ★★★★★! Vielen Dank!"
+   },
+   "remove": {
+      "message": "Entfernen"
+   },
+   "remove_ads": {
+      "message": "Werbung entfernen"
+   },
+   "reset_filters": {
+      "message": "Filter zurücksetzen"
+   },
+   "resize_player": {
+      "message": "Größe des Video-Players verändern"
+   },
+   "restore_default_colors": {
+      "message": "Standardfarben wiederherstellen"
+   },
+   "right": {
+      "message": "Rechts"
+   },
+   "saturation": {
+      "message": "Sättigung:"
+   },
+   "save": {
+      "message": "Speichern"
+   },
+   "second_choice": {
+      "message": "Zweite Wahl:"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "share": {
+      "message": "Teilen"
+   },
+   "share_message": {
+      "message": "Erzähle deinen Freunden und Followern von „Enhancer for YouTube™“. Vielen Dank!"
+   },
+   "share_on_facebook": {
+      "message": "Auf Facebook teilen"
+   },
+   "share_on_google_plus": {
+      "message": "Auf Google+ teilen"
+   },
+   "share_on_pinterest": {
+      "message": "Auf Pinterest teilen"
+   },
+   "share_on_reddit": {
+      "message": "Auf Reddit teilen"
+   },
+   "share_on_twitter": {
+      "message": "Auf Twitter teilen"
+   },
+   "show_hide_annotations": {
+      "message": "Anmerkungen zeigen/verstecken"
+   },
+   "slide_effect": {
+      "message": "Schlittereffekt hoch/runter"
+   },
+   "speed": {
+      "message": "Geschwindigkeit"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Benutze das Mausrad, um die Wiedergabe-Geschwindigkeit zu bestimmen, wenn du mit dem Zeiger über diesen Knopf fährst. Klicke auf ihn für die Standardgeschwindigkeit. Du kannst auch das Mausrad benutzen, um die Wiedergabegeschwindigkeit zu regeln, wenn du mit dem Zeiger über den Video-Player fährst, und klicke auf ihn, um die Standardgeschwindigkeit zu benutzen, während du \"Control\" (Ctrl bzw. Strg) gedrückt hältst."
+   },
+   "speed_variation": {
+      "message": "Geschwindigkeitsänderung, wenn das Mausrad rotiert wird:"
+   },
+   "support": {
+      "message": "Hilfe"
+   },
+   "support_request_instructions": {
+      "message": "Stelle diese Informationen zur Verfügung, wenn du Support beantragst oder einen Fehler meldest."
+   },
+   "theme": {
+      "message": "Thema"
+   },
+   "theme_by_default": {
+      "message": "Standardthema"
+   },
+   "third_choice": {
+      "message": "Dritte Wahl:"
+   },
+   "toolbar": {
+      "message": "Symbolleiste"
+   },
+   "toolbar_label": {
+      "message": "Symbolleiste:"
+   },
+   "tooltips": {
+      "message": "Schnellinfos"
+   },
+   "translate": {
+      "message": "Übersetzen"
+   },
+   "transparency": {
+      "message": "Durchsichtigkeit:"
+   },
+   "video_player": {
+      "message": "Video-Player"
+   },
+   "volume_variation": {
+      "message": "Lautstärkeänderung, wenn das Mausrad rotiert wird:"
+   },
+   "whitelisted_channels": {
+      "message": "Ausgenommene Kanäle:"
+   }
+}

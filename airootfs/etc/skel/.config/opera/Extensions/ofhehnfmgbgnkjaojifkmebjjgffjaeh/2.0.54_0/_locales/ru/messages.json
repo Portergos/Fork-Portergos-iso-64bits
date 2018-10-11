@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Добавить"
+   },
+   "auto_cinema_mode": {
+      "message": "Автовключение режима Кино."
+   },
+   "auto_enable_filters": {
+      "message": "Автоматически отображать панель цветовых фильтров."
+   },
+   "auto_enlarge_player": {
+      "message": "Автоматически разворачивать окно видеоплеера."
+   },
+   "auto_execute_script": {
+      "message": "Автоматически выполнять пользовательский скрипт, если во вкладке загружена страница YouTube™."
+   },
+   "auto_expand_description": {
+      "message": "Автоматически разворачивать раздел Описание видео."
+   },
+   "auto_pause_videos": {
+      "message": "Автоматически приостанавливать видео открытые в фоновых вкладках."
+   },
+   "auto_remove_ads": {
+      "message": "Автоматически убирать рекламу."
+   },
+   "auto_remove_annotations": {
+      "message": "Автоматически убирать аннотации."
+   },
+   "auto_select_quality": {
+      "message": "Автоматически воспроизводить видео с предпочтительным качеством."
+   },
+   "auto_sort_comments": {
+      "message": "Автоматически сортировать комментариии от новых к старым."
+   },
+   "border": {
+      "message": "Граница:"
+   },
+   "brightness": {
+      "message": "Яркость:"
+   },
+   "buttons": {
+      "message": "Кнопки"
+   },
+   "buttons_label": {
+      "message": "Кнопки:"
+   },
+   "cinema_mode": {
+      "message": "Режим Кино"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Разворачивать окно видеоплеера при включении режима Кино."
+   },
+   "clean_button_instructions": {
+      "message": "Кликните правой кнопкой мыши по этой кнопке для отображения или скрытия аннотаций в воспроизводимом видео."
+   },
+   "color": {
+      "message": "Цвет:"
+   },
+   "color_inversion": {
+      "message": "Инверсия цвета:"
+   },
+   "colors": {
+      "message": "Цвета"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Наберите: opera://settings/configureCommands в адресной строке браузера для редактирования горячих клавиш."
+   },
+   "contrast": {
+      "message": "Контраст:"
+   },
+   "control_volume": {
+      "message": "Изменять уровень громкости скроллом, когда курсор находится в окне видеоплеера."
+   },
+   "custom_script": {
+      "message": "Пользовательский скрипт"
+   },
+   "custom_script_instructions": {
+      "message": "Вставьте ваш код JavaScript в окно, сохраните его нажав кнопку ниже, затем, когда вы захотите его использовать, нажмите кнопку \"Пользовательский скрипт\" на панели инструментов."
+   },
+   "custom_script_warning": {
+      "message": "Предупреждение: По соображениям безопасности используйте только код который понимаете или код написанный доверенным разработчиком."
+   },
+   "custom_theme": {
+      "message": "Пользовательская тема"
+   },
+   "custom_theme_instructions": {
+      "message": "Вставьте ваш код CSS в окно, затем сохраните его с помощью кнопки ниже."
+   },
+   "default_playback_speed": {
+      "message": "Скорость воспроизведения по умолчанию:"
+   },
+   "default_volume_level": {
+      "message": "Громкость воспроизведения по умолчанию:"
+   },
+   "description": {
+      "message": "Широчайший функционал для улучшения просмотра видео на YouTube™."
+   },
+   "disable_preloading": {
+      "message": "Не подгружать видео если оно приостановлено."
+   },
+   "donate": {
+      "message": "Пожертвовать"
+   },
+   "filters": {
+      "message": "Цветовые фильтры"
+   },
+   "filters_button_instructions": {
+      "message": "Кликните правой кнопкой мыши на этой кнопке для отображения или скрытия панели цветовых фильтров. Показать/скрыть панель можно зажатием клавиш Ctrl+Shift и кликнув по окну видеоплеера."
+   },
+   "fourth_choice": {
+      "message": "В четвертую очередь:"
+   },
+   "gaussian_blur": {
+      "message": "Размытие Гаусса:"
+   },
+   "grayscale": {
+      "message": "Оттенки серого:"
+   },
+   "html5_player_only": {
+      "message": "(только для плеера HTML5)"
+   },
+   "hue_rotation": {
+      "message": "Поворот цвета:"
+   },
+   "ignore_playlists": {
+      "message": "Не приостанавливать видео в плейлистах."
+   },
+   "keyboard_shortcuts": {
+      "message": "Горячие клавиши"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "locale_code": {
+      "message": "ru"
+   },
+   "loop_video": {
+      "message": "Зациклить видео"
+   },
+   "miscellaneous": {
+      "message": "Дополнительно"
+   },
+   "not_now": {
+      "message": "Не сейчас"
+   },
+   "opacity": {
+      "message": "Прозрачность:"
+   },
+   "options": {
+      "message": "Настройки"
+   },
+   "override_playback_speeds": {
+      "message": "Изменять скорость воспроизведения по умолчанию."
+   },
+   "pause_foreground_tab": {
+      "message": "Также приостанавливать видео открытое в активной вкладке."
+   },
+   "pause_videos": {
+      "message": "Приостанавливать воспроизведение видео на фоновых вкладках, при воспроизведении видео на активной вкладке."
+   },
+   "pin_video_player": {
+      "message": "Использовать закрепленный видеоплеер внизу экрана, при прокрутке страницы вниз."
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Размер окна закрепленного видеоплеера:"
+   },
+   "preferred_quality": {
+      "message": "Предпочтительное качество:"
+   },
+   "preview": {
+      "message": "Предварительный просмотр"
+   },
+   "rate": {
+      "message": "Оценить"
+   },
+   "rate_message": {
+      "message": "Если вам понравился Enhancer for YouTube™ и вы хотите чтобы он и далее поддерживался и улучшался - оцените его пятью звездами. Описание своих впечатлений от использования расширения рекомендуется, но, учитывая вашу возможную занятость и желание остаться анонимным, его отсутствие не будет проблемой. Для нас важно чтобы вы оценили его в ★★★★★. Спасибо!"
+   },
+   "remove": {
+      "message": "Убрать"
+   },
+   "remove_ads": {
+      "message": "Скрыть рекламу"
+   },
+   "reset_filters": {
+      "message": "Отменить изменения"
+   },
+   "resize_player": {
+      "message": "Изменить размер видеоплеера"
+   },
+   "restore_default_colors": {
+      "message": "Восстановить стандартные цвета"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "saturation": {
+      "message": "Сатурация:"
+   },
+   "save": {
+      "message": "Сохранить"
+   },
+   "second_choice": {
+      "message": "Во вторую очередь:"
+   },
+   "sepia": {
+      "message": "Сепия:"
+   },
+   "share": {
+      "message": "Поделиться"
+   },
+   "share_message": {
+      "message": "Расскажите вашим друзьям и подписчикам об Enhancer for YouTube™. Спасибо!"
+   },
+   "share_on_facebook": {
+      "message": "Поделиться в Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Поделиться в Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Поделиться в Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Поделиться в Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Поделиться в Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Показать/скрыть аннотации"
+   },
+   "slide_effect": {
+      "message": "Автоскрытие панели инструментов"
+   },
+   "speed": {
+      "message": "Скорость"
+   },
+   "speed_button_instructions": {
+      "message": "Используйте скролл для управления скоростью воспроизведения, при наведении курсора на эту кнопку. Кликните эту кнопку, чтобы использовать установленную вами скорость воспроизведения по умолчанию. Вы можете вернуться к скорости воспроизведения видео по умолчанию зажав кнопку Ctrl и кликнув по окну видеоплеера."
+   },
+   "speed_variation": {
+      "message": "Шаг изменения скорости:"
+   },
+   "support": {
+      "message": "Поддержка"
+   },
+   "support_request_instructions": {
+      "message": "Предоставьте эту информацию при обращении за помощью или при сообщении о проблеме."
+   },
+   "theme": {
+      "message": "Тема"
+   },
+   "theme_by_default": {
+      "message": "Тема по умолчанию"
+   },
+   "third_choice": {
+      "message": "В третью очередь:"
+   },
+   "toolbar": {
+      "message": "Панель инструментов"
+   },
+   "toolbar_label": {
+      "message": "Фон панели:"
+   },
+   "tooltips": {
+      "message": "Всплывающие подсказки"
+   },
+   "translate": {
+      "message": "Перевод"
+   },
+   "transparency": {
+      "message": "Прозрачность:"
+   },
+   "video_player": {
+      "message": "Видеоплеер"
+   },
+   "volume_variation": {
+      "message": "Шаг изменения громкости:"
+   },
+   "whitelisted_channels": {
+      "message": "Разрешенные каналы:"
+   }
+}

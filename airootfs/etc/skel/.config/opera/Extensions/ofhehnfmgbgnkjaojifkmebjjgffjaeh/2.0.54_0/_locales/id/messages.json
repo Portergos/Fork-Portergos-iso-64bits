@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Tambah"
+   },
+   "auto_cinema_mode": {
+      "message": "Aktifkan mode sinema secara otomatis."
+   },
+   "auto_enable_filters": {
+      "message": "Otomatis aktifkan filer."
+   },
+   "auto_enlarge_player": {
+      "message": "Otomatis perbesar ukuran pemutaran."
+   },
+   "auto_execute_script": {
+      "message": "Otomatis jalankan skrip saat YouTube™ diputar."
+   },
+   "auto_expand_description": {
+      "message": "Secara otomatis perluas deskripsi video."
+   },
+   "auto_pause_videos": {
+      "message": "Otomatis jeda video diputar saat berada di tab latar belakang."
+   },
+   "auto_remove_ads": {
+      "message": "Otomatis menghapus iklan dari video."
+   },
+   "auto_remove_annotations": {
+      "message": "Otomatis membuang anotasi."
+   },
+   "auto_select_quality": {
+      "message": "Putar video secara otomatis pada kualitas pilihan saya."
+   },
+   "auto_sort_comments": {
+      "message": "Urutkan komentar secara otomatis dari yang terbaru."
+   },
+   "border": {
+      "message": "Pinggir:"
+   },
+   "brightness": {
+      "message": "Kecerahan:"
+   },
+   "buttons": {
+      "message": "Tombol"
+   },
+   "buttons_label": {
+      "message": "Tombol:"
+   },
+   "cinema_mode": {
+      "message": "Mode sinema"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Perbesar pemutaran video secara otomatis ketika mode sinema aktif."
+   },
+   "clean_button_instructions": {
+      "message": "Info: Klik kanan untuk menampilkan/menghilangkan anotasi."
+   },
+   "color": {
+      "message": "Warna:"
+   },
+   "color_inversion": {
+      "message": "Putar balik warna:"
+   },
+   "colors": {
+      "message": "Warna"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Info: Ketikkan opera://settings/configureCommands di address bar untuk mengatur tombol pintasan."
+   },
+   "contrast": {
+      "message": "Kontras:"
+   },
+   "control_volume": {
+      "message": "Ubah volume dengan kursor mouse."
+   },
+   "custom_script": {
+      "message": "Ubah script"
+   },
+   "custom_script_instructions": {
+      "message": "Salinkan atau tulis kode JavaScript disini, simpan dengan tombol di bawah, kemudian tekan \"Ubah script\" di toolbar saat akan dijalankan."
+   },
+   "custom_script_warning": {
+      "message": "Peringatan: Demi keamanan Anda gunakanlah kode yang anda pahami atau kode bersumber dari pengembang terpercaya."
+   },
+   "custom_theme": {
+      "message": "Rubah tema"
+   },
+   "custom_theme_instructions": {
+      "message": "Salin atau tuliskan kode CSS disini, lalu simpan dengan klik tombol dibawah."
+   },
+   "default_playback_speed": {
+      "message": "Kecepatan pemutar semula:"
+   },
+   "default_volume_level": {
+      "message": "Volume semula:"
+   },
+   "description": {
+      "message": "Beragam fitur memperkaya pengalaman mengakses YouTube™."
+   },
+   "disable_preloading": {
+      "message": "Nonaktifkan pramuat saat video dijeda secara otomatis."
+   },
+   "donate": {
+      "message": "Donasi"
+   },
+   "filters": {
+      "message": "Filter"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Klik kanan untuk merubah setelan filter. Kamu juga dapat mengakif/non aktifkan filter dengan \"Control\" tekan (Ctrl) dan \"Shift\" bersamaan ketika mengeklik video player."
+   },
+   "fourth_choice": {
+      "message": "Pilihan keempat:"
+   },
+   "gaussian_blur": {
+      "message": "Gaussian blur:"
+   },
+   "grayscale": {
+      "message": "Abu-abu:"
+   },
+   "html5_player_only": {
+      "message": "(Hanya pemutar HTML5 saja)"
+   },
+   "hue_rotation": {
+      "message": "Rotasi:"
+   },
+   "ignore_playlists": {
+      "message": "Jangan jeda video dalam daftar putar."
+   },
+   "keyboard_shortcuts": {
+      "message": "Tombol pintasan keyboard"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "locale_code": {
+      "message": "id"
+   },
+   "loop_video": {
+      "message": "Putaran video"
+   },
+   "miscellaneous": {
+      "message": "Miscellaneous"
+   },
+   "not_now": {
+      "message": "Tidak sekarang"
+   },
+   "opacity": {
+      "message": "Kegelapan:"
+   },
+   "options": {
+      "message": "Opsi"
+   },
+   "override_playback_speeds": {
+      "message": "Kecepatan pemutaran override semula."
+   },
+   "pause_foreground_tab": {
+      "message": "Jeda video yang dibuka di tab latar depan juga."
+   },
+   "pause_videos": {
+      "message": "Jeda video yang diputar di tab latar belakang saat video mulai diputar di tab latar depan."
+   },
+   "pin_video_player": {
+      "message": "Pin pemutar video di bagian bawah layar saat menggulir ke bawah halaman."
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Ukuran pemutar video disematkan:"
+   },
+   "preferred_quality": {
+      "message": "Kualitas yang disukai:"
+   },
+   "preview": {
+      "message": "Pratinjau"
+   },
+   "rate": {
+      "message": "Beri peringkat"
+   },
+   "rate_message": {
+      "message": "Demi peningkatan dan penyempurnaan Enhancer for YouTube™ dukung kami dengan memberi rating 5 bintang. Dipersilahkan berkomentar untuk perbaikan kami, jika tidak punya waktu untuk menulis ulasan atau Anda bermaksud tetap berselancar dengan mode anonimous, Anda tetap dapat memberi rating kami secara anonim, beri kami rating ★★★★★. Terimakasih!"
+   },
+   "remove": {
+      "message": "Buang"
+   },
+   "remove_ads": {
+      "message": "Hilangkan iklan"
+   },
+   "reset_filters": {
+      "message": "Atur ulang filter"
+   },
+   "resize_player": {
+      "message": "Ganti ukuran player"
+   },
+   "restore_default_colors": {
+      "message": "Kembali ke warna semula"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "saturation": {
+      "message": "Saturasi:"
+   },
+   "save": {
+      "message": "Simpan"
+   },
+   "second_choice": {
+      "message": "Pilihan kedua:"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "share": {
+      "message": "Bagikan"
+   },
+   "share_message": {
+      "message": "Ceritakan serunya pengalamanmu dalam menggunakan Enhancer for YouTube™. Terimakasih!"
+   },
+   "share_on_facebook": {
+      "message": "Bagikan di Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Bagikan di Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Bagikan di Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Bagikan di Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Bagikan di Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Aktif/nonaktifkan anotasi"
+   },
+   "slide_effect": {
+      "message": "Efek sapu atas/bawah"
+   },
+   "speed": {
+      "message": "Kecepatan"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Gunakan roda mouse untuk mengatur kecepatan dengan tombol ini dan kursor mouse. Klik untuk menggunakan kecepatan playback semula, jika Anda menggunakan tombol \"Control\" ditekan (Ctrl)."
+   },
+   "speed_variation": {
+      "message": "Kecepatan bervariasi dengan memutar tombol tengah mouse:"
+   },
+   "support": {
+      "message": "Dukung kami"
+   },
+   "support_request_instructions": {
+      "message": "Berikan informasi di bawah untuk meminta bantuan atau melaporkan masalah."
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "theme_by_default": {
+      "message": "Gunakan tema default"
+   },
+   "third_choice": {
+      "message": "Pilihan ketiga:"
+   },
+   "toolbar": {
+      "message": "Alat-alat"
+   },
+   "toolbar_label": {
+      "message": "Alat-alat:"
+   },
+   "tooltips": {
+      "message": "Tips pembantu"
+   },
+   "translate": {
+      "message": "Sempurnakan terjemahan ini"
+   },
+   "transparency": {
+      "message": "Transparansi:"
+   },
+   "video_player": {
+      "message": "Pemutar video"
+   },
+   "volume_variation": {
+      "message": "Ubah volume dengan putar tombol tengah mouse:"
+   },
+   "whitelisted_channels": {
+      "message": "Channel pengecualian:"
+   }
+}

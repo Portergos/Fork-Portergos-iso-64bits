@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=/usr/bin/oblogout
+Hidden=false
+Name=oblogout
+X-XFCE-Source=file:///usr/share/applications/oblogout.desktop
+Icon=/etc/portergos/portergos_pics/power-button.png
+Comment=
+Path=
+StartupNotify=false

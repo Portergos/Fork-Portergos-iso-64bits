@@ -1,0 +1,27 @@
+{
+   "author": "Rafael Keramidas",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/logo_enabled.png"
+      },
+      "default_popup": "view/popup.html",
+      "default_title": "No Coin"
+   },
+   "description": "Block coin miners using your computer ressources without your consent.",
+   "developer": {
+      "name": "keraf"
+   },
+   "icons": {
+      "128": "img/logo_enabled.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqgOUtY03XA8kID4YYp8gdAU5ryMqRHSmfHxCz/nIGH0QLVJkSxbGRYFiNwLii9E8a57h3/lRB8iRgvHsZt1IwtYh2k9S6kf9DinABn3qi6oFwQtrAgSWoTMc8lFKqvzCUKFaNni/dNYY5pR8jShR2LurZEJ5dHU++GmRE1Fp83GSikd52PIgmNq3QhOBx5XvNlGfJO/ypqDlwMeMdX9OFH0bn2MpCfN9i935m1MZwsd/rDHlhRhA4JfuZHbqoBPYUB3a9zmmbEIN6a5QZAAhUiXjjxqnSRo3b1w73Va40hjZl6qDlLvsHWZN6YBw5swGDNXJkYQr2D1o/sugxemhyQIDAQAB",
+   "manifest_version": 2,
+   "name": "No Coin - Block miners on the web!",
+   "permissions": [ "activeTab", "tabs", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "0.4.8"
+}

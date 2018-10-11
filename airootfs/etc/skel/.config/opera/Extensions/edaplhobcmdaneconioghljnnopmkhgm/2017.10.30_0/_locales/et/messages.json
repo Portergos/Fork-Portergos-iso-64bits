@@ -1,0 +1,95 @@
+{
+  "options_generalSettings": {
+    "message": "Üldised seaded"
+  }, 
+  "menu_blockUnencryptedRequests": {
+    "message": "Blokeeri kõik krüptimata taotlused"
+  }, 
+  "chrome_add_new_rule": {
+    "message": "Lisa uus reegel sellele saidile"
+  }, 
+  "about_version": {
+    "message": "Versioon"
+  }, 
+  "chrome_hide_advanced": {
+    "message": "Peida täiendavad"
+  }, 
+  "chrome_stable_rules": {
+    "message": "Stabiilsed reeglid"
+  }, 
+  "chrome_stable_rules_description": {
+    "message": "Kohusta krüpteeritud ühendus nende veebisaitidega:"
+  }, 
+  "options_imported": {
+    "message": "Sinu seaded on imporditud."
+  }, 
+  "chrome_host": {
+    "message": "Host:"
+  }, 
+  "menu_globalEnable": {
+    "message": "Luba HTTPS Everywhere"
+  }, 
+  "chrome_regex": {
+    "message": "Vastav regulaaravaldis"
+  }, 
+  "about_add_new_rule": {
+    "message": "Lisa uus reegel"
+  }, 
+  "menu_viewAllRules": {
+    "message": "Vaata kõiki reegleid"
+  }, 
+  "about_ext_description": {
+    "message": "Krüpteeri veeb! Kasuta HTTPS turvalaiendust automaatselt paljudel lehtedel."
+  }, 
+  "about_title": {
+    "message": "HTTPS Everywhere-ist"
+  }, 
+  "options_importSettings": {
+    "message": "Impordi seaded"
+  }, 
+  "options_import": {
+    "message": "Impordi"
+  }, 
+  "chrome_redirect_to": {
+    "message": "Suuna aadressile"
+  }, 
+  "chrome_status_cancel_button": {
+    "message": "Katkesta"
+  }, 
+  "about_ext_name": {
+    "message": "HTTPS Everywhere"
+  }, 
+  "menu_observatory": {
+    "message": "SSL-Observatooriumi eelistused"
+  }, 
+  "prefs_reset_defaults": {
+    "message": "Taasta algseaded"
+  }, 
+  "chrome_add_rule": {
+    "message": "Lisa reegel sellele saidile"
+  }, 
+  "menu_showCounter": {
+    "message": "Näita loendurit"
+  }, 
+  "chrome_show_advanced": {
+    "message": "Kuva täiendavad"
+  }, 
+  "chrome_always_https_for_host": {
+    "message": "Kasuta selle hostiga alati HTTPSi"
+  }, 
+  "menu_donate_eff_imperative": {
+    "message": "Anneta EFFle"
+  }, 
+  "chrome_experimental_rules": {
+    "message": "Eksperimentaalsed reeglid"
+  }, 
+  "prefs_export_settings": {
+    "message": "Ekspordi seaded"
+  }, 
+  "chrome_rule_name": {
+    "message": "Reegli nimi"
+  }, 
+  "chrome_experimental_rules_description": {
+    "message": "Võivad põhjustada hoiatusi või mitte töötamist. Vaikimisi keelatud."
+  }
+}

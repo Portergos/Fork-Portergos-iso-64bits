@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Hozzáadás"
+   },
+   "auto_cinema_mode": {
+      "message": "Automatikusan engedélyezze a mozi mód."
+   },
+   "auto_enable_filters": {
+      "message": "Automatikusan engedélyezze a szűrőket."
+   },
+   "auto_enlarge_player": {
+      "message": "Automatikusan nagyítsa a videólejátszót."
+   },
+   "auto_execute_script": {
+      "message": "Automatikusan futtassa le a szkriptet amikor a YouTube™ meg van nyitva."
+   },
+   "auto_expand_description": {
+      "message": "Videók leírásának automatikus megjelenítése."
+   },
+   "auto_pause_videos": {
+      "message": "Háttérben játszott videók automatikus leállítása."
+   },
+   "auto_remove_ads": {
+      "message": "Hirdetések automatikus eltávolítása."
+   },
+   "auto_remove_annotations": {
+      "message": "Automatikusan távolítsa el a kommentárokat."
+   },
+   "auto_select_quality": {
+      "message": "Automatikusan az általam preferált minőségben játssza le a videókat."
+   },
+   "auto_sort_comments": {
+      "message": "Kommentek automatikus sorbarendezése az legújabbtól a legrégebbiig."
+   },
+   "border": {
+      "message": "Szegély:"
+   },
+   "brightness": {
+      "message": "Fényerő:"
+   },
+   "buttons": {
+      "message": "Gombok"
+   },
+   "buttons_label": {
+      "message": "Gombok:"
+   },
+   "cinema_mode": {
+      "message": "Mozi mód"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Automatikusan nagyítsa fel a lejátszót, amikor a mozi üzemmód engedélyezve van."
+   },
+   "clean_button_instructions": {
+      "message": "Info: Kattints az egér jobb gombjával erre a gombra, hogy megjelenítsd/elrejtsd a kommentárokat."
+   },
+   "color": {
+      "message": "Szín:"
+   },
+   "color_inversion": {
+      "message": "Színek invertálása:"
+   },
+   "colors": {
+      "message": "Színek"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Info: Illeszd be a opera://settings/configureCommands linked a címsorba a billentyűzet parancsikonok beállításához."
+   },
+   "contrast": {
+      "message": "Kontraszt:"
+   },
+   "control_volume": {
+      "message": "Hangerő szabályozása az egérgörgővel, amikor az egér kurzor a videó lejátszó felett van."
+   },
+   "custom_script": {
+      "message": "Egyedi szkript"
+   },
+   "custom_script_instructions": {
+      "message": "Illeszd be vagy gépeld be a saját JavaScript kódodat ide, mentsd el a lenti gombbal, majd kattints a „Egyedi szkript” gombra az eszköztárban amikor végre akarod hajtani."
+   },
+   "custom_script_warning": {
+      "message": "Figyelem! Biztonsági okokból kizárólag olyan kódot használj, amelyet értesz, vagy egy megbízható fejlesztõtõl származik!"
+   },
+   "custom_theme": {
+      "message": "Egyéni téma"
+   },
+   "custom_theme_instructions": {
+      "message": "Illeszd vagy gépeld be a CSS kódodat, majd mentsd el az alábbi gombbal."
+   },
+   "default_playback_speed": {
+      "message": "Alapértelmezett lejátszási sebesség:"
+   },
+   "default_volume_level": {
+      "message": "Alapértelmezett hangerő:"
+   },
+   "description": {
+      "message": "Tonnányi funkció a felhasználói élmény javítására a YouTube™-on."
+   },
+   "disable_preloading": {
+      "message": "Elõtöltés letiltása a videó megállításakor."
+   },
+   "donate": {
+      "message": "Adomány"
+   },
+   "filters": {
+      "message": "Szűrők"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Kattints az egér jobb gombjával ezen a gombon a szűrők módosításához. Ezen felül engedélyezhetők/tilthatók a szűrők, ha a \"Ctrl\" és a \"Shift\" billentyűk lenyomása mellett kattintasz a videólejátszóra."
+   },
+   "fourth_choice": {
+      "message": "Negyedik választás:"
+   },
+   "gaussian_blur": {
+      "message": "Gauss elmosás:"
+   },
+   "grayscale": {
+      "message": "Szürkeárnyalatos:"
+   },
+   "html5_player_only": {
+      "message": "(csak HTML5 lejátszó esetén)"
+   },
+   "hue_rotation": {
+      "message": "Színárnyalat forgatás:"
+   },
+   "ignore_playlists": {
+      "message": "Ne állítsa meg a videókat lejátszási listában."
+   },
+   "keyboard_shortcuts": {
+      "message": "Billentyűzet parancsikonok"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "locale_code": {
+      "message": "hu"
+   },
+   "loop_video": {
+      "message": "Videó ismétlése"
+   },
+   "miscellaneous": {
+      "message": "Egyebek"
+   },
+   "not_now": {
+      "message": "Ne most"
+   },
+   "opacity": {
+      "message": "Átlátszatlanság:"
+   },
+   "options": {
+      "message": "Beállítások"
+   },
+   "override_playback_speeds": {
+      "message": "Felülbírálja az alapértelmezett lejátszási sebességet."
+   },
+   "pause_foreground_tab": {
+      "message": "Elõtérben lévõ videókat is szüneteltessen."
+   },
+   "pause_videos": {
+      "message": "Az aktív fülön megnyitott videók lejátszásának szüneteltetése, ha azok háttérbe kerülnek."
+   },
+   "pin_video_player": {
+      "message": "Videólejátszó kitűzése a képernyő aljára, amikor legörgetsz az oldalon."
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Kitűzött videolejátszó mérete:"
+   },
+   "preferred_quality": {
+      "message": "Preferált minőség:"
+   },
+   "preview": {
+      "message": "Előnézet"
+   },
+   "rate": {
+      "message": "Értékelés"
+   },
+   "rate_message": {
+      "message": "Ha tetszik az Enhancer for YouTube™ és szeretnéd, hogy karban legyen tartva, illetve továbbfejlesztve, kérlek értékeld öt csillagosra most. Értékelés írása ajánlott, de nem kötelező, szóval ha nincs időd írni egyet vagy csak névtelen szeretnél maradni, nem probléma, értékelheted névtelenül is, ami azt jelenti, hogy ★★★★★-ot adsz. Köszönöm!"
+   },
+   "remove": {
+      "message": "Eltávolítás"
+   },
+   "remove_ads": {
+      "message": "Hirdetések eltávolítása"
+   },
+   "reset_filters": {
+      "message": "Szűrők visszaállítása"
+   },
+   "resize_player": {
+      "message": "Lejátszó átméretezése"
+   },
+   "restore_default_colors": {
+      "message": "Alapértelmezett színek visszaállítása"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "saturation": {
+      "message": "Telítettség:"
+   },
+   "save": {
+      "message": "Mentés"
+   },
+   "second_choice": {
+      "message": "Második választás:"
+   },
+   "sepia": {
+      "message": "Szépia:"
+   },
+   "share": {
+      "message": "Megosztás"
+   },
+   "share_message": {
+      "message": "Mesélj barátaidnak, követőidnek az Enhancer for YouTube™-ról. Köszönöm!"
+   },
+   "share_on_facebook": {
+      "message": "Megosztás Facebookon"
+   },
+   "share_on_google_plus": {
+      "message": "Megosztás Google+-on"
+   },
+   "share_on_pinterest": {
+      "message": "Megosztás Pinteresten"
+   },
+   "share_on_reddit": {
+      "message": "Megosztás Redditen"
+   },
+   "share_on_twitter": {
+      "message": "Megosztás Twitteren"
+   },
+   "show_hide_annotations": {
+      "message": "Kommentárok megjelenítése/elrejtése"
+   },
+   "slide_effect": {
+      "message": "Felfelé/lefelé görgetés effekt"
+   },
+   "speed": {
+      "message": "Sebesség"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Használd az egérgörgőt a lejátszási sebesség beállításához, amikor az egérkurzor efölött a gomb fölött van. Kattints rá, hogy visszaálljon az alapértelmezett lejátszási sebesség. Ugyancsak használhatod az egérgörgőt a lejátszási sebesség beállításához, amikor az egérkurzor a videólejátszó felett van. Ha a (Ctrl) gomb nyomvatartása mellett kattintasz a videólejátszón, akkor a lejátszási sebesség visszaáll az alapértelmezettre."
+   },
+   "speed_variation": {
+      "message": "Sebesség változtatása, amikor az egérgörő elfordul:"
+   },
+   "support": {
+      "message": "Támogatás"
+   },
+   "support_request_instructions": {
+      "message": "Ezeket az információkat add meg segítségkéréskor illetve hibajelentésnél."
+   },
+   "theme": {
+      "message": "Téma"
+   },
+   "theme_by_default": {
+      "message": "Alapértelmezés szerinti téma"
+   },
+   "third_choice": {
+      "message": "Harmadik választás:"
+   },
+   "toolbar": {
+      "message": "Eszköztár"
+   },
+   "toolbar_label": {
+      "message": "Eszköztár:"
+   },
+   "tooltips": {
+      "message": "Buboréksúgó"
+   },
+   "translate": {
+      "message": "Fordítás"
+   },
+   "transparency": {
+      "message": "Átlátszóság:"
+   },
+   "video_player": {
+      "message": "Videó lejátszó"
+   },
+   "volume_variation": {
+      "message": "Hangerő-módosítás, amikor az egérgörgő elfordul:"
+   },
+   "whitelisted_channels": {
+      "message": "Engedélyezett csatornák:"
+   }
+}

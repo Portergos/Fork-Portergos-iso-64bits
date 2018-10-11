@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Přidat"
+   },
+   "auto_cinema_mode": {
+      "message": "Automaticky zapínat režim Kino."
+   },
+   "auto_enable_filters": {
+      "message": "Automaticky povolit filtry."
+   },
+   "auto_enlarge_player": {
+      "message": "Automaticky zvětšit velikost přehrávače."
+   },
+   "auto_execute_script": {
+      "message": "Automaticky spustit skript pokud je YouTube™ načten v záložce."
+   },
+   "auto_expand_description": {
+      "message": "Automaticky otevřít popisy videí."
+   },
+   "auto_pause_videos": {
+      "message": "Automaticky pozastavit videa otevřená na pozadí."
+   },
+   "auto_remove_ads": {
+      "message": "Automaticky odstraňovat reklamy."
+   },
+   "auto_remove_annotations": {
+      "message": "Automaticky odstranit poznámky."
+   },
+   "auto_select_quality": {
+      "message": "Automaticky přehrávat videa v mnou preferované kvalitě."
+   },
+   "auto_sort_comments": {
+      "message": "Automaticky uspořádat komentáře od nejnovějších po nejstarší."
+   },
+   "border": {
+      "message": "Rámeček:"
+   },
+   "brightness": {
+      "message": "Jas:"
+   },
+   "buttons": {
+      "message": "Tlačítka"
+   },
+   "buttons_label": {
+      "message": "Tlačítka:"
+   },
+   "cinema_mode": {
+      "message": "Režim Kino"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Automaticky zvětšit přehrávač při zapnutí režimu Kino."
+   },
+   "clean_button_instructions": {
+      "message": "Info: Klikněte pravým tlačítkem na toto tlačítko pro zobrazení/skrytí poznámek."
+   },
+   "color": {
+      "message": "Barva:"
+   },
+   "color_inversion": {
+      "message": "Inverze barev:"
+   },
+   "colors": {
+      "message": "Barvy"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Informace: Napište opera://settings/configureCommands do adresového řádku pro nastavení klávesových zkratek."
+   },
+   "contrast": {
+      "message": "Kontrast:"
+   },
+   "control_volume": {
+      "message": "Hlasitost můžete ovládat pomocí držení kurzoru na přehrávači a použití kolečka myši."
+   },
+   "custom_script": {
+      "message": "Vlastní skript"
+   },
+   "custom_script_instructions": {
+      "message": "Vložte nebo napište svůj JavaScript kód zde, uložíte jej pomocí tlačítka níže poté klikněte na \"Vlastní skript\" v liště pokud jej chcete spustit."
+   },
+   "custom_script_warning": {
+      "message": "Upozornění: Z bezpečnostních důvodů používejte výhradně kód, jemuž rozumíte, nebo pocházející z důvěryhodného zdroje."
+   },
+   "custom_theme": {
+      "message": "Vlastní téma"
+   },
+   "custom_theme_instructions": {
+      "message": "Zde vložte nebo zadejte kód CSS a uložte jej pomocí tlačítka níže."
+   },
+   "default_playback_speed": {
+      "message": "Výchozí rychlost přehrávání:"
+   },
+   "default_volume_level": {
+      "message": "Výchozí hlasitost:"
+   },
+   "description": {
+      "message": "Tuny funkcí pro vylepšení uživatelského dojmu na YouTube™."
+   },
+   "disable_preloading": {
+      "message": "Zabránit načítání automaticky pozastavených videí."
+   },
+   "donate": {
+      "message": "Přispět"
+   },
+   "filters": {
+      "message": "Filtry"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Klikněte pravým tlačítkem na toto tlačítko pro úpravu filtrů. Filtry můžete také povolit/deaktivovat, pokud po kliknutí na přehrávač videa stisknete klávesu \"Control\" (Ctrl) a tlačítko \"Shift\"."
+   },
+   "fourth_choice": {
+      "message": "Čtvrtá možnost:"
+   },
+   "gaussian_blur": {
+      "message": "Gaussovské rozostření:"
+   },
+   "grayscale": {
+      "message": "Stupně šedi:"
+   },
+   "html5_player_only": {
+      "message": "(Pouze HTML5 přehrávač)"
+   },
+   "hue_rotation": {
+      "message": "Rotace odstínu:"
+   },
+   "ignore_playlists": {
+      "message": "Nezastavovat videa v playlistech."
+   },
+   "keyboard_shortcuts": {
+      "message": "Klávesové zkratky"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "locale_code": {
+      "message": "cs"
+   },
+   "loop_video": {
+      "message": "Opakovat video"
+   },
+   "miscellaneous": {
+      "message": "Smíšený"
+   },
+   "not_now": {
+      "message": "Teď ne"
+   },
+   "opacity": {
+      "message": "Neprůhlednost:"
+   },
+   "options": {
+      "message": "Nastavení"
+   },
+   "override_playback_speeds": {
+      "message": "Přepsat výchozí rychlost přehrávání."
+   },
+   "pause_foreground_tab": {
+      "message": "Pozastavit také videa otevřená v popředí."
+   },
+   "pause_videos": {
+      "message": "Pozastavte přehrávání videí na kartách na pozadí, když se video začne přehrávat na kartě v popředí."
+   },
+   "pin_video_player": {
+      "message": "Připněte ovládač na spodní stranu obrazovky při scrollování dolů."
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Velikost připnutého přehrávače videa:"
+   },
+   "preferred_quality": {
+      "message": "Preferovaná kvalita:"
+   },
+   "preview": {
+      "message": "Ukázka"
+   },
+   "rate": {
+      "message": "Ohodnoťte"
+   },
+   "rate_message": {
+      "message": "Pokud se vám líbí Enhancer for YouTube™ a chcete, aby byl udržován a vylepšen, prosím ohodnoťte nyní pěti hvězdičkami. Psaní recenze je doporučeno, ale není povinné, takže pokud nemáte čas na psaní, nebo pokud chcete zůstat anonymní online, není to problém, můžete ohodnotit anonymně, co je důležité, je to, že to dáte ★★★★★. Děkuji!"
+   },
+   "remove": {
+      "message": "Odstranit"
+   },
+   "remove_ads": {
+      "message": "Odstranit reklamy"
+   },
+   "reset_filters": {
+      "message": "Restartovat filtry"
+   },
+   "resize_player": {
+      "message": "Změna velikosti přehrávače"
+   },
+   "restore_default_colors": {
+      "message": "Obnovit základní barvy"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "saturation": {
+      "message": "Saturace:"
+   },
+   "save": {
+      "message": "Uložit"
+   },
+   "second_choice": {
+      "message": "Druhá možnost:"
+   },
+   "sepia": {
+      "message": "Sépie:"
+   },
+   "share": {
+      "message": "Sdílení"
+   },
+   "share_message": {
+      "message": "Řekněte svým přátelům a followerům o nástroji Enhancer for YouTube™. Děkuji!"
+   },
+   "share_on_facebook": {
+      "message": "Sdílej na Facebooku"
+   },
+   "share_on_google_plus": {
+      "message": "Sdílej na Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Sdílej na Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Sdílej na Redditu"
+   },
+   "share_on_twitter": {
+      "message": "Sdílej na Twitteru"
+   },
+   "show_hide_annotations": {
+      "message": "Zobrazit/skrýt anotace"
+   },
+   "slide_effect": {
+      "message": "Efekt vysunout/zasunout"
+   },
+   "speed": {
+      "message": "Rychlost"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Pomocí kolečka myši můžete ovládat rychlost přehrávání při pohybu myši na toto tlačítko kurzorem myši. Klepnutím na něj použijte výchozí rychlost přehrávání. Můžete také použít kolečko myši pro ovládání rychlosti přehrávání při přejíždění přehrávače videa a klepnutím na něj použijte výchozí rychlost přehrávání, pokud stisknete klávesu \"Control\" (Ctrl)."
+   },
+   "speed_variation": {
+      "message": "Změna rychlosti při otáčení kola myši:"
+   },
+   "support": {
+      "message": "Podpora"
+   },
+   "support_request_instructions": {
+      "message": "Poskytněte tyto informace při vyžádání podpory nebo hlášení problému."
+   },
+   "theme": {
+      "message": "Téma"
+   },
+   "theme_by_default": {
+      "message": "Základní téma"
+   },
+   "third_choice": {
+      "message": "Třetí možnost:"
+   },
+   "toolbar": {
+      "message": "Panel nástrojů"
+   },
+   "toolbar_label": {
+      "message": "Panel nástrojů:"
+   },
+   "tooltips": {
+      "message": "Popisky"
+   },
+   "translate": {
+      "message": "Překlad"
+   },
+   "transparency": {
+      "message": "Průhlednost:"
+   },
+   "video_player": {
+      "message": "Video přehrávač"
+   },
+   "volume_variation": {
+      "message": "Změna hlasitosti při otáčení kola myši:"
+   },
+   "whitelisted_channels": {
+      "message": "Kanály s povolenými adresami:"
+   }
+}

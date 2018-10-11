@@ -1,0 +1,95 @@
+{
+  "options_generalSettings": {
+    "message": "General Settings"
+  }, 
+  "menu_blockUnencryptedRequests": {
+    "message": "Block all unencrypted requests"
+  }, 
+  "chrome_add_new_rule": {
+    "message": "Add a new rule for this site"
+  }, 
+  "about_version": {
+    "message": "आवृत्ती"
+  }, 
+  "chrome_hide_advanced": {
+    "message": "Hide advanced"
+  }, 
+  "chrome_stable_rules": {
+    "message": "Stable rules"
+  }, 
+  "chrome_stable_rules_description": {
+    "message": "Force encrypted connections to these websites:"
+  }, 
+  "options_imported": {
+    "message": "Your settings have been imported."
+  }, 
+  "chrome_host": {
+    "message": "Host:"
+  }, 
+  "menu_globalEnable": {
+    "message": "सर्वत्र HTTPS सक्षम करा"
+  }, 
+  "chrome_regex": {
+    "message": "Matching regex"
+  }, 
+  "about_add_new_rule": {
+    "message": "Add New Rule"
+  }, 
+  "menu_viewAllRules": {
+    "message": "सर्व नियम पहा"
+  }, 
+  "about_ext_description": {
+    "message": "वेब कूटबद्ध करा ! आपोआप अनेक साइटवर HTTPS सुरक्षा वापरा."
+  }, 
+  "about_title": {
+    "message": "HTTPS सर्वत्र बद्दल"
+  }, 
+  "options_importSettings": {
+    "message": "Import Settings"
+  }, 
+  "options_import": {
+    "message": "Import"
+  }, 
+  "chrome_redirect_to": {
+    "message": "Redirect to"
+  }, 
+  "chrome_status_cancel_button": {
+    "message": "रद्द करा"
+  }, 
+  "about_ext_name": {
+    "message": "HTTPS सर्वत्र"
+  }, 
+  "menu_observatory": {
+    "message": "एसएसएल प्राधान्ये"
+  }, 
+  "prefs_reset_defaults": {
+    "message": "डीफॉल्ट रीसेट करा"
+  }, 
+  "chrome_add_rule": {
+    "message": "Add a rule for this site"
+  }, 
+  "menu_showCounter": {
+    "message": "काउंटर दाखवा"
+  }, 
+  "chrome_show_advanced": {
+    "message": "Show advanced"
+  }, 
+  "chrome_always_https_for_host": {
+    "message": "Always use https for this host"
+  }, 
+  "menu_donate_eff_imperative": {
+    "message": "Donate to EFF"
+  }, 
+  "chrome_experimental_rules": {
+    "message": "Experimental rules"
+  }, 
+  "prefs_export_settings": {
+    "message": "Export Settings"
+  }, 
+  "chrome_rule_name": {
+    "message": "Rule name"
+  }, 
+  "chrome_experimental_rules_description": {
+    "message": "May cause warnings or breakage. Disabled by default."
+  }
+}

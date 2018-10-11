@@ -1,0 +1,134 @@
+{
+   "appDesc": {
+      "description": "",
+      "message": "Kesin olarak bütün popup isteklerini engeller"
+   },
+   "context_item1": {
+      "description": "",
+      "message": "Popup engleleyici test et"
+   },
+   "context_item2": {
+      "description": "",
+      "message": "En son gelen popup isteğini kabul et"
+   },
+   "context_item3": {
+      "description": "",
+      "message": "En son gelen popup isteğini reddet"
+   },
+   "context_item4": {
+      "description": "",
+      "message": "Popup isteğini gizli sekmede aç"
+   },
+   "options_item1": {
+      "description": "",
+      "message": "Bir sayfada engellenecek en fazla popup isteği sayısı"
+   },
+   "options_item10": {
+      "description": "",
+      "message": "Geri sayımı kapatmak için sıfır yazın"
+   },
+   "options_item11": {
+      "description": "",
+      "message": "Virgül ile ayrılan beyaz liste sitelerinde hiç bir engelleme olmayacaktır (bu sitelerde herhangi bir yeni pencere veya sekme çıkabilir)"
+   },
+   "options_item12": {
+      "description": "",
+      "message": "Virgül ile ayrılan beyaz liste sitelerinde bu eklenti tamamen kapalı olacaktır"
+   },
+   "options_item13": {
+      "description": "",
+      "message": "Kara liste:"
+   },
+   "options_item14": {
+      "description": "",
+      "message": "Virgül ile ayrılan kara liste sitelerde bu uygulama tamamen aktif olacaktır. Eğer bu ayarı kullanırsanız bu uygulama diğer TÜM sitelerde çalışmayacaktır."
+   },
+   "options_item15": {
+      "description": "",
+      "message": "Popup isteğinden 2 saniye sonra yönlendirmeyi engelle"
+   },
+   "options_item16": {
+      "description": "",
+      "message": "Bazı sitelerde , sayfa reklamlı link yönlendirmeli olarak verilir.Bu ayar site yönlendirmesine gitmeden önce sizi uyarır."
+   },
+   "options_item17": {
+      "description": "",
+      "message": "Popup isteği geldiğinde yapılacak ilk komut"
+   },
+   "options_item18": {
+      "description": "",
+      "message": "Hiçbir şey yapma"
+   },
+   "options_item19": {
+      "description": "",
+      "message": "Reddet"
+   },
+   "options_item2": {
+      "description": "",
+      "message": "Popup bildirisi penceresi görünüm süresi (saniye)"
+   },
+   "options_item20": {
+      "description": "",
+      "message": "Arka planda aç"
+   },
+   "options_item21": {
+      "description": "",
+      "message": "Sayfayı yönlendir"
+   },
+   "options_item22": {
+      "description": "",
+      "message": "Sayacın arka plan rengi"
+   },
+   "options_item23": {
+      "description": "",
+      "message": "Eğer mümkünse popup istekleri bildirimini engelle (önerilmez)"
+   },
+   "options_item24": {
+      "description": "",
+      "message": "Bu ayar otomatik olarak popup isteklerine \"Kabul\" veya \"Reddet\" komutunu uygulayacaktır (önerilmez)"
+   },
+   "options_item25": {
+      "description": "",
+      "message": "Açıklamalar"
+   },
+   "options_item26": {
+      "description": "",
+      "message": "Sıkça sorulan soruları güncellemelerde göster"
+   },
+   "options_item3": {
+      "description": "",
+      "message": "Aynı kaynaktan popup isteği alma"
+   },
+   "options_item4": {
+      "description": "",
+      "message": "Yeni sekmede açılan linkleri engelle"
+   },
+   "options_item5": {
+      "description": "",
+      "message": "Engellenene isteklerin sayısını eklenti simgesinde göster"
+   },
+   "options_item6": {
+      "description": "",
+      "message": "Güvenilir siteler:"
+   },
+   "options_item7": {
+      "description": "",
+      "message": "Güvenilir kaynaklar:"
+   },
+   "options_item8": {
+      "description": "",
+      "message": "Ayarları düzenledikten sonra sayfanızı yenileyin"
+   },
+   "options_item9": {
+      "description": "",
+      "message": "En son işlem için geri sayım süresi (saniye)"
+   },
+   "options_msg": {
+      "description": "",
+      "message": "Ayarlar Kaydedildi"
+   },
+   "options_save": {
+      "description": "",
+      "message": "Ayarları Kaydet"
+   }
+}

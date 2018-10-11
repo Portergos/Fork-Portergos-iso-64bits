@@ -1,0 +1,25 @@
+#!/bin/bash
+# /usr/bin/portergos_session
+# When starting through sddm
+
+        if [[ $(echo $DESKTOP_SESSION) == /usr/share/xsessions/openbox ]]; then openbox --exit; fi
+
+        if [[ $(echo $XDG_CURRENT_DESKTOP) == i3 ]]; then i3-msg exit; fi
+
+        if [[ $(echo $XDG_CURRENT_DESKTOP) == Light-i3 ]]; then i3-msg exit; fi
+
+        if [[ $(echo $XDG_CURRENT_DESKTOP) == XFCE ]]; then xfce4-session-logout --logout; fi
+
+# When using startx or booting with Portergos iso
+
+if
+ [[ $(echo $DESKTOP_SESSION) == "" ]]; then cat .xinitrc |grep i3 >/dev/null; if [[ $? == 0 ]]; then i3-msg exit; fi
+fi
+
+if
+ [[ $(echo $DESKTOP_SESSION) == "" ]]; then cat .xinitrc |grep openbox >/dev/null; if [[ $? == 0 ]]; then openbox --exit; fi
+fi
+
+if
+ [[ $(echo $DESKTOP_SESSION) == "" ]]; then cat .xinitrc |grep xfce >/dev/null; if [[ $? == 0 ]]; then xfce4-session-logout --logout; fi
+fi

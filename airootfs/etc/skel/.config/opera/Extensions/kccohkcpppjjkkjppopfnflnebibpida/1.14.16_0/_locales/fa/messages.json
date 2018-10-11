@@ -1,0 +1,710 @@
+{
+  "3pListsOfBlockedHostsPerListStats": {
+    "message": "تعداد {{used}} از {{total}} مورد استفاده شده", 
+    "description": "Appears aside each filter list in the _3rd-party filters_ pane"
+  }, 
+  "1pApplyChanges": {
+    "message": "اعمال تغییرات", 
+    "description": "English: Apply changes"
+  }, 
+  "popupPowerSwitchInfo": {
+    "message": "کلیک: غیر فعال/ فعال کردن uBlock₀ برای این سایت.\n\nکنترل+کلیک: غیر فعال کردن uBlock₀ فقط برای همین صفحه.", 
+    "description": "English: Click: disable/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+  }, 
+  "whitelistPageName": {
+    "message": "لیست سپید", 
+    "description": "appears as tab name in dashboard"
+  }, 
+  "1pExport": {
+    "message": "خروجي گرفتن", 
+    "description": "English: Export"
+  }, 
+  "3pIgnoreGenericCosmeticFilters": {
+    "message": "Ignore generic cosmetic filters", 
+    "description": "This will cause uBO to ignore all generic cosmetic filters."
+  }, 
+  "settingsIconBadgePrompt": {
+    "message": "نمایش تعداد درخواست های بلاک شده بر روی آیکون", 
+    "description": "English: Show the number of blocked requests on the icon"
+  }, 
+  "rulesEditDiscard": {
+    "message": "لغو", 
+    "description": "Will discard manually-edited content and exit manual-edit mode"
+  }, 
+  "settingsColorBlindPrompt": {
+    "message": "بهینه سازی کور رنگی", 
+    "description": "English: Color-blind friendly"
+  }, 
+  "logRequestsHeaderFilter": {
+    "message": "فیلتر", 
+    "description": "English: Filter"
+  }, 
+  "dashboardName": {
+    "message": "uBlock₀ — داشبورد", 
+    "description": "English: uBlock₀ — Dashboard"
+  }, 
+  "logFilterPrompt": {
+    "message": "فیلتر کردن مطالب لاگ", 
+    "description": "English: filter log entries"
+  }, 
+  "3pPageName": {
+    "message": "فیلتر های خارجی", 
+    "description": "appears as tab name in dashboard"
+  }, 
+  "loggerStaticFilteringFinderSentence1": {
+    "message": "انسداد ایستا {{filter}} یاقت شد در:", 
+    "description": "Below this sentence, the filter lists in which the filter was found"
+  }, 
+  "popupTipNoCosmeticFiltering": {
+    "message": "تغییر وضعیت فیلترزیباسازی در این صفحه", 
+    "description": "Tooltip for the no-cosmetic-filtering per-site switch"
+  }, 
+  "pickerCosmeticFiltersHint": {
+    "message": "کلیک، کنترل-کلیک", 
+    "description": "English: Click, Ctrl-click"
+  }, 
+  "settingsLastBackupPrompt": {
+    "message": "آخرین پشتیبانی:", 
+    "description": "English: Last backup:"
+  }, 
+  "pickerCreate": {
+    "message": "ایجاد", 
+    "description": "English: Create"
+  }, 
+  "settingsPageName": {
+    "message": "تنظیمات", 
+    "description": "appears as tab name in dashboard"
+  }, 
+  "logMaxEntriesTip": {
+    "message": "بیشترین تعداد مطالب لاگ", 
+    "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log"
+  }, 
+  "aboutSupport": {
+    "message": "پشتیبانی", 
+    "description": "A link for where to get support"
+  }, 
+  "3pListsOfBlockedHostsHeader": {
+    "message": "فهرست میزبان های مسدود شده", 
+    "description": "English: Lists of blocked hosts"
+  }, 
+  "1pImport": {
+    "message": "وارد کردن و الحاق", 
+    "description": "English: Import and append"
+  }, 
+  "pickerCosmeticFilters": {
+    "message": "فیلترهای انتخابی", 
+    "description": "English: Cosmetic filters"
+  }, 
+  "3pGroupMultipurpose": {
+    "message": "چند منظوره", 
+    "description": "English: Multipurpose"
+  }, 
+  "popupOr": {
+    "message": "یا", 
+    "description": "English: or"
+  }, 
+  "pickerQuit": {
+    "message": "خروج", 
+    "description": "English: Quit"
+  }, 
+  "popupTipSaveRules": {
+    "message": "برای دائمی سازی تغییرات کلیک کنید.", 
+    "description": "Tooltip when hovering over the padlock in the dynamic filtering pane."
+  }, 
+  "pickerPick": {
+    "message": "انتخاب", 
+    "description": "English: Pick"
+  }, 
+  "elapsedOneMinuteAgo": {
+    "message": "1 دقیقه پیش", 
+    "description": "English: a minute ago"
+  }, 
+  "docblockedBack": {
+    "message": "بازگشت به عقب", 
+    "description": "English: Go back"
+  }, 
+  "loggerStaticFilteringSentencePartAnyType": {
+    "message": "هر نوعی", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "rulesEditSave": {
+    "message": "ذخيره", 
+    "description": "Will save manually-edited content and exit manual-edit mode"
+  }, 
+  "aboutRestoreDataButton": {
+    "message": "بازیابی از فایل...", 
+    "description": "English: Restore from file..."
+  }, 
+  "3pGroupMalware": {
+    "message": "دامنه های مخرب", 
+    "description": "English: Malware domains"
+  }, 
+  "settingsAdvancedUserPrompt": {
+    "message": "من کاربر حرفه ای هستم (<a href='https://github.com/gorhill/uBlock/wiki/Advanced-user-features'>لازم است بخوانید</a>)", 
+    "description": ""
+  }, 
+  "cloudNoData": {
+    "message": "...\n...", 
+    "description": ""
+  }, 
+  "logRequestsHeaderURL": {
+    "message": "آدرس", 
+    "description": "English: URL"
+  }, 
+  "3pUpdating": {
+    "message": "درحال بروزرسانی...", 
+    "description": "used as a tooltip for the spinner icon beside a list"
+  }, 
+  "3pNetworkError": {
+    "message": "یک خطای شبکه از بروزشدن منابع جلوگیری کرد.", 
+    "description": "used as a tooltip for error icon beside a list"
+  }, 
+  "rulesImport": {
+    "message": "وارد کردن از فایل...", 
+    "description": ""
+  }, 
+  "popupBlockedOnThisPagePrompt": {
+    "message": "در این صفحه", 
+    "description": "English: on this page"
+  }, 
+  "settingsCollapseBlockedPrompt": {
+    "message": "مخفی کردن نگاهدارنده اشیاء بلاک شده", 
+    "description": "English: Hide placeholders of blocked elements"
+  }, 
+  "settingsLastRestorePrompt": {
+    "message": "آخرین بازیابی:", 
+    "description": "English: Last restore:"
+  }, 
+  "aboutContributors": {
+    "message": "مشارکت کنندگان", 
+    "description": "English: Contributors"
+  }, 
+  "cloudPush": {
+    "message": "صدور به فضای ذخیره سازی ابری", 
+    "description": "tooltip"
+  }, 
+  "advancedSettingsPageName": {
+    "message": "تنظیمات پیشرفته", 
+    "description": "Title for the advanced settings page"
+  }, 
+  "logRequestsHeaderDomain": {
+    "message": "دامنه", 
+    "description": "English: Domain"
+  }, 
+  "3pParseAllABPHideFiltersPrompt1": {
+    "message": "تجزیه و اجرای فیلترهای انتخابی.", 
+    "description": "English: Parse and enforce Adblock+ element hiding filters."
+  }, 
+  "docblockedDisablePermanent": {
+    "message": "دائمی", 
+    "description": "English: Permanently"
+  }, 
+  "loggerStaticFilteringSentencePartNotImportant": {
+    "message": "بجز وقتی", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "fennecMenuItemBlockingOff": {
+    "message": "خاموش", 
+    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+  }, 
+  "popupTipGlobalRules": {
+    "message": "قوانین همگانی: این ستون برای قوانینی است که به تمامی سایت ها اعمال می شود.", 
+    "description": "Tooltip when hovering the top-most cell of the global-rules column."
+  }, 
+  "pickerPreview": {
+    "message": "پیش نمایش", 
+    "description": "Element picker preview mode: will cause the elements matching the current filter to be removed from the page"
+  }, 
+  "popupImageRulePrompt": {
+    "message": "تصاویر", 
+    "description": ""
+  }, 
+  "settingsHyperlinkAuditingDisabledPrompt": {
+    "message": "غیر فعال سازی پیوندهای نظارتی / هدایتی", 
+    "description": "English: "
+  }, 
+  "loggerStaticFilteringSentencePartAllow": {
+    "message": "مجاز", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "rulesEdit": {
+    "message": "ویرایش", 
+    "description": "Will enable manual-edit mode (textarea)"
+  }, 
+  "1pPageName": {
+    "message": "فیلترهای من", 
+    "description": "appears as tab name in dashboard"
+  }, 
+  "aboutRestoreDataError": {
+    "message": "داده ها نمی تواند خوانده شوند و یا نامعتبر اند", 
+    "description": "Message to display when an error occurred during restore"
+  }, 
+  "settingsWebRTCIPAddressHiddenPrompt": {
+    "message": "جلوگیری WebRTC از افشاسازی آدرس های IP محلی", 
+    "description": "English: "
+  }, 
+  "showNetworkLogButton": {
+    "message": "نمایش درخواست ثبت شبکه", 
+    "description": "Firefox/Fennec-specific: Show Logger"
+  }, 
+  "aboutResetDataButton": {
+    "message": "تنظیم مجدد تنظیمات پیش فرض...", 
+    "description": "English: Reset to default settings..."
+  }, 
+  "3pExternalListObsolete": {
+    "message": "منقضی شده", 
+    "description": "used as a tooltip for the out-of-date icon beside a list"
+  }, 
+  "3pApplyChanges": {
+    "message": "اعمال تغییرات", 
+    "description": "English: Apply changes"
+  }, 
+  "subscriberConfirm": {
+    "message": "uBlock₀: لینک زیر به لیست فیلتر ها اضافه شود؟\n\nعنوان: \"{{title}}\"\nآدرس: {{url}}", 
+    "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
+  }, 
+  "1pExportFilename": {
+    "message": "my-ublock-static-filters_{{datetime}}.txt", 
+    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+  }, 
+  "extName": {
+    "message": "uBlock₀", 
+    "description": "extension name."
+  }, 
+  "settingsAdvancedUserSettings": {
+    "message": "تنظیمات پیشرفته", 
+    "description": "For the tooltip of a link which gives access to advanced settings"
+  }, 
+  "showDashboardButton": {
+    "message": "نمایش داشبورد", 
+    "description": "Firefox/Fennec-specific: Show Dashboard"
+  }, 
+  "docblockedPrompt1": {
+    "message": "ublock از بارگذاری این صفحات جلوگیری کرده:", 
+    "description": "English: uBlock₀ has prevented the following page from loading:"
+  }, 
+  "docblockedPrompt2": {
+    "message": "بخاطر فیلتر زیر", 
+    "description": "English: Because of the following filter"
+  }, 
+  "3pGroupAnnoyances": {
+    "message": "Annoyances", 
+    "description": "The header identifying the filter lists in the category 'annoyances'"
+  }, 
+  "statsPageName": {
+    "message": "uBlock₀ — لاگ درخواست های شبکه", 
+    "description": "Title for the logger window"
+  }, 
+  "loggerStaticFilteringSentence": {
+    "message": "{{action}} درخواست های شبکه از {{type}} {{br}} هر آدرس اینترنتی مطابقت داده می شود {{url}} {{br}}و هر چه شد{{origin}},{{br}}{{importance}} یک فیلتر تطبیق استثنا وجود دارد.", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "popupTipNoPopups": {
+    "message": "تغییر وضعیت انسداد همه ی پنجره های این سایت", 
+    "description": "Tooltip for the no-popups per-site switch"
+  }, 
+  "settingsCloudStorageEnabledPrompt": {
+    "message": "فعال سازی پشتیبانی ذخیره سازی ابری", 
+    "description": ""
+  }, 
+  "rulesFormatHint": {
+    "message": "نحوه استفاده: <code>source destination type action</code> (<a href='https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax'>مستندات کامل</a>).", 
+    "description": "English: dynamic rule syntax and full documentation."
+  }, 
+  "pickerContextMenuEntry": {
+    "message": "بلاک کردن این شیء", 
+    "description": "English: Block element"
+  }, 
+  "aboutWiki": {
+    "message": "ویکی", 
+    "description": "English: project' wiki on Github"
+  }, 
+  "settingsTooltipsPrompt": {
+    "message": "غیر فعال سازی راهنماها", 
+    "description": "A checkbox in the Settings pane"
+  }, 
+  "aboutRestoreDataConfirm": {
+    "message": "تمام تنظیمات با استفاده از پشتیبان گیری در {{time}}،  رونویسی شده و uBlock₀ مجدد راه اندازی میشود.\n\nتمام تنظیمات موجود با استفاده از داده های پشتیبانی رونویسی شود؟", 
+    "description": "Message asking user to confirm restore"
+  }, 
+  "whitelistExportFilename": {
+    "message": "my-ublock-whitelist_{{datetime}}.txt", 
+    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+  }, 
+  "cloudDeviceNamePrompt": {
+    "message": "نام این وسیله:", 
+    "description": "used as a prompt for the user to provide a custom device name"
+  }, 
+  "rulesExport": {
+    "message": "خروجی گرفتن به فایل...", 
+    "description": ""
+  }, 
+  "popupTipDashboard": {
+    "message": "باز کردن داشبورد", 
+    "description": "English: Click to open the dashboard"
+  }, 
+  "whitelistImport": {
+    "message": "وارد کردن و الحاق", 
+    "description": "English: Import and append"
+  }, 
+  "3pIgnoreGenericCosmeticFiltersInfo": {
+    "message": "<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by uBlock₀, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of uBlock₀ itself.<p>It is recommended to enable this option on less powerful devices.", 
+    "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
+  }, 
+  "loggerStaticFilteringSentencePartBlock": {
+    "message": "انسداد", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "genericBytes": {
+    "message": "بایت", 
+    "description": ""
+  }, 
+  "popup3pAnyRulePrompt": {
+    "message": "3rd-party", 
+    "description": ""
+  }, 
+  "1pFormatHint": {
+    "message": "یک فیلتر در هر خط. یک فیلتر می تواند آدرس هاست ساده یا فیلتر سازگار با Adblock plus باشد. خطوط با پیشوند &lsquo;!&rsquo; نادیده گرفته می شوند.", 
+    "description": "English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored."
+  }, 
+  "loggerStaticFilteringSentencePartType": {
+    "message": "نوع “{{type}}”", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "loggerStaticFilteringSentencePartImportant": {
+    "message": "حتی اگر", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "rulesRevert": {
+    "message": "بازگرداندن", 
+    "description": "This will remove all temporary rules"
+  }, 
+  "genericSubmit": {
+    "message": "ثبت", 
+    "description": "for generic 'Submit' buttons"
+  }, 
+  "popup3pScriptRulePrompt": {
+    "message": "اسکریپت های 3rd-party", 
+    "description": ""
+  }, 
+  "contextMenuTemporarilyAllowLargeMediaElements": {
+    "message": "اجازه موقت عناصر مدیای حجیم", 
+    "description": "A context menu entry, present when large media elements have been blocked on the current site"
+  }, 
+  "popupTipNoRemoteFonts": {
+    "message": "تغییر وضعیت انسداد فونت های از راه دور برای این سایت", 
+    "description": "Tooltip for the no-remote-fonts per-site switch"
+  }, 
+  "aboutResetDataConfirm": {
+    "message": "تمام تنظیمات شده حذف و uBlock دوباره راه اندازی خواهد شد.\n\nتنظیم مجدد uBlock به تنظیمات کارخانه؟", 
+    "description": "Message asking user to confirm reset"
+  }, 
+  "settingPerSiteSwitchGroup": {
+    "message": "رفتار پیش فرض", 
+    "description": ""
+  }, 
+  "rulesPermanentHeader": {
+    "message": "قوانین دائمی", 
+    "description": "header"
+  }, 
+  "extShortDesc": {
+    "message": "بالاخره، یک بلاکر کارآمد. کم حجم بر روی پردازنده و حافظه.", 
+    "description": "this will be in the chrome web store: must be 132 characters or less"
+  }, 
+  "docblockedDisableTemporary": {
+    "message": "موقتا", 
+    "description": "English: Temporarily"
+  }, 
+  "popupHitDomainCount": {
+    "message": "تعداد {{count}} از {{total}} تا", 
+    "description": "appears in popup"
+  }, 
+  "popupBlockedRequestPrompt": {
+    "message": "درخواست مسدود شده", 
+    "description": "English: requests blocked"
+  }, 
+  "3pListsOfBlockedHostsPrompt": {
+    "message": "{{netFilterCount}} فیلتر های شبکه ＋ {{cosmeticFilterCount}} فرم های فیلتر انتخابی:", 
+    "description": "Appears at the top of the _3rd-party filters_ pane"
+  }, 
+  "aboutChangelog": {
+    "message": "تغییرات اخیر", 
+    "description": "English: Change log"
+  }, 
+  "logAll": {
+    "message": "همه", 
+    "description": "Appears in the logger's tab selector"
+  }, 
+  "rulesPageName": {
+    "message": "قوانین من", 
+    "description": "appears as tab name in dashboard"
+  }, 
+  "rulesCommit": {
+    "message": "ذخیره در منبع", 
+    "description": "This will persist temporary rules"
+  }, 
+  "whitelistPrompt": {
+    "message": "لیست شما از هاست هایی که uBlock₀ در آنها غیرفعال خواهد شد. یک ورودی در هر خط. هاست های نامعتبر بدون اشاره ای نادیده گرفته می شوند.", 
+    "description": "English: An overview of the content of the dashboard's Whitelist pane."
+  }, 
+  "3pParseAllABPHideFiltersInfo": {
+    "message": "<p>این گزینه <a href=\"https://adblockplus.org/en/faq_internal#elemhide\">Adblock Plus-compatible &ldquo;element hiding&rdquo; filters</a> را  تجزیه و اجرا میکند. این فیلتر ها اساساً فنی هستند،  آنها اشیاء موجود در صفحه وب را که مزاحم تلقی میشوند و با موتور فیلترینگ شبکه قابل بلاک کردن نیستند را حذف میکنند.</p><p>فعال کردن این قابلیت مصرف حافظه ی  <i>uBlock</i>را افزایش میدهد.</p>", 
+    "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
+  }, 
+  "logRequestsHeaderType": {
+    "message": "نوع", 
+    "description": "English: Type"
+  }, 
+  "settingsNoLargeMediaPrompt": {
+    "message": "انسداد عناصر مدیایی حجیم تر از {{input:number}} کیلوبایت", 
+    "description": ""
+  }, 
+  "whitelistExport": {
+    "message": "خروجي گرفتن", 
+    "description": "English: Export"
+  }, 
+  "aboutBackupFilename": {
+    "message": "my-ublock-backup_{{datetime}}.txt", 
+    "description": "English: my-ublock-backup_{{datetime}}.txt"
+  }, 
+  "3pLastUpdate": {
+    "message": "آخرین به روز رسانی: {{ago}}", 
+    "description": "used as a tooltip for the clock icon beside a list"
+  }, 
+  "popupTipLocalRules": {
+    "message": "قوانین محلی: این ستون برای قوانینی است که تنها در این وب‌گاه اعمال می شود.\nقوانین محلی بر قوانین سراسری برتری دارد.", 
+    "description": "Tooltip when hovering the top-most cell of the local-rules column."
+  }, 
+  "3pAutoUpdatePrompt1": {
+    "message": "بروز رسانی خودکار لیست فیلتر.", 
+    "description": "A checkbox in the _3rd-party filters_ pane"
+  }, 
+  "aboutCode": {
+    "message": "سورس کد  (GPLv3)", 
+    "description": "English: Source code (GPLv3)"
+  }, 
+  "rulesHint": {
+    "message": "لیست قوانین فیلترینگ پویای شما.", 
+    "description": "English: List of your dynamic filtering rules."
+  }, 
+  "3pPurgeAll": {
+    "message": "پاکسازی تمام انبارها", 
+    "description": "A button in the in the _3rd-party filters_ pane"
+  }, 
+  "popupBlockedStats": {
+    "message": "{{count}} یا {{percent}}%", 
+    "description": "Example: 15 or 13%"
+  }, 
+  "docblockedNoParamsPrompt": {
+    "message": "بدون پارامترها", 
+    "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png"
+  }, 
+  "pickerNetFilters": {
+    "message": "فیلترهای شبکه", 
+    "description": "English: header for a type of filter in the element picker dialog"
+  }, 
+  "settingsPrefetchingDisabledPrompt": {
+    "message": "غیر فعال کردن واکشی اولیه (برای جلوگیری از هر گونه اتصال برای درخواست های شبکه مسدود شده)", 
+    "description": "English: "
+  }, 
+  "elapsedManyDaysAgo": {
+    "message": "{{value}} روز قبل", 
+    "description": "English: {{value}} days ago"
+  }, 
+  "cloudPullAndMerge": {
+    "message": "ورود از فضای ذخیره سازی ابری و ادغام با تنظیمات فعلی", 
+    "description": "tooltip"
+  }, 
+  "3pGroupPrivacy": {
+    "message": "حریم خصوصی", 
+    "description": "English: Privacy"
+  }, 
+  "elapsedManyHoursAgo": {
+    "message": "{{value}} ساعت قبل", 
+    "description": "English: {{value}} hours ago"
+  }, 
+  "3pGroupRegions": {
+    "message": "مناطق، زبانها", 
+    "description": "English: Regions, languages"
+  }, 
+  "popupAnyRulePrompt": {
+    "message": "همه", 
+    "description": ""
+  }, 
+  "loggerStaticFilteringHeader": {
+    "message": "فیلترینگ ایستا", 
+    "description": "Small header to identify the static filtering section"
+  }, 
+  "docblockedFoundIn": {
+    "message": "یافته شده در:", 
+    "description": "English: List of filter list names follows"
+  }, 
+  "rulesDefaultFileName": {
+    "message": "my-ublock-dynamic-rules_{{datetime}}.txt", 
+    "description": "default file name to use"
+  }, 
+  "genericRevert": {
+    "message": "بازگشت", 
+    "description": "for generic 'Revert' buttons"
+  }, 
+  "whitelistApply": {
+    "message": "اعمال تغییرات", 
+    "description": "English: Apply changes"
+  }, 
+  "elapsedOneDayAgo": {
+    "message": "دیروز", 
+    "description": "English: a day ago"
+  }, 
+  "popupTipRevertRules": {
+    "message": "برای برگشت تغییرات کلیک کنید.", 
+    "description": "Tooltip when hovering over the eraser in the dynamic filtering pane."
+  }, 
+  "loggerURLFilteringHeader": {
+    "message": "فیلترینگ آدرس اینترنتی پویا", 
+    "description": "Small header to identify the dynamic URL filtering section"
+  }, 
+  "docblockedClose": {
+    "message": "بستن این پنجره", 
+    "description": "English: Close this window"
+  }, 
+  "3pGroupAds": {
+    "message": "تبلیغات", 
+    "description": "English: Ads"
+  }, 
+  "docblockedProceed": {
+    "message": "غیر فعال کردن بلاک برای  {{hostname}}", 
+    "description": "English: Disable strict blocking for {{hostname}} ..."
+  }, 
+  "loggerURLFilteringTypeLabel": {
+    "message": "نوع:", 
+    "description": "Label for the type selector"
+  }, 
+  "settingsContextMenuPrompt": {
+    "message": "استفاده از منوی متنی در زمانهای لازم", 
+    "description": "English: Make use of context menu where appropriate"
+  }, 
+  "popupTipNoLargeMedia": {
+    "message": "تغییر وضعیت انسداد عناصر مدیای حجیم برای این سایت", 
+    "description": "Tooltip for the no-large-media per-site switch"
+  }, 
+  "elapsedManyMinutesAgo": {
+    "message": "{{value}} دقیقه پیش", 
+    "description": "English: {{value}} minutes ago"
+  }, 
+  "settingsStorageUsed": {
+    "message": "فضای مصرفی: {{value}} بایت", 
+    "description": "English: Storage used: {{}} bytes"
+  }, 
+  "popupInlineScriptRulePrompt": {
+    "message": "اسکریپت های درون خطی", 
+    "description": ""
+  }, 
+  "errorCantConnectTo": {
+    "message": "قادر به اتصال به {{url}}", 
+    "description": "English: Network error: {{msg}}"
+  }, 
+  "popupBlockedSinceInstallPrompt": {
+    "message": "از زمان نصب", 
+    "description": "English: since install"
+  }, 
+  "3pExternalListsHint": {
+    "message": "هر آدرس در یک خط. خطوطی با پیشوند &lsquo;!&rsquo; در نظر گرفته نمیشوند. آدرس های نامعتبر نیز در سکوت نادیده گرفته میشوند.", 
+    "description": "English: One URL per line. Lines prefixed with &lsquo;!&rsquo; will be ignored. Invalid URLs will be silently ignored."
+  }, 
+  "advancedSettingsWarning": {
+    "message": "هشدار! این تنظیمات پیشرفته را با مسئولیت خود تغییر دهید.", 
+    "description": "A warning to users at the top of 'Advanced settings' page"
+  }, 
+  "popupTipPicker": {
+    "message": "ورود به حالت انتخاب اشیاء", 
+    "description": "English: Enter element picker mode"
+  }, 
+  "popup3pPassiveRulePrompt": {
+    "message": "تصاویر/css سایت های ثالث", 
+    "description": ""
+  }, 
+  "loggerStaticFilteringSentencePartOrigin": {
+    "message": "از “{{origin}}”", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "settingsNoRemoteFontsPrompt": {
+    "message": "انسداد فونت های از راه دور", 
+    "description": ""
+  }, 
+  "settingsNoCosmeticFilteringPrompt": {
+    "message": "غیر فعال‌سازی انسداد تزیینی", 
+    "description": ""
+  }, 
+  "popup1pScriptRulePrompt": {
+    "message": "اسکریپت های 1st-party", 
+    "description": ""
+  }, 
+  "rulesTemporaryHeader": {
+    "message": "قوانین موقت", 
+    "description": "header"
+  }, 
+  "cloudPull": {
+    "message": "ورود از فضای ذخیره سازی ابری", 
+    "description": "tooltip"
+  }, 
+  "settingPerSiteSwitchGroupSynopsis": {
+    "message": "این رفتارهای پیش فرض بسته به هر وب‌گاهیی می تواند باطل شود", 
+    "description": ""
+  }, 
+  "3pUpdateNow": {
+    "message": "اکنون به روز رسانی شود", 
+    "description": "A button in the in the _3rd-party filters_ pane"
+  }, 
+  "logBehindTheScene": {
+    "message": "پشت صحنه", 
+    "description": "Pretty name for behind-the-scene network requests"
+  }, 
+  "dummy": {
+    "message": "این باید آخرین مطلب باشد", 
+    "description": "so we dont need to deal with comma for last entry"
+  }, 
+  "elapsedOneHourAgo": {
+    "message": "یک ساعت پیش", 
+    "description": "English: an hour ago"
+  }, 
+  "popupHitDomainCountPrompt": {
+    "message": "دامنه های دست خورده", 
+    "description": "appears in popup"
+  }, 
+  "3pGroupCustom": {
+    "message": "سفارشی", 
+    "description": "English: Custom"
+  }, 
+  "popupTipZapper": {
+    "message": "ورود به حالت انتخاب اشیاء", 
+    "description": "Tooltip for the element-zapper icon in the popup panel"
+  }, 
+  "aboutBackupDataButton": {
+    "message": "پشتیبان گیری در فایل", 
+    "description": "Text for button to create a backup of all settings"
+  }, 
+  "loggerURLFilteringContextLabel": {
+    "message": "زمینه:", 
+    "description": "Label for the context selector"
+  }, 
+  "loggerStaticFilteringSentencePartAnyOrigin": {
+    "message": "از هر جایی", 
+    "description": "Used in the static filtering wizard"
+  }, 
+  "genericApplyChanges": {
+    "message": "اعمال تغییرات", 
+    "description": "for generic 'Apply changes' buttons"
+  }, 
+  "popup3pFrameRulePrompt": {
+    "message": "فریم های 3rd-party", 
+    "description": ""
+  }, 
+  "aboutPageName": {
+    "message": "در باره", 
+    "description": "appears as tab name in dashboard"
+  }, 
+  "popupTipLog": {
+    "message": "رفتن به لاگ درخواست", 
+    "description": "Tooltip used for the logger icon in the panel"
+  }
+}

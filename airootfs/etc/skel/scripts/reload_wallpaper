@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#reload picture
+
+feh --bg-scale /etc/portergos/portergos_pics/wallpaper_portergos.png &

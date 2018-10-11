@@ -1,0 +1,95 @@
+{
+  "options_generalSettings": {
+    "message": "הגדרות כלליות"
+  }, 
+  "menu_blockUnencryptedRequests": {
+    "message": "חסום את כל הבקשות הבלתי מוצפנות"
+  }, 
+  "chrome_add_new_rule": {
+    "message": "הוסף כלל חדש עבור אתר זה"
+  }, 
+  "about_version": {
+    "message": "גרסה"
+  }, 
+  "chrome_hide_advanced": {
+    "message": "הסתר מתקדם"
+  }, 
+  "chrome_stable_rules": {
+    "message": "כללים יציבים"
+  }, 
+  "chrome_stable_rules_description": {
+    "message": "אלץ חיבורים מוצפנים אל אתרים אלו:"
+  }, 
+  "options_imported": {
+    "message": "ההגדרות שלך יובאו."
+  }, 
+  "chrome_host": {
+    "message": "מארח:"
+  }, 
+  "menu_globalEnable": {
+    "message": "אפשר את HTTPS Everywhere"
+  }, 
+  "chrome_regex": {
+    "message": "regex תואם"
+  }, 
+  "about_add_new_rule": {
+    "message": "הוסף כלל חדש"
+  }, 
+  "menu_viewAllRules": {
+    "message": "הצג את כל הכללים"
+  }, 
+  "about_ext_description": {
+    "message": "הצפן את הרשת! השתמש באבטחת HTTPS באופן אוטומטי באתרים רבים."
+  }, 
+  "about_title": {
+    "message": "אודות HTTPS Everywhere"
+  }, 
+  "options_importSettings": {
+    "message": "ייבא הגדרות"
+  }, 
+  "options_import": {
+    "message": "ייבא"
+  }, 
+  "chrome_redirect_to": {
+    "message": "הפנה אל"
+  }, 
+  "chrome_status_cancel_button": {
+    "message": "ביטול"
+  }, 
+  "about_ext_name": {
+    "message": "HTTPS Everywhere"
+  }, 
+  "menu_observatory": {
+    "message": "העדפות מיצפה SSL"
+  }, 
+  "prefs_reset_defaults": {
+    "message": "אפס לברירות מחדל"
+  }, 
+  "chrome_add_rule": {
+    "message": "הוסף כלל עבור אתר זה"
+  }, 
+  "menu_showCounter": {
+    "message": "הראה מונה"
+  }, 
+  "chrome_show_advanced": {
+    "message": "הראה מתקדם"
+  }, 
+  "chrome_always_https_for_host": {
+    "message": "השתמש תמיד ב-https עבור מארח זה"
+  }, 
+  "menu_donate_eff_imperative": {
+    "message": "תרום אל EFF"
+  }, 
+  "chrome_experimental_rules": {
+    "message": "כללים ניסיוניים"
+  }, 
+  "prefs_export_settings": {
+    "message": "ייצא הגדרות"
+  }, 
+  "chrome_rule_name": {
+    "message": "שם כלל"
+  }, 
+  "chrome_experimental_rules_description": {
+    "message": "עשוי לגרום לאזהרות או לשבירה. מושבת כברירת מחדל."
+  }
+}

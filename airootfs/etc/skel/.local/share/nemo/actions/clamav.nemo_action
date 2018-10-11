@@ -1,0 +1,11 @@
+[Nemo Action]
+Name=Clam Scan
+Comment=Clam Scan
+# execute clamscan at the current folder
+Exec=tilix -e "clamscan -r -i -v . > /home/$USER/ClamAV_log_home_`date "+%d_%m_%Y_%H:%M"`.txt"
+
+Icon-Name=Clam Scan
+
+Selection=Any
+
+Extensions=dir;exe;dll;zip;gz;7z;rar;

@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Add"
+   },
+   "auto_cinema_mode": {
+      "message": "Аутоматски омогући режим биоскопа."
+   },
+   "auto_enable_filters": {
+      "message": "Automatically enable filters."
+   },
+   "auto_enlarge_player": {
+      "message": "Аутоматски повећај видео плејер."
+   },
+   "auto_execute_script": {
+      "message": "Аутоматски изврши скрипту када се YouTube™ учита у картици."
+   },
+   "auto_expand_description": {
+      "message": "Automatically expand the videos descriptions."
+   },
+   "auto_pause_videos": {
+      "message": "Automatically pause videos opened in background tabs."
+   },
+   "auto_remove_ads": {
+      "message": "Аутоматски уклони рекламе са видеа."
+   },
+   "auto_remove_annotations": {
+      "message": "Automatically remove annotations."
+   },
+   "auto_select_quality": {
+      "message": "Аутоматски репродукуј видео у мом жељеном квалитету."
+   },
+   "auto_sort_comments": {
+      "message": "Automatically sort comments from newest to oldest."
+   },
+   "border": {
+      "message": "Ивица:"
+   },
+   "brightness": {
+      "message": "Brightness:"
+   },
+   "buttons": {
+      "message": "Дугмад"
+   },
+   "buttons_label": {
+      "message": "Дугмићи:"
+   },
+   "cinema_mode": {
+      "message": "Режим биоскопа"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Аутоматски повећај видео плејер када је режим биоскопа омогућен."
+   },
+   "clean_button_instructions": {
+      "message": "Info: Make a right click on this button to show/hide annotations."
+   },
+   "color": {
+      "message": "Боја:"
+   },
+   "color_inversion": {
+      "message": "Color inversion:"
+   },
+   "colors": {
+      "message": "Боје"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Info: Type opera://settings/configureCommands in the address bar to configure keyboard shortcuts."
+   },
+   "contrast": {
+      "message": "Contrast:"
+   },
+   "control_volume": {
+      "message": "Контролиши јачину звука точкићем миша када се курсор миша налази преко видео плејера."
+   },
+   "custom_script": {
+      "message": "Прилагођена скрипта"
+   },
+   "custom_script_instructions": {
+      "message": "Налепите или укуцајте овде ваш JavaScript код, сачувајте га помоћу дугмета испод, а затим кликните на дугме \"Прилагођена скрипта\" на траци алата када желите да је извршите."
+   },
+   "custom_script_warning": {
+      "message": "Warning: For security reasons you should only use code that you understand or code that has been written by a developer you trust."
+   },
+   "custom_theme": {
+      "message": "Custom theme"
+   },
+   "custom_theme_instructions": {
+      "message": "Paste or type your CSS code here, then save it using the button below."
+   },
+   "default_playback_speed": {
+      "message": "Default playback speed:"
+   },
+   "default_volume_level": {
+      "message": "Default volume level:"
+   },
+   "description": {
+      "message": "Tons of features to improve your user experience on YouTube™."
+   },
+   "disable_preloading": {
+      "message": "Disable preloading when videos are automatically paused."
+   },
+   "donate": {
+      "message": "Донирај"
+   },
+   "filters": {
+      "message": "Филтери"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Make a right click on this button to modify filters. You can also enable/disable filters if you maintain the \"Control\" key (Ctrl) and the \"Shift\" key pressed when you click the video player."
+   },
+   "fourth_choice": {
+      "message": "Четврти избор:"
+   },
+   "gaussian_blur": {
+      "message": "Gaussian blur:"
+   },
+   "grayscale": {
+      "message": "Grayscale:"
+   },
+   "html5_player_only": {
+      "message": "(само HTML5 плејер)"
+   },
+   "hue_rotation": {
+      "message": "Hue rotation:"
+   },
+   "ignore_playlists": {
+      "message": "Do not pause videos in playlists."
+   },
+   "keyboard_shortcuts": {
+      "message": "Keyboard shortcuts"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "locale_code": {
+      "message": "sr"
+   },
+   "loop_video": {
+      "message": "Понављај видео"
+   },
+   "miscellaneous": {
+      "message": "Miscellaneous"
+   },
+   "not_now": {
+      "message": "Не сада"
+   },
+   "opacity": {
+      "message": "Непрозирност:"
+   },
+   "options": {
+      "message": "Опције"
+   },
+   "override_playback_speeds": {
+      "message": "Override default playback speeds."
+   },
+   "pause_foreground_tab": {
+      "message": "Pause videos opened in the foreground tab too."
+   },
+   "pause_videos": {
+      "message": "Pause videos playing in background tabs when a video starts playing in the foreground tab."
+   },
+   "pin_video_player": {
+      "message": "Pin the video player at the bottom of the screen when scrolling down the page."
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Pinned video player size:"
+   },
+   "preferred_quality": {
+      "message": "Жељени квалитет:"
+   },
+   "preview": {
+      "message": "Преглед"
+   },
+   "rate": {
+      "message": "Оцени"
+   },
+   "rate_message": {
+      "message": "Ако Вам се свиђа Enhancer for YouTube™ и желите да га подржите, молимо Вас да га оцените са 5 звездица. Писање рецензије је препоручљиво, али не обавезно, тако да не морате да је напишете ако немате времена. Уколико желите да останете анонимни, можете да је оцените и анонимно. Битно нам је само да дате ★★★★★. Хвала!"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "remove_ads": {
+      "message": "Уклони рекламе"
+   },
+   "reset_filters": {
+      "message": "Reset filters"
+   },
+   "resize_player": {
+      "message": "Промени величину плејера"
+   },
+   "restore_default_colors": {
+      "message": "Врати подразумеване боје"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "saturation": {
+      "message": "Saturation:"
+   },
+   "save": {
+      "message": "Сачувај"
+   },
+   "second_choice": {
+      "message": "Други избор:"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "share": {
+      "message": "Подели"
+   },
+   "share_message": {
+      "message": "Реците својим пријатељима о Enhancer for YouTube™. Хвала!"
+   },
+   "share_on_facebook": {
+      "message": "Подели на Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Подели на Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Подели на Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Подели на Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Подели на Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Show/hide annotations"
+   },
+   "slide_effect": {
+      "message": "Ефекат клизања горе/доле"
+   },
+   "speed": {
+      "message": "Брзина репродуковања"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Use the mouse wheel to control playback speed when hovering this button with the mouse cursor. Click it to use the default playback speed. You can also use the mouse wheel to control playback speed when hovering the video player, and click it to use the default playback speed, if you maintain the \"Control\" key (Ctrl) pressed."
+   },
+   "speed_variation": {
+      "message": "Speed variation when the mouse wheel rotates:"
+   },
+   "support": {
+      "message": "Подршка"
+   },
+   "support_request_instructions": {
+      "message": "Provide these infos when requesting support or reporting an issue."
+   },
+   "theme": {
+      "message": "Тема"
+   },
+   "theme_by_default": {
+      "message": "Theme by default"
+   },
+   "third_choice": {
+      "message": "Трећи избор:"
+   },
+   "toolbar": {
+      "message": "Трака алата"
+   },
+   "toolbar_label": {
+      "message": "Трака алата:"
+   },
+   "tooltips": {
+      "message": "Описи алатки"
+   },
+   "translate": {
+      "message": "Преведи"
+   },
+   "transparency": {
+      "message": "Провидност:"
+   },
+   "video_player": {
+      "message": "Видео плејер"
+   },
+   "volume_variation": {
+      "message": "Volume variation when the mouse wheel rotates:"
+   },
+   "whitelisted_channels": {
+      "message": "Whitelisted channels:"
+   }
+}

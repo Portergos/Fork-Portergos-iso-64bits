@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Portergos Utility
+Comment=Central of utilities with some useful tools
+Exec=bash -c "~/scripts/portergos_utility"
+Icon=/etc/portergos/portergos_pics/portergos_icon.png
+Path=
+Terminal=false
+StartupNotify=false

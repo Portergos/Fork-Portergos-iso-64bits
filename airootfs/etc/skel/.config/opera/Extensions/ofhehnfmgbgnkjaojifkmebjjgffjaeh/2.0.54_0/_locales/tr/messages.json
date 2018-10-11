@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Ekle"
+   },
+   "auto_cinema_mode": {
+      "message": "Sinema modunu otomatik olarak aç."
+   },
+   "auto_enable_filters": {
+      "message": "Filtreleri otomatik aç."
+   },
+   "auto_enlarge_player": {
+      "message": "Otomatik olarak oynatıcıyı boyutlandır."
+   },
+   "auto_execute_script": {
+      "message": "YouTube™ açılınca scripti otomatik olarak çalıştır."
+   },
+   "auto_expand_description": {
+      "message": "Video açıklamalarını otomatik genişlet."
+   },
+   "auto_pause_videos": {
+      "message": "Arka planda açılan sekmelerdeki videoları otomatik duraklat."
+   },
+   "auto_remove_ads": {
+      "message": "Reklamlar otomatik olarak algılandığında reklamları kaldır."
+   },
+   "auto_remove_annotations": {
+      "message": "Ek açıklamaları otomatik kapat."
+   },
+   "auto_select_quality": {
+      "message": "Videoları tercih ettiğim kalitede oynat."
+   },
+   "auto_sort_comments": {
+      "message": "Yorumları otomatik yeniden eskiye sırala."
+   },
+   "border": {
+      "message": "Çerçeve:"
+   },
+   "brightness": {
+      "message": "Parlaklık:"
+   },
+   "buttons": {
+      "message": "Düğmeler"
+   },
+   "buttons_label": {
+      "message": "Düğmeler:"
+   },
+   "cinema_mode": {
+      "message": "Sinema modu"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Sinema modu aktifleştirildiğinde otomatik olarak video oynatıcısını genişlet."
+   },
+   "clean_button_instructions": {
+      "message": "Bilgi: Bu düğme üzerinde iken sağ tıkladığınızda ek açıklamalar açılır/kapanır."
+   },
+   "color": {
+      "message": "Renk:"
+   },
+   "color_inversion": {
+      "message": "Renkleri Ters Çevir:"
+   },
+   "colors": {
+      "message": "Renkler"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Bilgi: Klavye kısa yollarını düzenlemek için adres çubuğuna opera://settings/configureCommands yazın."
+   },
+   "contrast": {
+      "message": "Kontrast:"
+   },
+   "control_volume": {
+      "message": "Fare imleci oynatıcının üzerindeyken fare tekerleği ile sesi kontrol et."
+   },
+   "custom_script": {
+      "message": "Özel Kod"
+   },
+   "custom_script_instructions": {
+      "message": "JavaScript kodunuzu buraya yapıştırın, kaydetmek için aşağıdaki butonu kullanın, sonra ise kodun ne zaman çalışmasını istiyorsanız araç kutusundan \"Özel Kod\" butonuna tıklayın."
+   },
+   "custom_script_warning": {
+      "message": "Uyarı: Güvenlik nedeniyle, yalnızca güvendiğiniz bir kodun çalışmasına izin verin. Tanımadığınız kod yazarların kodlarına güvenmemeniz gerektiğini unutmayın."
+   },
+   "custom_theme": {
+      "message": "Özel Temanız"
+   },
+   "custom_theme_instructions": {
+      "message": "CSS kodunuzu buraya yapıştırın veya yazın ve aşağıdaki Kaydet düğmesine tıklayın."
+   },
+   "default_playback_speed": {
+      "message": "Varsayılan oynatma hızı:"
+   },
+   "default_volume_level": {
+      "message": "Varsayılan ses seviyesi:"
+   },
+   "description": {
+      "message": "YouTube™ deneyiminizi arttırmak için tonlarca özellik."
+   },
+   "disable_preloading": {
+      "message": "Otomatik duraklatma açık iken video ön yüklemesini devre dışı bırak."
+   },
+   "donate": {
+      "message": "Bağışta Bulun"
+   },
+   "filters": {
+      "message": "Filtreler"
+   },
+   "filters_button_instructions": {
+      "message": "Bilgi: Filtreleri düzenlemek için bu düğmeye sağ tıklayın. Video oynatıcı üzerinde filtreleri açıp kapatmak için \"Control\" tuşları olan (Ctrl) ve \"Shift\" tuşları basılı olmalıdır."
+   },
+   "fourth_choice": {
+      "message": "Dördüncü tercih:"
+   },
+   "gaussian_blur": {
+      "message": "Gaussian Bulanıklığı:"
+   },
+   "grayscale": {
+      "message": "Gri Tonlama:"
+   },
+   "html5_player_only": {
+      "message": "(Sadece HTML5 oynatıcı)"
+   },
+   "hue_rotation": {
+      "message": "Ton Dönüşümü:"
+   },
+   "ignore_playlists": {
+      "message": "Çalma listelerindeki videoları otomatik duraklatma."
+   },
+   "keyboard_shortcuts": {
+      "message": "Klavye Kısayolları"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "locale_code": {
+      "message": "tr"
+   },
+   "loop_video": {
+      "message": "Video döngüsü"
+   },
+   "miscellaneous": {
+      "message": "Çeşitli"
+   },
+   "not_now": {
+      "message": "Şimdi Değil"
+   },
+   "opacity": {
+      "message": "Opaklık:"
+   },
+   "options": {
+      "message": "Seçenekler"
+   },
+   "override_playback_speeds": {
+      "message": "Varsayılan oynatma hızlarının üzerine bin."
+   },
+   "pause_foreground_tab": {
+      "message": "Ön planda açılan sekmelerdeki videoları da duraklat."
+   },
+   "pause_videos": {
+      "message": "Önde görünen sekmede video oynatılıyorsa, arkadaki sekmelerdeki videoları duraklat."
+   },
+   "pin_video_player": {
+      "message": "Sayfayı aşağı sürüklerken videoyu sayfa altına sabitle."
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Sabitlenmiş video oynatıcı boyutu:"
+   },
+   "preferred_quality": {
+      "message": "Tercih edilen kalite:"
+   },
+   "preview": {
+      "message": "Önizleme"
+   },
+   "rate": {
+      "message": "Oyla"
+   },
+   "rate_message": {
+      "message": "Enhancer for YouTube™ eklentisini beğendiyseniz ve geliştirilmesine katkıda bulunmak istiyorsanız lütfen 5 yıldız ile oylayın. Bir yorum yazmanızı da tavsiye ederiz ama gerekli değil. Bir yorum yazacak kadar vaktiniz olmayabilir veya gizli kalmak da isteyebilirsiniz, bu sorun değil. Yine de gizli olarak oy verebilirsiniz, ★★★★★ verdiğiniz sürece sorun yok. Teşekkür ederiz!"
+   },
+   "remove": {
+      "message": "Çıkar"
+   },
+   "remove_ads": {
+      "message": "Reklamları kaldır"
+   },
+   "reset_filters": {
+      "message": "Filtreleri Sıfırla"
+   },
+   "resize_player": {
+      "message": "Oynatıcıyı boyutlandır"
+   },
+   "restore_default_colors": {
+      "message": "Varsayılan renklere dön"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "saturation": {
+      "message": "Doygunluk:"
+   },
+   "save": {
+      "message": "Kaydet"
+   },
+   "second_choice": {
+      "message": "İkinci tercih:"
+   },
+   "sepia": {
+      "message": "Sepya:"
+   },
+   "share": {
+      "message": "Paylaş"
+   },
+   "share_message": {
+      "message": "Enhancer for YouTube™ hakkında takipçilere ve arkadaşlarınıza bir şeyler söyleyin. Teşekkür ederiz!"
+   },
+   "share_on_facebook": {
+      "message": "Facebook'da paylaş"
+   },
+   "share_on_google_plus": {
+      "message": "Google+'da paylaş"
+   },
+   "share_on_pinterest": {
+      "message": "Pinterest'te paylaş"
+   },
+   "share_on_reddit": {
+      "message": "Reddit'te paylaş"
+   },
+   "share_on_twitter": {
+      "message": "Twitter'da paylaş"
+   },
+   "show_hide_annotations": {
+      "message": "Ek Açıklamaları Aç/Kapat"
+   },
+   "slide_effect": {
+      "message": "Yukarı/aşağı kaydırma efekti"
+   },
+   "speed": {
+      "message": "Hız"
+   },
+   "speed_button_instructions": {
+      "message": "Bilgi: Fareniz bu butonun üzerinde iken fare tekerleğini kullanarak oynatma hızını değiştirebilirsiniz. Varsayılan oynatma hızına dönmek için tıklayın. Video üzerinde iken de oynatma hızını değiştirebilirsiniz ve varsayılana dönmek için de tıklamanız yeterli. Bunun için  \"Control\" tuşu olan (Ctrl) basılı olmalıdır."
+   },
+   "speed_variation": {
+      "message": "Fare tekerleği oynatıldığında hız ne kadar değişsin:"
+   },
+   "support": {
+      "message": "Destek"
+   },
+   "support_request_instructions": {
+      "message": "Yardım isterken veya bir sorun bildirirken buradaki bilgileri de paylaşın."
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "theme_by_default": {
+      "message": "Varsayılan Tema"
+   },
+   "third_choice": {
+      "message": "Üçüncü tercih:"
+   },
+   "toolbar": {
+      "message": "Araç çubuğu"
+   },
+   "toolbar_label": {
+      "message": "Araç çubuğu:"
+   },
+   "tooltips": {
+      "message": "İpuçları"
+   },
+   "translate": {
+      "message": "Çeviri"
+   },
+   "transparency": {
+      "message": "Opaklık:"
+   },
+   "video_player": {
+      "message": "Video oynatıcısı"
+   },
+   "volume_variation": {
+      "message": "Fare tekerleği oynatıldığında ses ne kadar değişsin:"
+   },
+   "whitelisted_channels": {
+      "message": "Beyaz Listedeki Kanallar:"
+   }
+}

@@ -1,0 +1,95 @@
+{
+   "about_add_new_rule": {
+      "message": "اضافة قانون جديد"
+   },
+   "about_ext_description": {
+      "message": "شفر شبكة الإنترنت! استخدم تلقائيا تقنية HTTPS للأمان مع الكثير من المواقع."
+   },
+   "about_ext_name": {
+      "message": "HTTPS Everywhere"
+   },
+   "about_title": {
+      "message": "عن HTTPS Everywhere"
+   },
+   "about_version": {
+      "message": "النسخة"
+   },
+   "chrome_add_new_rule": {
+      "message": "اضف استثناء جديد لهذا الموقع"
+   },
+   "chrome_add_rule": {
+      "message": "اضف استثناء لهذا الموقع"
+   },
+   "chrome_always_https_for_host": {
+      "message": "استخدم HTTPS دائما لهذا المضيف"
+   },
+   "chrome_experimental_rules": {
+      "message": "قوانين تجريبية"
+   },
+   "chrome_experimental_rules_description": {
+      "message": "قد يسبب تحذيرات او اخطاء. الوضع الافتراضي معطل."
+   },
+   "chrome_hide_advanced": {
+      "message": "اخفاء الاعدادات المتقدمه"
+   },
+   "chrome_host": {
+      "message": "المضيف"
+   },
+   "chrome_redirect_to": {
+      "message": "اعادة التوجيه لـ"
+   },
+   "chrome_regex": {
+      "message": "مطابقة regex"
+   },
+   "chrome_rule_name": {
+      "message": "اسم الشرط"
+   },
+   "chrome_show_advanced": {
+      "message": "اظهار الاعدادت المتقدمه"
+   },
+   "chrome_stable_rules": {
+      "message": "قوانين متوازنة."
+   },
+   "chrome_stable_rules_description": {
+      "message": "اجبار المواقع التالية بالقيام باتصالات مشفرة:"
+   },
+   "chrome_status_cancel_button": {
+      "message": "إلغاء"
+   },
+   "menu_blockUnencryptedRequests": {
+      "message": "منع جميع الطلبات الغير مشفرة"
+   },
+   "menu_donate_eff_imperative": {
+      "message": "تبرع لإي إف إف "
+   },
+   "menu_globalEnable": {
+      "message": "فعّل HTTPS Everywhere"
+   },
+   "menu_observatory": {
+      "message": "خيارات مرصد SSL"
+   },
+   "menu_showCounter": {
+      "message": "أظهر العداد"
+   },
+   "menu_viewAllRules": {
+      "message": "عرض جميع القواعد"
+   },
+   "options_generalSettings": {
+      "message": "الإعدادات العامّة"
+   },
+   "options_import": {
+      "message": "إستيراد"
+   },
+   "options_importSettings": {
+      "message": "استيراد اﻹعدادات"
+   },
+   "options_imported": {
+      "message": "تم إستيراد الاعدادت الخاصة بك"
+   },
+   "prefs_export_settings": {
+      "message": "تصدير اﻹعدادات"
+   },
+   "prefs_reset_defaults": {
+      "message": "استعادة الإعدادات الافتراضية"
+   }
+}

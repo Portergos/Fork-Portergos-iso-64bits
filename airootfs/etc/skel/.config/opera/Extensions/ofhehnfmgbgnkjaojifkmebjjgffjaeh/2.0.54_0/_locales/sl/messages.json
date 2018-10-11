@@ -1,0 +1,287 @@
+{
+  "gaussian_blur": {
+    "message": "Gaussova zameglitev:"
+  }, 
+  "colors": {
+    "message": "Barve"
+  }, 
+  "share_on_reddit": {
+    "message": "Deli na Redditu"
+  }, 
+  "filters": {
+    "message": "Filtri"
+  }, 
+  "speed": {
+    "message": "Hitrost"
+  }, 
+  "rate_message": {
+    "message": "Če vam je Enhancer for YouTube™ všeč in želite, da se ohrani in izboljša, prosimo ocenite ga s petimi zvezdicami. Pisanje kratke vsebine je priporočljivo, vendar ni obvezno. Zato, če nimate časa za njuno pisanje ali, če želite ostati anonimni na spletu, to ni težava. lahko ga annimno ocenite. Pomembno je, da mu date ★★★★★. Hvala vam!"
+  }, 
+  "buttons": {
+    "message": "Gumbi"
+  }, 
+  "theme": {
+    "message": "Tema"
+  }, 
+  "show_hide_annotations": {
+    "message": "Prikaži/skrij pripombe"
+  }, 
+  "save": {
+    "message": "Shrani"
+  }, 
+  "control_volume": {
+    "message": "Nadzoruj raven glasnosti s kolesčkom miške, me dprehodom kazalca miške čez okno predvajalnika videoposnetkov."
+  }, 
+  "filters_button_instructions": {
+    "message": "Informacija: Klik z desnim gumbom na ta gumb za spreminjanje filtrov. Lahko tudi omogočite/onemogočite filtre, če držite pritisnjeno tipko \"Control\" (Ctrl) in tipko \"Shift\", ko  kliknete na predvajalnik videoposnetkov."
+  }, 
+  "tooltips": {
+    "message": "Namigi"
+  }, 
+  "saturation": {
+    "message": "Nasičenost:"
+  }, 
+  "clean_button_instructions": {
+    "message": "Informacija: Klik z desnim gumbom na ta gumb za prikaz/skritje pripomb."
+  }, 
+  "volume_variation": {
+    "message": "Sprememba glasnosti, ko se vrti kolešček miške:"
+  }, 
+  "custom_theme": {
+    "message": "Tema po meri"
+  }, 
+  "cinema_mode": {
+    "message": "Kino način"
+  }, 
+  "speed_button_instructions": {
+    "message": "Informacija: Uporabite kolešček miške za nadzor hitrosti predvajanja med prehodom miškinega kazalca čez ta gumb. Kliknite, če želite uporabiti privzeto hitrost predvajanja. Kolešček miške lahko uporabite tudi za nadzor hitrosti predvajanja, ko gledate videoposnetek s predvajalnikom in ga kliknite, če želite uporabiti privzeto hitrost predvajanja, če je pritisnjena tipk \"Control\" (Ctrl)."
+  }, 
+  "brightness": {
+    "message": "Svetlost:"
+  }, 
+  "remove": {
+    "message": "Odstrani"
+  }, 
+  "locale_code": {
+    "message": "sl"
+  }, 
+  "cinema_mode_enlarge_player": {
+    "message": "Samodejno povečaj predvajalnik videoposnetkov, ko je omogočen način Kino."
+  }, 
+  "pause_foreground_tab": {
+    "message": "Pavziraj videoposnetke, ki so se odprli tudi na jezičku v ospredju."
+  }, 
+  "configure_keyboard_shortcuts": {
+    "message": "Informacija: Vtipkajte opera://settings/configureCommands v naslovni vrstici, da nastavite bližnjice s tipkovnico."
+  }, 
+  "resize_player": {
+    "message": "Spremeni velikost predvajalnika"
+  }, 
+  "default_playback_speed": {
+    "message": "Privzeta hitrost predvajanja:"
+  }, 
+  "auto_select_quality": {
+    "message": "Samodejno predvajaj videoposnetke v moji željeni kakovosti."
+  }, 
+  "reset_filters": {
+    "message": "Ponastavi filtre"
+  }, 
+  "default_volume_level": {
+    "message": "Privzeta raven glasnosti:"
+  }, 
+  "share_on_pinterest": {
+    "message": "Deli na Pinterestu"
+  }, 
+  "share_message": {
+    "message": "Povejte svojim prijateljem in spremljevalcem za Enhancer for YouTube™. Hvala vam!"
+  }, 
+  "rate": {
+    "message": "Ocenite"
+  }, 
+  "custom_script_warning": {
+    "message": "Opozorilo: Iz varnostnih razlogov uporabite samo kodo, ki jo razumete ali kodo, ki jo je napisal razvijalec, ki mu zaupate."
+  }, 
+  "donate": {
+    "message": "Darujte"
+  }, 
+  "slide_effect": {
+    "message": "Učinek Drsaj gor/dol"
+  }, 
+  "contrast": {
+    "message": "Kontrast:"
+  }, 
+  "ignore_playlists": {
+    "message": "Ne pavziraj videoposnetkov s predvajalnega seznama."
+  }, 
+  "disable_preloading": {
+    "message": "Onemogoči prednalaganje, ko so videoposnetki samodejno pavzirani."
+  }, 
+  "html5_player_only": {
+    "message": "(Samo HTML5 predvajalnik)"
+  }, 
+  "auto_remove_ads": {
+    "message": "Samodejno odstrani oglase iz filmčkov."
+  }, 
+  "fourth_choice": {
+    "message": "Četrta izbira:"
+  }, 
+  "speed_variation": {
+    "message": "Sprememba hitrosti, ko se vrti kolešček miške:"
+  }, 
+  "toolbar": {
+    "message": "Orodna vrstica"
+  }, 
+  "restore_default_colors": {
+    "message": "Obnovi privzete barve"
+  }, 
+  "auto_execute_script": {
+    "message": "Samodejno izvrši skripto, ko je YouTubu™ naložen na zavihku."
+  }, 
+  "color": {
+    "message": "Barva:"
+  }, 
+  "right": {
+    "message": "Right"
+  }, 
+  "share_on_google_plus": {
+    "message": "Deli na Google+"
+  }, 
+  "custom_theme_instructions": {
+    "message": "Prilepite ali vtipkajte vašo CSS kodo tukaj, nato pa jo shranite s spodnjim gumbom."
+  }, 
+  "pause_videos": {
+    "message": "Pavziraj predvajanje videoposnetkov na zavihkih v ozadju, ko se začne predvajati videoposnetek zavihka v ospredju."
+  }, 
+  "support": {
+    "message": "Podpora"
+  }, 
+  "add": {
+    "message": "Dodaj"
+  }, 
+  "video_player": {
+    "message": "Predvajalnik videoposnetkov"
+  }, 
+  "custom_script_instructions": {
+    "message": "Prilepite ali vnesite svojo kodo JavaScript tukaj, jo shranite s spodnjim gumbom in kliknite na gumb \"Skript po meri\" v orodni vrstici, ko jo želite izvesti."
+  }, 
+  "auto_remove_annotations": {
+    "message": "Samodejno odstrani pripombe."
+  }, 
+  "translate": {
+    "message": "Prevedite"
+  }, 
+  "auto_pause_videos": {
+    "message": "Samodejno pavziraj odprte videoposnetke na zavihkih v ozadju."
+  }, 
+  "override_playback_speeds": {
+    "message": "Preglasi privzete hitrosti predvajanja."
+  }, 
+  "auto_expand_description": {
+    "message": "Samodejno razširi opise videoposnetkov."
+  }, 
+  "grayscale": {
+    "message": "Sivinska lestvica:"
+  }, 
+  "custom_script": {
+    "message": "Skript po meri"
+  }, 
+  "share_on_facebook": {
+    "message": "Deli na Facebooku"
+  }, 
+  "whitelisted_channels": {
+    "message": "Kanali na seznamu dovoljenih:"
+  }, 
+  "auto_enlarge_player": {
+    "message": "Samodejno povečaj predvajalnik videoposnetkov."
+  }, 
+  "loop_video": {
+    "message": "Video zanka"
+  }, 
+  "keyboard_shortcuts": {
+    "message": "Tipke bližnjic"
+  }, 
+  "transparency": {
+    "message": "Prosojnost:"
+  }, 
+  "buttons_label": {
+    "message": "Gumbi:"
+  }, 
+  "pin_video_player": {
+    "message": "Vpni predvajalnik videoposnetkov na dno zaslona,ko se pomikam navzdol po strani."
+  }, 
+  "theme_by_default": {
+    "message": "Privzeta tema"
+  }, 
+  "sepia": {
+    "message": "Sepia:"
+  }, 
+  "share": {
+    "message": "Delite"
+  }, 
+  "border": {
+    "message": "Rob:"
+  }, 
+  "toolbar_label": {
+    "message": "Orodna vrstica:"
+  }, 
+  "pinned_video_player_position": {
+    "message": "Pinned video player position:"
+  }, 
+  "auto_sort_comments": {
+    "message": "Samodejno razvrsti komentarje od najnovejšega do najstarejšega."
+  }, 
+  "third_choice": {
+    "message": "Tretja izbira:"
+  }, 
+  "pinned_video_player_size": {
+    "message": "Velikost video predvajalnika, ki je pripeta:"
+  }, 
+  "opacity": {
+    "message": "Prosojnost:"
+  }, 
+  "description": {
+    "message": "Veliko funkcij za izboljšanje uporabniške izkušnje v YouTubu™."
+  }, 
+  "color_inversion": {
+    "message": "Obrnjena barva:"
+  }, 
+  "miscellaneous": {
+    "message": "Razno"
+  }, 
+  "support_request_instructions": {
+    "message": "Zagotovite te informacije, če želite zahtevati podporo ali poročati o težavi."
+  }, 
+  "preferred_quality": {
+    "message": "Željena kakovost:"
+  }, 
+  "not_now": {
+    "message": "Ne zdaj"
+  }, 
+  "share_on_twitter": {
+    "message": "Deli na Twitterju"
+  }, 
+  "hue_rotation": {
+    "message": "Obračanje odtenkov:"
+  }, 
+  "options": {
+    "message": "Možnosti"
+  }, 
+  "remove_ads": {
+    "message": "Odstrani oglase"
+  }, 
+  "second_choice": {
+    "message": "Druga izbira:"
+  }, 
+  "auto_cinema_mode": {
+    "message": "Samodejno  omogoči način Kino."
+  }, 
+  "preview": {
+    "message": "Osnutek"
+  }, 
+  "auto_enable_filters": {
+    "message": "Samodejno omogoči filtre."
+  }, 
+  "left": {
+    "message": "Left"
+  }
+}

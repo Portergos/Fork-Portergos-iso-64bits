@@ -1,0 +1,52 @@
+{
+   "author": "Jeremy Schomery",
+   "background": {
+      "scripts": [ "common.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "data/icons/128.png",
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/48.png"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "data/detect.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "data/manager.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "developer": {
+      "name": "jeremy-schomery"
+   },
+   "homepage_url": "http://add0n.com/popup-blocker.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo5A1mWXlINQt1zj+Zka2Vgy2AWJAal1Yhopz2+eaDSJhkRm3CGNJOMxcX6fnf1a0TSg2vrROkF120ZhNK/qzTJeYTmsiIAqSZJ3c9/588e+bUawTzrcZuOB0QeuJOV/zTaCyNyV/qWVrD89dqQYd+jh3TdFbaJNP08ffewwHr1xQQun3CbL5p+56nPSdph81lLApK0+NUhQeQYhADQkNkTGs68bepW8Kk38fMHH0OOdLmijznKfiwwLKNxVTZPjH5w1bm/1sqa/Qb/nKiTsxrRTKNHC/3Azz5EAkEoQd6+w4KocTpPfN8Sj7BZzFiFAmDTlthp7kponyA02c7OjlTwIDAQAB",
+   "manifest_version": 2,
+   "name": "Popup Blocker (strict)",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "data/options/index.html"
+   },
+   "permissions": [ "storage", "tabs", "\u003Call_urls>", "contextMenus" ],
+   "short_name": "ipblocker",
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "0.3.9",
+   "web_accessible_resources": [ "data/ui/*" ]
+}

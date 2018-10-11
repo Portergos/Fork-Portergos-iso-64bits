@@ -1,0 +1,57 @@
+Install
+
+There are 3 ways for installing from this livecd (they are in /abif-master folder).
+
+1) Offline, full path /abif-master/abif_offline (Recommended)
+
+This option let's you install the very same environment you see in the livecd. No updates, no option to install new packages. After booting if you have internet you can configure the system as you may wish.
+
+2) MIX, full path /abif-master/abif_i3_updates (Not fully working, i don't recommend using)
+
+Install the same environment and configs you see using the desktop, will also update the installed system and allows you to add the files from pacman at packages_pacman.txt* and yaourt at packages_yaourt.txt**
+
+* add the packages you want to be installed, one per line. 
+** add the packages you want to be installed, one per line. Be sure that the package doesn't have problems for building.
+
+3) Online, full path /abif-master/abif_online (Not fully working, i don't recommend using)
+
+This option doesn't install a thing from the live environment. You must edit the file packages_online.txt I recommend you to add sddm as login manager unless you know how to edit the abif_online file.
+
+
+Post install
+
+1) useful alias (located at /home folder)
+Config files .bashrc and .zshrc contain two alias for updating the first time after install and in case of gpg errors, mirrorlist server down etc. (if you added your own user you should use sudo before the commands bellow)
+
+To use key-init, refresh gpg signatures etc, just type: 
+up
+
+Reflector to reorder the best servers, just type: 
+re
+
+2) scripts folder at ~/scripts
+
+a) script clamav.sh
+
+My own script for using clamav, features are commented, you should open with any text editor and uncomment what you need. Every scan will generate a log for you to analyze the scan.
+
+b) script xfce4.sh
+My own script for starting and killing xfce4-panel (show/hide style, but using less resources)
+
+c) Xfdesktop
+Is a package to manage desktop (show icons at desktop). You can use for this purpose but won't work very well under i3-wm
+I made a "hack" to launch it and reduce it's size window (there is no other alternative for that script yet), that way you can use the dynamic menu (like xfce4 and openbox) pressing right click or using i3 shortcut $mod+x.
+I wouldn't recommend to play with backgrounds configs, is a little buggy.
+Very usefull to launch programs and logoff.
+
+Explanations
+lxsession
+Right now is being installed and only /usr/bin/lxpolkit is being used.
+Contains and starts lxpolkit to manage priviledge permissions. If you don't use it you must find a new one.
+
+If you use lxsession at start (put in i3-wm config) you can:
+use .desktop files from /etc/xdg/autostart and ~/.config/autostart
+change the second tab from lxappearence
+
+
+

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Light-i3
+Comment=improved dynamic tiling window manager
+Exec=i3 -c .config/i3/config_light
+TryExec=i3
+Type=Application
+X-LightDM-DesktopName=Light-i3
+DesktopNames=Light-i3
+Keywords=tiling;wm;windowmanager;window;manager;

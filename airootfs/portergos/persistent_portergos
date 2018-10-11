@@ -1,0 +1,48 @@
+#!/bin/bash
+
+dialog_one(){
+
+dialog --title " WARNING " --msgbox "You need to run Portergos without persistence to use this tool" 0 0
+
+}
+
+dialog_two(){
+
+dialog --title " WARNING " --msgbox "The script will automaticaly resize the partition to disk's full capacity. You will loose all previous data! " 0 0
+
+}
+
+dialog_three(){
+
+dialog --title " WARNING " --msgbox "Completed! To start using persistence you need to reboot and select persistent mode at bootloader " 0 0
+
+}
+
+run_script(){
+
+lsblk -l |grep "/run/archiso/bootmnt" |awk '{ print $1 }' |sed 's/[0-9]//'g >/tmp/device_location
+sed 's/$/3/' /tmp/device_location > /tmp/loop_location
+sudo fdisk -l /dev/$(cat /tmp/device_location)
+sudo fdisk /dev/$(cat /tmp/device_location) <<EOF
+d
+3
+n
+p
+3
+
+
+w
+EOF
+
+sudo mkfs -F -t ext3 -L cow /dev/$(cat /tmp/loop_location)
+
+echo "Completed!"
+
+dialog_three
+}
+
+# Script starts here
+lsblk |grep /run/archiso/cowspace >/dev/null
+if [[ $? == 0 ]]; then dialog_one; exit; else dialog_two; run_script; fi
+
+

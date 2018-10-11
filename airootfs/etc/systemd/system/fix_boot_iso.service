@@ -1,0 +1,9 @@
+[Unit]
+Description=Execute fix in the iso and remove the service
+
+[Service]
+Type=oneshot
+ExecStart=/etc/skel/scripts/fix_boot_iso.sh &
+
+[Install]
+WantedBy=multi-user.target

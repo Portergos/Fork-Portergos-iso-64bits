@@ -1,0 +1,143 @@
+{
+  "prefs_ruleset_howto": {
+    "message": "You can learn how to write your own rulesets (to add support for other web sites)"
+  }, 
+  "about_donate_eff": {
+    "message": "Donating to EFF"
+  }, 
+  "ruleset_tests_status_cancel_button": {
+    "message": "Cancel"
+  }, 
+  "about_or": {
+    "message": "or"
+  }, 
+  "about_version": {
+    "message": "Version"
+  }, 
+  "popup_title": {
+    "message": "HTTPS Everywhere 4.0development.11 notification"
+  }, 
+  "menu_globalEnable": {
+    "message": "Enable HTTPS Everywhere"
+  }, 
+  "prefs_disable_all": {
+    "message": "Disable All"
+  }, 
+  "prefs_reset_default": {
+    "message": "Reset to Default"
+  }, 
+  "about_many_contributors": {
+    "message": "Many many contributors, including"
+  }, 
+  "popup_paragraph3": {
+    "message": "We'd love it if you continued using our development release and helped us make HTTPS Everywhere better! You might find there are a few more bugs here and there, which you can report to https-everywhere@eff.org. Sorry about the inconvenience, and thank you for using HTTPS Everywhere."
+  }, 
+  "about_donate_tor": {
+    "message": "Donating to Tor"
+  }, 
+  "popup_paragraph1": {
+    "message": "Oops. You were using the stable version of HTTPS Everywhere, but we might have accidentally upgraded you to the development version in our last release."
+  }, 
+  "source_unable_to_download": {
+    "message": "Unable to download source."
+  }, 
+  "prefs_site": {
+    "message": "Site"
+  }, 
+  "prefs_notes": {
+    "message": "Notes"
+  }, 
+  "prefs_view_xml_source": {
+    "message": "View XML Source"
+  }, 
+  "popup_revert": {
+    "message": "Download the latest stable version"
+  }, 
+  "menu_viewAllRules": {
+    "message": "View All Rules"
+  }, 
+  "about_ext_description": {
+    "message": "Encrypt the Web! Automatically use HTTPS security on many sites."
+  }, 
+  "about_created_by": {
+    "message": "Created by"
+  }, 
+  "about_tor_lang_code": {
+    "message": "en"
+  }, 
+  "popup_keep": {
+    "message": "Keep me on the development version"
+  }, 
+  "about_title": {
+    "message": "About HTTPS Everywhere"
+  }, 
+  "about_librarians": {
+    "message": "Ruleset Librarians"
+  }, 
+  "ruleset_tests_status_start_button": {
+    "message": "Start"
+  }, 
+  "prefs_enable_all": {
+    "message": "Enable All"
+  }, 
+  "prefs_title": {
+    "message": "HTTPS Everywhere Preferences"
+  }, 
+  "popup_paragraph2": {
+    "message": "Would you like to go back to stable?"
+  }, 
+  "about_noscript": {
+    "message": "Also, portions of HTTPS Everywhere are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!"
+  }, 
+  "about_ext_name": {
+    "message": "HTTPS Everywhere"
+  }, 
+  "menu_blockHttpRequests": {
+    "message": "Block all HTTP requests"
+  }, 
+  "prefs_search": {
+    "message": "Search"
+  }, 
+  "menu_observatory": {
+    "message": "SSL Observatory Preferences"
+  }, 
+  "prefs_reset_defaults": {
+    "message": "Reset to Defaults"
+  }, 
+  "menu_showCounter": {
+    "message": "Show Counter"
+  }, 
+  "source_filename": {
+    "message": "Filename"
+  }, 
+  "menu_globalDisable": {
+    "message": "Disable HTTPS Everywhere"
+  }, 
+  "prefs_list_caption": {
+    "message": "Which HTTPS redirection rules should apply?"
+  }, 
+  "prefs_toggle": {
+    "message": "Toggle"
+  }, 
+  "prefs_enabled": {
+    "message": "Enabled"
+  }, 
+  "about_thanks": {
+    "message": "Thanks to"
+  }, 
+  "source_downloading": {
+    "message": "Downloading"
+  }, 
+  "prefs_here_link": {
+    "message": "here"
+  }, 
+  "about_and": {
+    "message": ", and"
+  }, 
+  "menu_about": {
+    "message": "About HTTPS Everywhere"
+  }, 
+  "ruleset_tests_status_title": {
+    "message": "HTTPS Everywhere Ruleset Tests"
+  }
+}

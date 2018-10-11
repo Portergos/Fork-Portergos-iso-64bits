@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Adicionar"
+   },
+   "auto_cinema_mode": {
+      "message": "Habilitar automáticamente o modo cinema."
+   },
+   "auto_enable_filters": {
+      "message": "Ativar filtros automáticamente."
+   },
+   "auto_enlarge_player": {
+      "message": "Expandir automáticamente o reprodutor de vídeo."
+   },
+   "auto_execute_script": {
+      "message": "Executar o script automaticamente quando o YouTube™ estiver aberto em uma aba."
+   },
+   "auto_expand_description": {
+      "message": "Expandir descrição do vídeo automáticamente."
+   },
+   "auto_pause_videos": {
+      "message": "Automatically pause videos opened in background tabs."
+   },
+   "auto_remove_ads": {
+      "message": "Remover automaticamente anúncios de vídeos."
+   },
+   "auto_remove_annotations": {
+      "message": "Remover anotações automáticamente."
+   },
+   "auto_select_quality": {
+      "message": "Reproduzir automáticamente vídeos na minha qualidade preferida."
+   },
+   "auto_sort_comments": {
+      "message": "Classificar comentários do mais novo para o mais antigo automáticamente."
+   },
+   "border": {
+      "message": "Borda:"
+   },
+   "brightness": {
+      "message": "Brilho:"
+   },
+   "buttons": {
+      "message": "Botões"
+   },
+   "buttons_label": {
+      "message": "Botões:"
+   },
+   "cinema_mode": {
+      "message": "Modo cinema"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Expandir automáticamente o reprodutor de vídeo quando o modo cinema for habilitado."
+   },
+   "clean_button_instructions": {
+      "message": "Info: Clique com o botão direito neste botão para mostrar/esconder as anotações."
+   },
+   "color": {
+      "message": "Cor:"
+   },
+   "color_inversion": {
+      "message": "Inversão de cor:"
+   },
+   "colors": {
+      "message": "Cores"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Info: Digite opera://settings/configureCommands na barra de endereço para configurar os atalhos do teclado."
+   },
+   "contrast": {
+      "message": "Contraste:"
+   },
+   "control_volume": {
+      "message": "Controle o volume com a roda do mouse enquanto estiver com a seta do mouse sobre o reprodutor de vídeo."
+   },
+   "custom_script": {
+      "message": "Script personalizado"
+   },
+   "custom_script_instructions": {
+      "message": "Cole ou digite o seu código em JavaScript aqui, salve-o utilizando o botão abaixo, então clique no botão \"Script personalizado\" na barra de ferramentas quando quiser executá-lo."
+   },
+   "custom_script_warning": {
+      "message": "Warning: For security reasons you should only use code that you understand or code that has been written by a developer you trust."
+   },
+   "custom_theme": {
+      "message": "Tema personalizado"
+   },
+   "custom_theme_instructions": {
+      "message": "Cole ou digite seu código CSS aqui, então salve-o usando o botão abaixo."
+   },
+   "default_playback_speed": {
+      "message": "Velocidade de reprodução padrão:"
+   },
+   "default_volume_level": {
+      "message": "Nível de volume padrão:"
+   },
+   "description": {
+      "message": "Toneladas de recursos para melhorar sua experiência de uso no YouTube™."
+   },
+   "disable_preloading": {
+      "message": "Disable preloading when videos are automatically paused."
+   },
+   "donate": {
+      "message": "Doar"
+   },
+   "filters": {
+      "message": "Filtros"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Clique com o botão direito para modificar os filtros. Você também pode ativar/desativar os filtros se você manter o Control (Ctrl) e o Shift do teclado pressionados e clicar no vídeo."
+   },
+   "fourth_choice": {
+      "message": "Quarta escolha:"
+   },
+   "gaussian_blur": {
+      "message": "Desfoque Gaussiano:"
+   },
+   "grayscale": {
+      "message": "Escala de cinza:"
+   },
+   "html5_player_only": {
+      "message": "(apenas para o reprodutor HTML5)"
+   },
+   "hue_rotation": {
+      "message": "Rotação da matiz:"
+   },
+   "ignore_playlists": {
+      "message": "Do not pause videos in playlists."
+   },
+   "keyboard_shortcuts": {
+      "message": "Atalhos do teclado"
+   },
+   "left": {
+      "message": "Esquerda"
+   },
+   "locale_code": {
+      "message": "pt_PT"
+   },
+   "loop_video": {
+      "message": "Repetir vídeo"
+   },
+   "miscellaneous": {
+      "message": "Diversos"
+   },
+   "not_now": {
+      "message": "Agora não"
+   },
+   "opacity": {
+      "message": "Opacidade:"
+   },
+   "options": {
+      "message": "Opções"
+   },
+   "override_playback_speeds": {
+      "message": "Substituir as velocidades de reprodução padrão."
+   },
+   "pause_foreground_tab": {
+      "message": "Pause videos opened in the foreground tab too."
+   },
+   "pause_videos": {
+      "message": "Pausar vídeos que estão tocando em outras abas quando um vídeo começa a ser reproduzido na guia que está em primeiro plano."
+   },
+   "pin_video_player": {
+      "message": "Fixar o video na parte de baixo da tela quando a página é rolada para baixo."
+   },
+   "pinned_video_player_position": {
+      "message": "Posição do vídeo fixado:"
+   },
+   "pinned_video_player_size": {
+      "message": "Tamanho do vídeo fixado:"
+   },
+   "preferred_quality": {
+      "message": "Qualidade preferida:"
+   },
+   "preview": {
+      "message": "Prévia"
+   },
+   "rate": {
+      "message": "Avalie"
+   },
+   "rate_message": {
+      "message": "Se você curte Enhancer for YouTube™ e quer que ele seja mantido e melhorado, por favor avalie-o com cinco estrelas. Escrever uma análise é recomendado mas não obrigatório, então se você não tem tempo para escrever uma ou quer se manter anônimo online, isso não é problema porque você pode avaliar anônimamente, o que importa é você dar as ★★★★★. Obrigado!"
+   },
+   "remove": {
+      "message": "Remover"
+   },
+   "remove_ads": {
+      "message": "Remover anúncios"
+   },
+   "reset_filters": {
+      "message": "Resetar filtros"
+   },
+   "resize_player": {
+      "message": "Redimensionar o reprodutor"
+   },
+   "restore_default_colors": {
+      "message": "Restaurar cores padrões"
+   },
+   "right": {
+      "message": "Direita"
+   },
+   "saturation": {
+      "message": "Saturação:"
+   },
+   "save": {
+      "message": "Salvar"
+   },
+   "second_choice": {
+      "message": "Segunda escolha:"
+   },
+   "sepia": {
+      "message": "Sépia:"
+   },
+   "share": {
+      "message": "Compartilhe"
+   },
+   "share_message": {
+      "message": "Conte para seus amigos e seguidores sobre o Enhancer for YouTube™. Obrigado!"
+   },
+   "share_on_facebook": {
+      "message": "Compartilhe no Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Compartilhe no Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Compartilhe no Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Compartilhe no Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Compartilhe no Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Mostrar/ocultar anotações"
+   },
+   "slide_effect": {
+      "message": "Efeito de rolagem acima/abaixo"
+   },
+   "speed": {
+      "message": "Velocidade"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Use a roda do mouse para controlar a velocidade de reprodução ao passar o cursor sobre este botão. Clique nele pra usar a velocidade de reprodução padrão. Você também pode usar a roda do mouse para controlar a velocidade de reprodução quando o cursor estiver sobre o vídeo, e clicar nele para usar a velocidade de reprodução padrão, se você mantiver o Control (Ctrl) do teclado pressionado."
+   },
+   "speed_variation": {
+      "message": "Variação de velocidade quando a roda do mouse gira:"
+   },
+   "support": {
+      "message": "Suporte"
+   },
+   "support_request_instructions": {
+      "message": "Forneça essas informações ao solicitar suporte ou relatar um problema."
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "theme_by_default": {
+      "message": "Tema padrão"
+   },
+   "third_choice": {
+      "message": "Terceira escolha:"
+   },
+   "toolbar": {
+      "message": "Barra de ferramentas"
+   },
+   "toolbar_label": {
+      "message": "Barra de ferramentas:"
+   },
+   "tooltips": {
+      "message": "Dicas"
+   },
+   "translate": {
+      "message": "Traduzir"
+   },
+   "transparency": {
+      "message": "Transparência:"
+   },
+   "video_player": {
+      "message": "Reprodutor de vídeo"
+   },
+   "volume_variation": {
+      "message": "Variação de volume quando a roda do mouse gira:"
+   },
+   "whitelisted_channels": {
+      "message": "Canais na \"lista branca\":"
+   }
+}

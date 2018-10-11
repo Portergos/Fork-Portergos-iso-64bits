@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Install Antergos Linux
+Name[pl]=Zainstaluj Antergos Linux
+Name[sk]=Inštalovať Antergos Linux
+GenericName=Live Installer
+Comment=Install the operating system to disk
+Comment[pl]=Zainstaluj system Antergos Linux
+Comment[sk]=Nainštaluje operačný systém na disk
+Exec=sh -c "gksudo /home/$(id -u -n)/scripts/cnchi_adwaita_theme.sh"
+Icon=cnchi
+Terminal=false
+Type=Application
+Categories=System;

@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Pridėti"
+   },
+   "auto_cinema_mode": {
+      "message": "Automatiškai įjungti kino režimą."
+   },
+   "auto_enable_filters": {
+      "message": "Automatiškai įjungti filtrus."
+   },
+   "auto_enlarge_player": {
+      "message": "Automatiškai didinti vaizdo grotuvą."
+   },
+   "auto_execute_script": {
+      "message": "Automatiškai paleisti skriptą, kai YouTube™ atvėriama kortelėje."
+   },
+   "auto_expand_description": {
+      "message": "Automatiškai plėsti video aprašą."
+   },
+   "auto_pause_videos": {
+      "message": "Automatically pause videos opened in background tabs."
+   },
+   "auto_remove_ads": {
+      "message": "Automatiškai šalinti reklamą."
+   },
+   "auto_remove_annotations": {
+      "message": "Automatiškai šalinti pastabas."
+   },
+   "auto_select_quality": {
+      "message": "Automatiškai leisti vaizdo įrašą pasirinktąja kokybe."
+   },
+   "auto_sort_comments": {
+      "message": "Automatiškai rūšiuoti komentarus nuo naujausio iki seniausio."
+   },
+   "border": {
+      "message": "Kraštas:"
+   },
+   "brightness": {
+      "message": "Šviesumas:"
+   },
+   "buttons": {
+      "message": "Mygtukai"
+   },
+   "buttons_label": {
+      "message": "Mygtukai:"
+   },
+   "cinema_mode": {
+      "message": "Kino režimas"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Automatiškai padidinti vaizdo grotuvą įjungus kino režimą."
+   },
+   "clean_button_instructions": {
+      "message": "Info: Bakstelėkite ikoną dešiniu mygtuku rodyti/slėpti pastabom."
+   },
+   "color": {
+      "message": "Spalva:"
+   },
+   "color_inversion": {
+      "message": "Spalvos inversija:"
+   },
+   "colors": {
+      "message": "Spalvos"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Info: Norėdamii sparčiuosius klavišus pakeist, adreso lauke suveskite opera://settings/configureCommands."
+   },
+   "contrast": {
+      "message": "Kontrastas:"
+   },
+   "control_volume": {
+      "message": "Garso stiprumą keisti pelės ratuku, kursoriui esant virš vaizdo grotuvo."
+   },
+   "custom_script": {
+      "message": "Pasirinktinis skriptas"
+   },
+   "custom_script_instructions": {
+      "message": "Čia klijuokite ar rašykite savo JavaScript kodą, išsaugokite apatiniu mygtuku, o norėdami jį paleisti, bakstelėkite \"Pasirinktinis skriptas\" mygtuką."
+   },
+   "custom_script_warning": {
+      "message": "Warning: For security reasons you should only use code that you understand or code that has been written by a developer you trust."
+   },
+   "custom_theme": {
+      "message": "Pasirinktinė tema"
+   },
+   "custom_theme_instructions": {
+      "message": "Čia klijuokite ar rašykite savo CSS kodą ir, bakstelėdami apatinį mygtuką, išsaugokite."
+   },
+   "default_playback_speed": {
+      "message": "Numatytoji vaizdo sparta:"
+   },
+   "default_volume_level": {
+      "message": "Numatytasis garsumas:"
+   },
+   "description": {
+      "message": "Galybė funkcijų pagerinti jūsų YouTube™ naudojimosi malonumą."
+   },
+   "disable_preloading": {
+      "message": "Disable preloading when videos are automatically paused."
+   },
+   "donate": {
+      "message": "Parama"
+   },
+   "filters": {
+      "message": "Filtrai"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Bakstelėkite ikoną dešiniu mygtuku norėdami keisti filtrus. Juos galima įjungti/išjungti laikant paspaudus \"Control\" (Ctrl) ir \"Shift\" mygtukus, o tada bakstelėjus vaizdo grotuvą."
+   },
+   "fourth_choice": {
+      "message": "Ketvirtinis pasirinkimas:"
+   },
+   "gaussian_blur": {
+      "message": "Gausso migla:"
+   },
+   "grayscale": {
+      "message": "Pilkumas:"
+   },
+   "html5_player_only": {
+      "message": "(tik HTML5 grotuvams)"
+   },
+   "hue_rotation": {
+      "message": "Atspalvio mainai:"
+   },
+   "ignore_playlists": {
+      "message": "Do not pause videos in playlists."
+   },
+   "keyboard_shortcuts": {
+      "message": "Spartieji klavišai"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "locale_code": {
+      "message": "lt"
+   },
+   "loop_video": {
+      "message": "Ciklinti video"
+   },
+   "miscellaneous": {
+      "message": "Įvairenybės"
+   },
+   "not_now": {
+      "message": "Ne dabar"
+   },
+   "opacity": {
+      "message": "Skaidra:"
+   },
+   "options": {
+      "message": "Nustatymai"
+   },
+   "override_playback_speeds": {
+      "message": "Perrašyti numatytuosius vaizdo greičius."
+   },
+   "pause_foreground_tab": {
+      "message": "Pause videos opened in the foreground tab too."
+   },
+   "pause_videos": {
+      "message": "Pristabdyti likusius vaizdo įrašus foninėse kortelėse, jei kuris paleidžiamas priekinėje kortelėje."
+   },
+   "pin_video_player": {
+      "message": "Prisegti vaizdo grotuvą ekrano dugne, puslapiu slenkant žemyn."
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Prisegto vaizdo grotuvo dydis:"
+   },
+   "preferred_quality": {
+      "message": "Pasirinktoji kokybė:"
+   },
+   "preview": {
+      "message": "Peržiūra"
+   },
+   "rate": {
+      "message": "Vertinti"
+   },
+   "rate_message": {
+      "message": "Jeigu jums patiko Enhancer for YouTube™ ir norėtumėte, kad jis visada būtų atnaujintas ir pagerintas, tada prašome jį įvertinti penkiomis žvaigždutėmis. Rašyti apžvalgą patartina, bet nėra būtina, todėl nekils jokių keblumų, jei neturėsite tam laiko ar internete norėsite likti anonimu. Jūs ir įvertinti galite anonimiškai. Svarbiausia, kad suteiktumėte ★★★★★. Dėkojame!"
+   },
+   "remove": {
+      "message": "Šalinti"
+   },
+   "remove_ads": {
+      "message": "Šalinti reklamą"
+   },
+   "reset_filters": {
+      "message": "Grąžinti filtrus"
+   },
+   "resize_player": {
+      "message": "Keisti dydį"
+   },
+   "restore_default_colors": {
+      "message": "Grąžinti numatytąją spalvą"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "saturation": {
+      "message": "Prisotinimas:"
+   },
+   "save": {
+      "message": "Saugoti"
+   },
+   "second_choice": {
+      "message": "Antrinis pasirinkimas:"
+   },
+   "sepia": {
+      "message": "Sepija:"
+   },
+   "share": {
+      "message": "Dalintis"
+   },
+   "share_message": {
+      "message": "Praneškite savo draugams ir pažįstamiems apie Enhancer for YouTube™. Ačiū!"
+   },
+   "share_on_facebook": {
+      "message": "Dalintis Facebooke"
+   },
+   "share_on_google_plus": {
+      "message": "Dalintis Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Dalintis Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Dalintis Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Dalintis Twittery"
+   },
+   "show_hide_annotations": {
+      "message": "Rodyti/slepti pastabas"
+   },
+   "slide_effect": {
+      "message": "Slinkimo aukštyn/žemyn efektas"
+   },
+   "speed": {
+      "message": "Greitis"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Kursoriui esant virš šios ikonos ratuku keiskite video spartą. O ją bakstelėjus grąžinsite numatytąjį greitį. Video spartą taip pat galite keisti ir kursoriui esant virš paties vaizdo grotuvo, kurį bakstelėjus grąžinama numatytoji sparta, tačiau tada turi būti laikomas ir \"Control\" mygtukas (Ctrl) klaviatūroje."
+   },
+   "speed_variation": {
+      "message": "Spartos pokytis sukant pelės ratuką:"
+   },
+   "support": {
+      "message": "Pagalba"
+   },
+   "support_request_instructions": {
+      "message": "Pateikti šią informaciją kreipiantis pagalbos ar pranešant apie klaidą."
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "theme_by_default": {
+      "message": "Numatytoji tema"
+   },
+   "third_choice": {
+      "message": "Tretinis pasirinkimas:"
+   },
+   "toolbar": {
+      "message": "Įrankinė"
+   },
+   "toolbar_label": {
+      "message": "Įrankinė:"
+   },
+   "tooltips": {
+      "message": "Patartys"
+   },
+   "translate": {
+      "message": "Vertimas"
+   },
+   "transparency": {
+      "message": "Permatomumas:"
+   },
+   "video_player": {
+      "message": "Vaizdo grotuvas"
+   },
+   "volume_variation": {
+      "message": "Garsumo pokytis sukant pelės ratuką:"
+   },
+   "whitelisted_channels": {
+      "message": "Baltasąrašiniai kanalai:"
+   }
+}

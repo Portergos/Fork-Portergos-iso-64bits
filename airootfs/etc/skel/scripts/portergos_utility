@@ -1,0 +1,211 @@
+#!/bin/bash
+
+# Script made by fernandomaroto for Portergos, nice adition for barebones WM/DE.
+# It's intented to be like a dmenu combining important administrative functions related with arch-based systems
+
+### Version 0.4 ###
+## May, 16, 2018
+
+### Requirements ###
+## yad
+## reflector
+## haveged
+
+
+#doesn't prompt errors
+#exec 2> /dev/null
+
+clean(){
+#remove empty variable at ~/scripts/.portergos_utility
+cat ~/scripts/.portergos_utility | grep '""' >/dev/null; if [[ $? == 0 ]]; then sed -i '/\"\"/d' ~/scripts/.portergos_utility; fi
+}
+#source variables from ~/scripts/.portergos_utility to ~/scripts/portergos_utility
+source ~/scripts/.portergos_utility
+
+	DIALOG=yad
+	INFO="image=gtk-dialog-info"
+	QUESTION="image=gtk-dialog-question"
+	WARNING="image=gtk-dialog-warning"
+	ERROR="image=gtk-dialog-error"
+
+	#buttons
+	BUTTON0="button"
+	BUTTON1="button"
+	BUTTON0NUM=":0"
+	BUTTON1NUM=":1"
+
+default_terminal(){
+# select default package
+if [[ $(echo $TERMINAL) == "" ]]; then 
+TERMINAL=$($DIALOG --width=460 --height=200 --title="Default package" --entry --text="Type the name of your prefered TERMINAL")
+
+echo "TERMINAL=\"$TERMINAL\"" >>~/scripts/.portergos_utility
+source ~/scripts/.portergos_utility
+
+fi
+}
+
+default_file_manager(){
+# select default package
+if [[ $(echo $FILE_MANAGER) == "" ]]; then 
+FILE_MANAGER=$($DIALOG --width=460 --height=200 --title="Default package" --entry --text="Type the name of your prefered FILE MANAGER")
+
+echo "FILE_MANAGER=\"$FILE_MANAGER\"" >>~/scripts/.portergos_utility
+source ~/scripts/.portergos_utility
+
+fi
+}
+
+default_browser(){
+# select default package
+if [[ $(echo $BROWSER) == "" ]]; then 
+BROWSER=$($DIALOG --width=460 --height=200 --title="Default package" --entry --text="Type the name of your prefered BROWSER")
+
+echo "BROWSER=\"$BROWSER\"" >>~/scripts/.portergos_utility
+source ~/scripts/.portergos_utility
+
+fi
+}
+
+default_editor(){
+# select default package
+if [[ $(echo $EDITOR1) == "" ]]; then 
+EDITOR1=$($DIALOG --width=460 --height=200 --title="Default package" --entry --text="Type the name of your prefered EDITOR")
+
+echo "EDITOR1=\"$EDITOR1\"" >>~/scripts/.portergos_utility
+source ~/scripts/.portergos_utility
+
+fi
+}
+
+default_music_player(){
+# select default package
+if [[ $(echo $MUSIC_PLAYER) == "" ]]; then 
+MUSIC_PLAYER=$($DIALOG --width=460 --height=200 --title="Default package" --entry --text="Type the name of your prefered MUSIC PLAYER")
+
+echo "MUSIC_PLAYER=\"$MUSIC_PLAYER\"" >>~/scripts/.portergos_utility
+source ~/scripts/.portergos_utility
+
+fi
+}
+
+MATRIX(){
+# Credits to http://bruxy.regnet.cz/web/linux/EN/matrix-sh/
+echo -e "\033[2J\033[?25l"; R=`tput lines` C=`tput cols`;: $[R--] ; while true 
+do ( e=echo\ -e s=sleep j=$[RANDOM%C] d=$[RANDOM%R];for i in `eval $e {1..$R}`;
+do c=`printf '\\\\0%o' $[RANDOM%57+33]` ### http://bruxy.regnet.cz/web/linux ###
+$e "\033[$[i-1];${j}H\033[32m$c\033[$i;${j}H\033[37m"$c; $s 0.1;if [ $i -ge $d ]
+then $e "\033[$[i-d];${j}H ";fi;done;for i in `eval $e {$[i-d]..$R}`; #[mat!rix]
+do echo -e "\033[$i;${j}f ";$s 0.1;done)& sleep 0.05;done #(c) 2011 -- [ BruXy ]
+}
+
+pacman_install(){
+pacman_install=$($DIALOG --width=460 --height=200 --title="Package name" --entry --text="Type the name of the package to be installed")
+    $TERMINAL -e bash -c "sudo pacman -S $pacman_install; exec bash"
+}
+
+pacman_remove(){
+pacman_remove=$($DIALOG --width=460 --height=200 --title="Package name" --entry --text="Type the name of the package to be removed")
+    $TERMINAL -e bash -c "sudo pacman -Rns $pacman_remove; exec bash"
+}
+
+
+pacman_launcher(){
+pacman=$(yad --width=460 --height=320 --title="Welcome!" --list --separator="" --column="" --text="Choose an option" "Update System" "Install Package" "Remove Package" "Reflector - Choose best mirrors" "Init - Populate - Refresh keys" "Fix keyring - if you didn't update in more than a month" "UPDATE system - DRASTIC! Use in case of problems")
+    if [[ $pacman == "Update System" ]]; then $TERMINAL -e bash -c "sudo pacman -Syu; exec bash"; fi
+    if [[ $pacman == "Install Package" ]]; then pacman_install ; fi
+    if [[ $pacman == "Remove Package" ]]; then pacman_remove ; fi
+
+# bash -c is required if more than one command is to be runned at a single $TERMINAL -e
+# exec bash is needed to kepp the launched terminal opened. Recommended, so the user can check if pacman options went fine.
+#Still need to add a warning to install reflector and haveged - Portergos comes with them installed by default
+    if [[ $pacman == "Reflector - Choose best mirrors" ]]; then $TERMINAL -e bash -c "sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak; sudo reflector --verbose --age 8 --fastest 128 --latest 64 --number 32 --sort rate --save /etc/pacman.d/mirrorlist; exec bash"; fi
+    if [[ $pacman == "Init - Populate - Refresh keys" ]]; then $TERMINAL -e bash -c "sudo haveged -w 1024; sudo pacman-key --init; sudo pacman-key --populate; sudo pacman-key --refresh-keys; sudo pkill haveged; sudo pacman -Syy; exec bash"; fi
+    if [[ $pacman == "Fix keyring - if you didn't update in more than a month" ]]; then $TERMINAL -e bash -c "sudo pacman -Sw archlinux-keyring; sudo pacman -Sw antergos-keyring; sudo pacman -Sw antergos-mirrorlist; sudo pacman -Sw pacman-mirrorlist; sudo ls -d /var/cache/pacman/pkg/$(ls /var/cache/pacman/pkg/ |grep 'antergos-keyring' |tail -1) >/tmp/pkg; sudo ls -d /var/cache/pacman/pkg/$(ls /var/cache/pacman/pkg/ |grep 'archlinux-keyring' |tail -1) >>/tmp/pkg; sudo ls -d /var/cache/pacman/pkg/$(ls /var/cache/pacman/pkg/ |grep 'antergos-mirrorlist' |tail -1) >>/tmp/pkg; sudo ls -d /var/cache/pacman/pkg/$(ls /var/cache/pacman/pkg/ |grep 'pacman-mirrorlist' |tail -1) >>/tmp/pkg; sudo pacman -U $(cat /tmp/pkg |xargs); exec bash"; fi
+
+    if [[ $pacman == "UPDATE system - DRASTIC! Use in case of problems" ]]; then $TERMINAL -e bash -c "sudo pacman-key --init; sudo pacman-key --add /usr/share/pacman/keyrings/portergos.gpg; sudo pacman-key --lsign-key 4F4B983A; sudo haveged -w 1024; sudo pacman-key --init; sudo pacman-key --populate; sudo pacman-key --refresh-keys; sudo pkill haveged; sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak; sudo reflector --verbose --age 0.5 --fastest 128 --latest 64 --number 32 --sort rate --save /etc/pacman.d/mirrorlist; sudo pacman -Syyu; exec bash"; fi
+
+    # dirmngr in background or not make the script stop. Copying/pasting in a temrinal work though
+#if [[ $pacman == "UPDATE system - DRASTIC! Use in case of problems" ]]; then $TERMINAL -e bash -c "sudo mkdir -p /root/.gnupg/; sudo touch /root/.gnupg/dirmngr_ldapservers.conf; sudo dirmngr &; sudo pacman-key --init; sudo pacman-key --add /usr/share/pacman/keyrings/portergos.gpg; sudo pacman-key --lsign-key 4F4B983A; sudo haveged -w 1024; sudo pacman-key --init; sudo pacman-key --populate; sudo pacman-key --refresh-keys; sudo pkill haveged; sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak; sudo reflector --verbose --age 0.5 --fastest 128 --latest 64 --number 32 --sort rate --save /etc/pacman.d/mirrorlist; sudo pacman -Syyu; exec bash"; fi
+
+}
+
+portergos_utility_startup(){
+portergos_utility_startup=$(yad --width=460 --height=320 --title="Configuration" --list --separator="" --column="" --text="Would you like to launch portergos utility at startup?" "Yes" "No")
+
+    #YES
+    if [[ $portergos_utility_startup == "Yes" ]]; then
+
+        if [[ $(echo $XDG_CURRENT_DESKTOP) == i3 ]]; then echo "exec --no-startup-id ~/scripts/portergos_utility &" >> ~/.config/i3/config; fi
+        if [[ $(echo $XDG_CURRENT_DESKTOP) == XFCE ]]; then mkdir -p ~/.config/autostart; echo -e "[Desktop Entry]\nName=portergos_utility\nExec=sh -c "~/scripts/portergos_utility"\nIcon=foo\nType=Application" > ~/.config/autostart/portergos_utility.desktop; fi
+
+        if [[ $(echo $DESKTOP_SESSION |sed s'/\/usr/\share\/xsessions\///'g) == openbox ]]; then echo "~/scripts/portergos_utility &" >> ~/.config/openbox/autostart; fi
+
+    fi
+
+    #NO
+    if [[ $portergos_utility_startup == "No" ]]; then
+
+        if [[ $(echo $XDG_CURRENT_DESKTOP) == i3 ]]; then sed -i s'?exec --no-startup-id ~/scripts/portergos_utility &??'g ~/.config/i3/config; fi
+
+        if [[ $(echo $XDG_CURRENT_DESKTOP) == XFCE ]]; then rm ~/.config/autostart/portergos_utility.desktop; fi
+
+        if [[ $(echo $DESKTOP_SESSION |sed s'/\/usr/\share\/xsessions\///'g) == openbox ]]; then sed -i s'?~/scripts/portergos_utility &??'g ~/.config/openbox/autostart; fi
+
+    fi
+
+#echo $DESKTOP_SESSION 
+#echo $XDG_SESSION_DESKTOP 
+#echo $XDG_CURRENT_DESKTOP 
+}
+
+
+screen_resolution_startup(){
+screen_resolution_startup=$(yad --width=460 --height=320 --title="Configuration" --list --separator="" --column="" --text="Would you like to adjust resolution at startup?" "Yes" "No")
+
+ if [[ $screen_resolution_startup == "Yes" ]]; then
+
+ps -aux |grep 'conky' |grep -v 'grep' >/dev/null; if [[ $? == 0 ]]; then ps -aux |grep 'conky -c' |grep -v 'grep' |awk '{ print $11 echo " " $12 echo " " $13 }' >/tmp/.conky; fi
+
+ mkdir -p ~/.config/autostart; echo -e "[Desktop Entry]\nName=screen_resolution\nExec=bash -c 'sleep 8; ~/.screenlayout/$(ls ~/.screenlayout); sleep 8'; pkill conky; $(cat /tmp/.conky &)'\nIcon=foo\nType=Application" > ~/.config/autostart/screen_resolution.desktop
+
+ fi
+
+ if [[ $screen_resolution_startup == "No" ]]; then :; fi
+
+}
+
+screen_resolution(){
+if [[ $(ls ~/.screenlayout) != "" ]]; then screen_resolution_startup; fi
+
+}
+
+start_menu(){
+start_menu=$(yad --width=600 --height=600 --title="Welcome!" --list --separator="" --column="" --text="Choose an option" "Screen Resolution" "File Manager" "Internet Browser" "App Launcher" "Text Editor" "Music Player" "Open Terminal" "Pacman" "Portergos utility - startup config" )
+
+#matrix is not working, removed for now
+#"MATRIX view"
+
+    if [[ $start_menu == "Screen Resolution" ]]; then bash -c "arandr"; fi
+    if [[ $start_menu == "File Manager" ]]; then default_file_manager; $FILE_MANAGER; fi
+    if [[ $start_menu == "Internet Browser" ]]; then default_browser; $BROWSER; fi
+    if [[ $start_menu == "App Launcher" ]]; then xfce4-appfinder; fi
+    if [[ $start_menu == "Text Editor" ]]; then default_editor; $EDITOR1; fi
+    if [[ $start_menu == "Music Player" ]]; then default_music_player; $MUSIC_PLAYER; fi
+    if [[ $start_menu == "Open Terminal" ]]; then default_terminal; $TERMINAL; fi
+    if [[ $start_menu == "Pacman" ]]; then default_terminal; pacman_launcher; fi
+    if [[ $start_menu == "Portergos utility - startup config" ]]; then portergos_utility_startup; fi
+    #if [[ $start_menu == "MATRIX view" ]]; then $TERMINAL -e MATRIX; fi
+}
+clean
+start_menu
+
+
+
+#echo "INSTALLPARTITION=\"$INSTALLPARTITION\"" >>userinput
+#$DIALOG --$QUESTION --width=460 --height=240 --title="$TITLE" --${BUTTON0}=$"Continue"${BUTTON0NUM} --${BUTTON1}=$"Exit now"${BUTTON1NUM} --text="$TEXT"
+
+#if [ "$?" = "1" ]; then
+#	exit 1
+#fi
+

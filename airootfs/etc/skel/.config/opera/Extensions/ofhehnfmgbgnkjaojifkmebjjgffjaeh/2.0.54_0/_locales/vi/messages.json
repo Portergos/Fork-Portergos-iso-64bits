@@ -1,0 +1,287 @@
+{
+   "add": {
+      "message": "Thêm"
+   },
+   "auto_cinema_mode": {
+      "message": "Tự động bật chế độ rạp chiếu phim."
+   },
+   "auto_enable_filters": {
+      "message": "Tự động kích hoạt bộ lọc."
+   },
+   "auto_enlarge_player": {
+      "message": "Tự động mở rộng trình phát video."
+   },
+   "auto_execute_script": {
+      "message": "Tự động thực thi tập lệnh khi YouTube™ được tải trong một tab."
+   },
+   "auto_expand_description": {
+      "message": "Tự động mở rộng mô tả video."
+   },
+   "auto_pause_videos": {
+      "message": "Tự động tạm dừng các video được mở trong tab nền."
+   },
+   "auto_remove_ads": {
+      "message": "Tự động loại bỏ các quảng cáo từ video."
+   },
+   "auto_remove_annotations": {
+      "message": "Tự động xóa chú thích."
+   },
+   "auto_select_quality": {
+      "message": "Tự động chơi video ở chất lượng ưa thích của tôi."
+   },
+   "auto_sort_comments": {
+      "message": "Tự động sắp xếp các nhận xét từ mới nhất đến cũ nhất."
+   },
+   "border": {
+      "message": "Viền:"
+   },
+   "brightness": {
+      "message": "Độ sáng:"
+   },
+   "buttons": {
+      "message": "Nút"
+   },
+   "buttons_label": {
+      "message": "Nút:"
+   },
+   "cinema_mode": {
+      "message": "Chế độ Rạp chiếu phim"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Tự động mở rộng trình phát video khi chế độ rạp chiếu phim được bật."
+   },
+   "clean_button_instructions": {
+      "message": "Thông tin: Nhấp chuột phải vào nút này để hiện/ẩn chú thích."
+   },
+   "color": {
+      "message": "Màu:"
+   },
+   "color_inversion": {
+      "message": "Đảo màu:"
+   },
+   "colors": {
+      "message": "Màu"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Thông tin: Nhập opera://settings/configureCommands trong thanh địa chỉ để cài đặt cấu hình phím tắt."
+   },
+   "contrast": {
+      "message": "Tương phản:"
+   },
+   "control_volume": {
+      "message": "Kiểm soát mức âm lượng bằng lăn chuột khi di chuột qua trình phát video bằng con trỏ chuột."
+   },
+   "custom_script": {
+      "message": "Tập lệnh tùy chỉnh"
+   },
+   "custom_script_instructions": {
+      "message": "Dán hoặc nhập mã JavaScript của bạn ở đây, lưu nó bằng cách sử dụng nút bên dưới, sau đó nhấp vào nút \"Tập lệnh tùy chỉnh\" trên thanh công cụ khi bạn muốn thực hiện nó."
+   },
+   "custom_script_warning": {
+      "message": "Cảnh báo: Vì lý do bảo mật, bạn chỉ nên sử dụng mã mà bạn hiểu hoặc mã được viết bởi nhà phát triển mà bạn tin tưởng."
+   },
+   "custom_theme": {
+      "message": "Chủ đề tùy chỉnh"
+   },
+   "custom_theme_instructions": {
+      "message": "Dán hoặc nhập mã CSS của bạn ở đây, sau đó lưu nó bằng cách sử dụng nút bên dưới."
+   },
+   "default_playback_speed": {
+      "message": "Tốc độ phát mặc định:"
+   },
+   "default_volume_level": {
+      "message": "Mức âm lượng mặc định:"
+   },
+   "description": {
+      "message": "Các tính năng giúp cải thiện trải nghiệm của bạn trên YouTube™."
+   },
+   "disable_preloading": {
+      "message": "Vô hiệu tải trước khi video bị tạm dừng tự động."
+   },
+   "donate": {
+      "message": "Ủng hộ"
+   },
+   "filters": {
+      "message": "Bộ lọc"
+   },
+   "filters_button_instructions": {
+      "message": "Thông tin: Nhấp chuột phải vào nút này để sửa đổi bộ lọc. Bạn cũng có thể bật/tắt bộ lọc nếu bạn nhấn \"Control\" giữ phím (Ctrl) + \"Shift\" và nhấp vào trình phát video."
+   },
+   "fourth_choice": {
+      "message": "Lựa chọn thứ 4:"
+   },
+   "gaussian_blur": {
+      "message": "Độ mờ Gaussian:"
+   },
+   "grayscale": {
+      "message": "Màu xám:"
+   },
+   "html5_player_only": {
+      "message": "(chỉ trình phát HTML5)"
+   },
+   "hue_rotation": {
+      "message": "Luân chuyển màu sắc:"
+   },
+   "ignore_playlists": {
+      "message": "Không tạm dừng các video trong danh sách phát."
+   },
+   "keyboard_shortcuts": {
+      "message": "Phím tắt"
+   },
+   "left": {
+      "message": "Trái"
+   },
+   "locale_code": {
+      "message": "vi"
+   },
+   "loop_video": {
+      "message": "Cuộn video"
+   },
+   "miscellaneous": {
+      "message": "Khác"
+   },
+   "not_now": {
+      "message": "Không phải bây giờ"
+   },
+   "opacity": {
+      "message": "Độ mờ:"
+   },
+   "options": {
+      "message": "Tùy chọn"
+   },
+   "override_playback_speeds": {
+      "message": "Ghi đè tốc độ phát mặc định."
+   },
+   "pause_foreground_tab": {
+      "message": "Tạm dừng các video cũng được mở trong tab nền trước."
+   },
+   "pause_videos": {
+      "message": "Tạm dừng các video đang phát trong tab nền khi một video bắt đầu phát trong tab nền trước."
+   },
+   "pin_video_player": {
+      "message": "Ghim trình phát video ở cuối màn hình khi cuộn xuống trang."
+   },
+   "pinned_video_player_position": {
+      "message": "Vị trí trình phát video được ghim:"
+   },
+   "pinned_video_player_size": {
+      "message": "Kích thước trình phát video được ghim:"
+   },
+   "preferred_quality": {
+      "message": "Chất lượng ưa thích:"
+   },
+   "preview": {
+      "message": "Xem trước"
+   },
+   "rate": {
+      "message": "Tỷ lệ"
+   },
+   "rate_message": {
+      "message": "Nếu bạn thích Enhancer for YouTube™ và muốn nó được duy trì và cải tiến, xin vui lòng đánh giá 5 sao. Viết vài câu đánh giá được khuyến nghị nhưng không bắt buộc, do vậy nếu bạn không có thời gian để viết đánh giá hoặc nếu bạn muốn ẩn danh thì bạn có thể đánh giá ẩn danh, điều quan trọng là bạn cho ★★★★★. Xin cảm ơn!"
+   },
+   "remove": {
+      "message": "Xóa"
+   },
+   "remove_ads": {
+      "message": "Loại bỏ quảng cáo"
+   },
+   "reset_filters": {
+      "message": "Đặt lại bộ lọc"
+   },
+   "resize_player": {
+      "message": "Thay đổi kích thước màn"
+   },
+   "restore_default_colors": {
+      "message": "Khôi phục màu mặc định"
+   },
+   "right": {
+      "message": "Phải"
+   },
+   "saturation": {
+      "message": "Bão hòa:"
+   },
+   "save": {
+      "message": "Lưu"
+   },
+   "second_choice": {
+      "message": "Lựa chọn thứ 2:"
+   },
+   "sepia": {
+      "message": "Mực:"
+   },
+   "share": {
+      "message": "Chia sẻ"
+   },
+   "share_message": {
+      "message": "Chia sẻ tới bạn bè và người thân về Enhancer for YouTube™. Cảm ơn!"
+   },
+   "share_on_facebook": {
+      "message": "Chia sẻ trên Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Chia sẻ trên Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Chia sẻ trên Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Chia sẻ trên Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Chia sẻ trên Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Hiện/ẩn chú thích"
+   },
+   "slide_effect": {
+      "message": "Hiệu ứng trượt lên/xuống"
+   },
+   "speed": {
+      "message": "Tốc độ"
+   },
+   "speed_button_instructions": {
+      "message": "Thông tin: Sử dụng lăn chuột để điều khiển tốc độ phát khi di chuột qua nút này bằng con trỏ chuột. Nhấp vào nó để sử dụng tốc độ phát mặc định. Bạn cũng có thể sử dụng lăn chuột để điều khiển tốc độ phát khi di chuột lên trình phát video và nhấp vào nó để sử dụng tốc độ phát mặc định nếu bạn nhấn \"Control\" giữ phím (Ctrl)."
+   },
+   "speed_variation": {
+      "message": "Tốc độ thay đổi khi lăn chuột:"
+   },
+   "support": {
+      "message": "Hỗ trợ"
+   },
+   "support_request_instructions": {
+      "message": "Cung cấp những thông tin này khi yêu cầu hỗ trợ hoặc báo cáo vấn đề."
+   },
+   "theme": {
+      "message": "Chủ đề"
+   },
+   "theme_by_default": {
+      "message": "Chủ đề mặc định"
+   },
+   "third_choice": {
+      "message": "Lựa chọn thứ 3:"
+   },
+   "toolbar": {
+      "message": "Thanh công cụ"
+   },
+   "toolbar_label": {
+      "message": "Thanh công cụ:"
+   },
+   "tooltips": {
+      "message": "Chú thích công cụ"
+   },
+   "translate": {
+      "message": "Dịch"
+   },
+   "transparency": {
+      "message": "Trong suốt:"
+   },
+   "video_player": {
+      "message": "Trình phát video"
+   },
+   "volume_variation": {
+      "message": "Thay đổi âm lượng khi lăn chuột:"
+   },
+   "whitelisted_channels": {
+      "message": "Các kênh thuộc danh sách trắng:"
+   }
+}

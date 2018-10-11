@@ -1,0 +1,95 @@
+{
+  "options_generalSettings": {
+    "message": "Socruithe Ginearálta"
+  }, 
+  "menu_blockUnencryptedRequests": {
+    "message": "Cuir cosc ar gach iarratas neamhchriptithe"
+  }, 
+  "chrome_add_new_rule": {
+    "message": "Cuir riail nua i bhfeidhm ar an suíomh seo"
+  }, 
+  "about_version": {
+    "message": "Leagan"
+  }, 
+  "chrome_hide_advanced": {
+    "message": "Folaigh na hardroghanna"
+  }, 
+  "chrome_stable_rules": {
+    "message": "Rialacha cobhsaí"
+  }, 
+  "chrome_stable_rules_description": {
+    "message": "Fórsáil ceangal criptithe leis na suímh seo:"
+  }, 
+  "options_imported": {
+    "message": "Iompórtáladh do chuid socruithe."
+  }, 
+  "chrome_host": {
+    "message": "Óstríomhaire:"
+  }, 
+  "menu_globalEnable": {
+    "message": "Cumasaigh HTTPS Everywhere"
+  }, 
+  "chrome_regex": {
+    "message": "A mheaitseálann slonn"
+  }, 
+  "about_add_new_rule": {
+    "message": "Cuir Riail Nua Leis"
+  }, 
+  "menu_viewAllRules": {
+    "message": "Taispeáin Gach Riail"
+  }, 
+  "about_ext_description": {
+    "message": "Criptigh an Gréasán! Bain úsáid as slándáil HTTPS go huathoibríoch ar go leor suíomh."
+  }, 
+  "about_title": {
+    "message": "Faoi HTTPS Everywhere"
+  }, 
+  "options_importSettings": {
+    "message": "Iompórtáil Socruithe"
+  }, 
+  "options_import": {
+    "message": "Iompórtáil"
+  }, 
+  "chrome_redirect_to": {
+    "message": "Atreoraigh chuig"
+  }, 
+  "chrome_status_cancel_button": {
+    "message": "Cuir ar ceal"
+  }, 
+  "about_ext_name": {
+    "message": "HTTPS Everywhere"
+  }, 
+  "menu_observatory": {
+    "message": "Sainroghanna SSL Observatory"
+  }, 
+  "prefs_reset_defaults": {
+    "message": "Fill ar Réamhshocruithe"
+  }, 
+  "chrome_add_rule": {
+    "message": "Cuir riail i bhfeidhm ar an suíomh seo"
+  }, 
+  "menu_showCounter": {
+    "message": "Taispeáin Áiritheoir"
+  }, 
+  "chrome_show_advanced": {
+    "message": "Taispeáin na hardroghanna"
+  }, 
+  "chrome_always_https_for_host": {
+    "message": "Bain úsáid as https i gcónaí leis an óstríomhaire seo"
+  }, 
+  "menu_donate_eff_imperative": {
+    "message": "Tabhair síntiús airgid don EFF"
+  }, 
+  "chrome_experimental_rules": {
+    "message": "Rialacha turgnamhacha"
+  }, 
+  "prefs_export_settings": {
+    "message": "Easpórtáil Socruithe"
+  }, 
+  "chrome_rule_name": {
+    "message": "Ainm na rialach"
+  }, 
+  "chrome_experimental_rules_description": {
+    "message": "D'fhéadfadh seo a bheith ina chúis le rabhaidh nó le hearráidí. Díchumasaithe de réir réamhshocraithe."
+  }
+}

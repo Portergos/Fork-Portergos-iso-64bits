@@ -1,0 +1,11 @@
+[Nemo Action]
+Name=Compressor
+Comment=Maximum compression
+
+Exec=/bin/bash -c "/home/$(cat /etc/passwd | grep "/home" |cut -d: -f1 |head -1)/scripts/compressor.sh"
+
+Icon-Name=Compressor
+
+Selection=Any
+
+Extensions=dir;exe;dll;zip;gz;7z;rar;lrz;

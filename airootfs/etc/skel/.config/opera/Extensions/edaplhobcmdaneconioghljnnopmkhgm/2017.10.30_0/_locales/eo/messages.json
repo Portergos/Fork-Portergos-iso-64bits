@@ -1,0 +1,95 @@
+{
+  "options_generalSettings": {
+    "message": "Ĝeneralaj agordoj"
+  }, 
+  "menu_blockUnencryptedRequests": {
+    "message": "Bloki ĉiujn neĉifritajn petojn"
+  }, 
+  "chrome_add_new_rule": {
+    "message": "Aldoni novan regulon por ĉi tiu retejo"
+  }, 
+  "about_version": {
+    "message": "Versio"
+  }, 
+  "chrome_hide_advanced": {
+    "message": "Kaŝi altnivelajn"
+  }, 
+  "chrome_stable_rules": {
+    "message": "Stabilaj reguloj"
+  }, 
+  "chrome_stable_rules_description": {
+    "message": "Devigi ĉifritan konekton al tiuj retejoj"
+  }, 
+  "options_imported": {
+    "message": "Viaj ŝanĝoj estis enportitaj."
+  }, 
+  "chrome_host": {
+    "message": "Servilo"
+  }, 
+  "menu_globalEnable": {
+    "message": "Enŝalti HTTPS-Ĉie"
+  }, 
+  "chrome_regex": {
+    "message": "Kongrua regula esprimo"
+  }, 
+  "about_add_new_rule": {
+    "message": "Aldoni novan regulon"
+  }, 
+  "menu_viewAllRules": {
+    "message": "Montri ĉiujn regulojn"
+  }, 
+  "about_ext_description": {
+    "message": "Ĉifrigu la reton! Aŭtomate uzu HTTPS‐sekurecon ĉe multaj retejoj."
+  }, 
+  "about_title": {
+    "message": "Pri HTTPS-Ĉie"
+  }, 
+  "options_importSettings": {
+    "message": "Enporti agordojn"
+  }, 
+  "options_import": {
+    "message": "Enporti"
+  }, 
+  "chrome_redirect_to": {
+    "message": "Aldirekti al"
+  }, 
+  "chrome_status_cancel_button": {
+    "message": "Rezigni"
+  }, 
+  "about_ext_name": {
+    "message": "HTTPS-Ĉie"
+  }, 
+  "menu_observatory": {
+    "message": "Agordoj de SSL-Observejo"
+  }, 
+  "prefs_reset_defaults": {
+    "message": "Reŝargi al aprioraj"
+  }, 
+  "chrome_add_rule": {
+    "message": "Aldoni regulon por ĉi tiu retejo"
+  }, 
+  "menu_showCounter": {
+    "message": "Montri nombrilon"
+  }, 
+  "chrome_show_advanced": {
+    "message": "Montri altnivelajn"
+  }, 
+  "chrome_always_https_for_host": {
+    "message": "Ĉiam uzi https por ĉi tiu retejo"
+  }, 
+  "menu_donate_eff_imperative": {
+    "message": "Donaci al EFF"
+  }, 
+  "chrome_experimental_rules": {
+    "message": "Eksperimentaj reguloj"
+  }, 
+  "prefs_export_settings": {
+    "message": "Elporti agordojn"
+  }, 
+  "chrome_rule_name": {
+    "message": "Nomo de regulo"
+  }, 
+  "chrome_experimental_rules_description": {
+    "message": "Povas kaŭzi avertojn aŭ malfunkciojn. Apriore malŝaltita."
+  }
+}

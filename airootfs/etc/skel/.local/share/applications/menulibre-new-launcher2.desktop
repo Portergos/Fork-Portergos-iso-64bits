@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Offline installer
+Comment=Install Portergos without internet connection
+Icon=/etc/portergos/portergos_pics/portergos_icon.png
+Exec=tilix -e sudo /portergos/installer
+NoDisplay=false
+Categories=X-XFCE;X-Xfce-Toplevel;
+StartupNotify=false
+Terminal=false
+Name[en_US]=Offline installer

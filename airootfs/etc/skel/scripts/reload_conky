@@ -1,0 +1,10 @@
+/usr/bin/env bash
+
+#reload conky
+
+if [[ $(echo $XDG_CURRENT_DESKTOP) == i3 || $(ps -aux |grep i3 |grep tty1 |grep -v 'grep' |awk '{ print $11 }') == i3 ]]; then pkill conky; bash -c "conky -c ~/.conky/i3_shortcuts/Gotham"; fi
+if [[ $(echo $XDG_CURRENT_DESKTOP) != i3 && $(ps -aux |grep i3 |grep tty1 |grep -v 'grep' |awk '{ print $11 }') != i3 ]]; then pkill conky; bash -c "conky -c ~/.conky/xfce_shortcuts/Gotham"; fi
+
+#ps -aux |grep 'conky' |grep -v 'grep' >/dev/null; if [[ $? == 0 ]]; then ps -aux |grep 'conky -c' |grep -v 'grep' |awk '{ print $11 echo " " $12 echo " " $13 }' >/tmp/.conky; fi
+#pkill conky
+#$(cat /tmp/.conky &)

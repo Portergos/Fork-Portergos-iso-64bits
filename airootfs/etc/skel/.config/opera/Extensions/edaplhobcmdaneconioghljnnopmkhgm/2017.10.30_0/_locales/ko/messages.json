@@ -1,0 +1,95 @@
+{
+   "about_add_new_rule": {
+      "message": "새 규칙 추가하기"
+   },
+   "about_ext_description": {
+      "message": "웹을 암호화 하세요! 자동으로 여러 사이트에 HTTPS 보안을 사용합니다."
+   },
+   "about_ext_name": {
+      "message": "HTTPS Everywhere"
+   },
+   "about_title": {
+      "message": "HTTPS Everywhere에 대하여"
+   },
+   "about_version": {
+      "message": "버전"
+   },
+   "chrome_add_new_rule": {
+      "message": "해당 사이트에 새 규칙 추가"
+   },
+   "chrome_add_rule": {
+      "message": "해당 사이트에 규칙 추가"
+   },
+   "chrome_always_https_for_host": {
+      "message": "해당 호스트는 항상 https 사용"
+   },
+   "chrome_experimental_rules": {
+      "message": "실험용 규칙"
+   },
+   "chrome_experimental_rules_description": {
+      "message": "경고나 오류를 발생시킬 수 있음. 기본설정은 비활성화."
+   },
+   "chrome_hide_advanced": {
+      "message": "고급 숨기기"
+   },
+   "chrome_host": {
+      "message": "호스트:"
+   },
+   "chrome_redirect_to": {
+      "message": "다음으로 리다이렉트"
+   },
+   "chrome_regex": {
+      "message": "해당하는 regex"
+   },
+   "chrome_rule_name": {
+      "message": "규칙명"
+   },
+   "chrome_show_advanced": {
+      "message": "고급 보이기"
+   },
+   "chrome_stable_rules": {
+      "message": "Stable, 안정된 규칙"
+   },
+   "chrome_stable_rules_description": {
+      "message": "다음 사이트에 접속시 강제 암호화:"
+   },
+   "chrome_status_cancel_button": {
+      "message": "취소"
+   },
+   "menu_blockUnencryptedRequests": {
+      "message": "암호화되지 않은 모든 요청 차단"
+   },
+   "menu_donate_eff_imperative": {
+      "message": "EFF에 기부하기"
+   },
+   "menu_globalEnable": {
+      "message": "모든곳에서 HTTPS 사용"
+   },
+   "menu_observatory": {
+      "message": "SSL 관측 환경 설정"
+   },
+   "menu_showCounter": {
+      "message": "카운터 보기"
+   },
+   "menu_viewAllRules": {
+      "message": "모든 규칙 표시"
+   },
+   "options_generalSettings": {
+      "message": "General Settings"
+   },
+   "options_import": {
+      "message": "가져오기"
+   },
+   "options_importSettings": {
+      "message": "설정 가져오기"
+   },
+   "options_imported": {
+      "message": "설정을 가져왔습니다."
+   },
+   "prefs_export_settings": {
+      "message": "설정 내보내기"
+   },
+   "prefs_reset_defaults": {
+      "message": "기본값으로 다시 설정"
+   }
+}

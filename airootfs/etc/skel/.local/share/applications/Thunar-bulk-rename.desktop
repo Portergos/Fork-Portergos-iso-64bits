@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Bulk Rename
+GenericName=Bulk Rename
+Comment=Rename Multiple Files
+Icon=Thunar
+Exec=/usr/lib/Thunar/ThunarBulkRename %F
+NoDisplay=true
+Categories=Core;Filesystem;GTK;System;Utility;
+StartupNotify=true
+Terminal=false

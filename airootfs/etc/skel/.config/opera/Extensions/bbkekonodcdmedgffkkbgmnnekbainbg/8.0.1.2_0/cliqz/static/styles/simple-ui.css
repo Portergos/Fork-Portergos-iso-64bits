@@ -1,0 +1,54 @@
+.cqz-results-simple {
+  font-family: -apple-system, "Segoe UI", "Oxygen", sans-serif, arial;
+  overflow: auto;
+  height: auto !important;
+  max-height: 350px;
+  padding-top: 15px;
+  padding-bottom: 20px; }
+  .cqz-results-simple span {
+    display: inline-block; }
+  .cqz-results-simple :link {
+    color: #2827a5; }
+  .cqz-results-simple :visited {
+    color: #5a15a6; }
+  .cqz-results-simple .cqz-result-box-simple {
+    cursor: pointer; }
+    .cqz-results-simple .cqz-result-box-simple .cqz-icon-simple {
+      position: absolute;
+      top: 7px; }
+    .cqz-results-simple .cqz-result-box-simple .cqz-main-result-container-simple {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-left: 35px; }
+      .cqz-results-simple .cqz-result-box-simple .cqz-main-result-container-simple .cqz-title-simple, .cqz-results-simple .cqz-result-box-simple .cqz-main-result-container-simple .cqz-url-simple {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .cqz-results-simple .cqz-result-box-simple .cqz-main-result-container-simple .cqz-title-simple {
+        width: 55%;
+        max-width: 700px;
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 2px;
+        min-height: 17px; }
+        .cqz-results-simple .cqz-result-box-simple .cqz-main-result-container-simple .cqz-title-simple.calculator-simple {
+          color: black;
+          font-size: 22px; }
+      .cqz-results-simple .cqz-result-box-simple .cqz-main-result-container-simple .cqz-url-simple {
+        margin-left: 30px;
+        color: gray;
+        width: 30%; }
+    .cqz-results-simple .cqz-result-box-simple[arrow="true"] .cqz-result-simple {
+      background-color: #E9E8E9; }
+    .cqz-results-simple .cqz-result-box-simple[arrow="true"] .cqz-url-simple {
+      color: #414141; }
+  .cqz-results-simple .cqz-result-logo-simple {
+    border-radius: 0px;
+    width: 23px;
+    height: 23px;
+    padding: 3px;
+    font-family: "Lucida Console", Monaco, monospace;
+    line-height: inherit;
+    font-weight: normal; }
+
+/*# sourceMappingURL=simple-ui.css.map */

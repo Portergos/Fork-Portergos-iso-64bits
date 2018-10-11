@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Adobe Flash Player
+Comment=Preferences for Adobe Flash Player
+Icon=flash-player-properties
+Exec=flash-player-properties
+NoDisplay=true
+NotShowIn=KDE;
+Categories=GNOME;GTK;Settings;X-GNOME-PersonalSettings;
+StartupNotify=true
+Terminal=false

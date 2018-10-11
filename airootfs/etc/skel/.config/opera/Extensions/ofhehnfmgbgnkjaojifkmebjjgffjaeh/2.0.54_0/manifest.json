@@ -1,0 +1,84 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/19.png",
+         "38": "icons/38.png"
+      },
+      "default_title": "__MSG_options__"
+   },
+   "commands": {
+      "cinema-mode": {
+         "description": "__MSG_cinema_mode__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+End",
+            "mac": "MacCtrl+Shift+End"
+         }
+      },
+      "remove-ads": {
+         "description": "__MSG_remove_ads__",
+         "suggested_key": {
+            "default": "Ctrl+Delete",
+            "mac": "MacCtrl+Delete"
+         }
+      },
+      "resize-player": {
+         "description": "__MSG_resize_player__",
+         "suggested_key": {
+            "default": "Ctrl+End",
+            "mac": "MacCtrl+End"
+         }
+      },
+      "toggle-annotations": {
+         "description": "__MSG_show_hide_annotations__",
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "exclude_globs": [ "*/embed/*", "*/tv#/*", "*/tv/*" ],
+      "js": [ "content.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "start.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "idle.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "embeds.js" ],
+      "matches": [ "*://www.youtube.com/embed/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "mrfdev.js" ],
+      "matches": [ "*://*.mrfdev.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en_US",
+   "description": "__MSG_description__",
+   "developer": {
+      "name": "Maxime RF",
+      "url": "https://www.mrfdev.com/enhancer-for-youtube"
+   },
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqWtE2o3zn/mDl8hOtcBGfj8LbSA0rVAzz1/Qufpb72XxC0lLAHAftnhmuXkq0lzvPiq68yBK5YqCxwktp9s8EpDyTigp/O555G2LJ6IiLyMzbfWqvjUrH9hitb2q8RdNWb8m3JZJ6Y/w9ioJ3awQiZG7aDk//5GMtQkj/iH0kytponKglUii42ngUaqn/Whyy/9YTSXO0O59VMZ7A+yyvKKeTn7BUguDexk9qOogNeklSlgyK+POTC4BKTDRADlnmMrnBQG9XCu2UiwbWvBPVdUFEm/E0PfOISk92qSaRWhIZh9op60OidStupPVKIVuaHXLxj/Yy3QorqHdPEAI/QIDAQAB",
+   "manifest_version": 2,
+   "name": "Enhancer for YouTube",
+   "options_page": "options.html",
+   "permissions": [ "cookies", "storage", "*://*.mrfdev.com/*", "*://www.youtube.com/*" ],
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "2.0.54",
+   "web_accessible_resources": [ "resources/*" ]
+}

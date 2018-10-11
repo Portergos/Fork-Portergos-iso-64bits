@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Xfce</Name>
+	<DefaultAppDirs />
+	<DefaultDirectoryDirs />
+	<DefaultMergeDirs />
+	<Include>
+		<Category>X-Xfce-Toplevel</Category>
+	</Include>
+	<MergeFile type="parent">/etc/xdg/menus/xfce-applications.menu</MergeFile>
+	<Menu>
+		<Name>Settings</Name>
+		<Directory>xfce-settings.directory</Directory>
+		<Menu>
+			<Name>Screensavers</Name>
+			<Directory>xfce-screensavers.directory</Directory>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Layout>
+			<Merge type="menus" />
+			<Separator />
+			<Filename>arandr.desktop</Filename>
+			<Filename>nm-connection-editor.desktop</Filename>
+			<Filename>menulibre.desktop</Filename>
+			<Filename>lxappearance.desktop</Filename>
+			<Menuname>Screensavers</Menuname>
+			<Filename>qtconfig-qt4.desktop</Filename>
+			<Filename>caffeine-preferences.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Accessories</Name>
+		<Directory>xfce-accessories.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>conky-manager.desktop</Filename>
+			<Filename>easystroke.desktop</Filename>
+			<Filename>menulibre.desktop</Filename>
+			<Filename>engrampa.desktop</Filename>
+			<Filename>redshift-gtk.desktop</Filename>
+			<Filename>redshift.desktop</Filename>
+			<Filename>org.pantheon.scratch.desktop</Filename>
+			<Filename>speedcrunch.desktop</Filename>
+			<Filename>zim.desktop</Filename>
+			<Filename>caffeine.desktop</Filename>
+			<Filename>xed.desktop</Filename>
+			<Filename>org.gnome.FileRoller.desktop</Filename>
+			<Filename>nemo.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Development</Name>
+		<Directory>xfce-development.directory</Directory>
+		<DirectoryDir>/home/$USER/.local/share/desktop-directories</DirectoryDir>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>gtk3-demo.desktop</Filename>
+			<Filename>gtk3-icon-browser.desktop</Filename>
+			<Filename>assistant-qt4.desktop</Filename>
+			<Filename>designer-qt4.desktop</Filename>
+			<Filename>linguist-qt4.desktop</Filename>
+			<Filename>qdbusviewer-qt4.desktop</Filename>
+			<Filename>assistant.desktop</Filename>
+			<Filename>designer.desktop</Filename>
+			<Filename>linguist.desktop</Filename>
+			<Filename>qdbusviewer.desktop</Filename>
+			<Filename>gtk3-widget-factory.desktop</Filename>
+			<Filename>cmake-gui.desktop</Filename>
+			<Filename>yad-icon-browser.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Education</Name>
+		<Directory>xfce-education.directory</Directory>
+		<DirectoryDir>/home/$USER/.local/share/desktop-directories</DirectoryDir>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Office</Name>
+		<Directory>xfce-office.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>abiword.desktop</Filename>
+			<Filename>org.kde.okular.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>xfce-graphics.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>simple-scan.desktop</Filename>
+			<Filename>pinta.desktop</Filename>
+			<Filename>feh.desktop</Filename>
+			<Filename>org.kde.kolourpaint.desktop</Filename>
+			<Filename>nomacs.desktop</Filename>
+			<Filename>okularApplication_tiff.desktop</Filename>
+			<Filename>okularApplication_fax.desktop</Filename>
+			<Filename>okularApplication_ghostview.desktop</Filename>
+			<Filename>okularApplication_txt.desktop</Filename>
+			<Filename>okularApplication_epub.desktop</Filename>
+			<Filename>okularApplication_djvu.desktop</Filename>
+			<Filename>okularApplication_pdf.desktop</Filename>
+			<Filename>okularApplication_xps.desktop</Filename>
+			<Filename>okularApplication_comicbook.desktop</Filename>
+			<Filename>okularApplication_ooo.desktop</Filename>
+			<Filename>okularApplication_fb.desktop</Filename>
+			<Filename>okularApplication_chm.desktop</Filename>
+			<Filename>okularApplication_dvi.desktop</Filename>
+			<Filename>okularApplication_mobi.desktop</Filename>
+			<Filename>org.kde.okular.desktop</Filename>
+			<Filename>okularApplication_plucker.desktop</Filename>
+			<Filename>okularApplication_kimgio.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Network</Name>
+		<Directory>xfce-network.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>transmission-gtk.desktop</Filename>
+			<Filename>filezilla.desktop</Filename>
+			<Filename>firefox.desktop</Filename>
+			<Filename>bssh.desktop</Filename>
+			<Filename>bvnc.desktop</Filename>
+			<Filename>opera.desktop</Filename>
+			<Filename>steam-native.desktop</Filename>
+			<Filename>steam.desktop</Filename>
+			<Filename>thunderbird.desktop</Filename>
+			<Filename>uget-gtk.desktop</Filename>
+			<Filename>zenmap.desktop</Filename>
+			<Filename>zenmap-root.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Games</Name>
+		<Directory>xfce-games.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>playonlinux.desktop</Filename>
+			<Filename>steam-native.desktop</Filename>
+			<Filename>steam.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Directory>xfce-multimedia.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>AcetoneISO.desktop</Filename>
+			<Filename>smplayer_enqueue.desktop</Filename>
+			<Filename>mplayer.desktop</Filename>
+			<Filename>mpv.desktop</Filename>
+			<Filename>smplayer.desktop</Filename>
+			<Filename>qv4l2.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Other</Name>
+		<Directory>xfce-other.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>wine.desktop</Filename>
+			<Filename>panel-desktop-handler.desktop</Filename>
+			<Filename>granite-demo.desktop</Filename>
+			<Filename>i3.desktop</Filename>
+			<Filename>ktelnetservice5.desktop</Filename>
+			<Filename>oblogout.desktop</Filename>
+			<Filename>gcr-prompter.desktop</Filename>
+			<Filename>nm-applet.desktop</Filename>
+			<Filename>gcr-viewer.desktop</Filename>
+			<Filename>geoclue-where-am-i.desktop</Filename>
+			<Filename>nemo-autorun-software.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Directory>xfce-system.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>pamac-manager.desktop</Filename>
+			<Filename>pamac-updater.desktop</Filename>
+			<Filename>gparted.desktop</Filename>
+			<Filename>cups.desktop</Filename>
+			<Filename>pamac-install.desktop</Filename>
+			<Filename>cnchi.desktop</Filename>
+			<Filename>avahi-discover.desktop</Filename>
+			<Filename>com.gexperts.Tilix.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Layout>
+		<Separator />
+		<Separator />
+		<Menuname>Settings</Menuname>
+		<Separator />
+		<Menuname>Accessories</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Network</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>System</Menuname>
+		<Separator />
+		<Filename>menulibre-new-launcher2.desktop</Filename>
+		<Separator />
+		<Filename>menulibre-new-launcher.desktop</Filename>
+	</Layout>
+</Menu>

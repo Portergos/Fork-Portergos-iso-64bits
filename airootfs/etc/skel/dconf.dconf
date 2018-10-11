@@ -1,0 +1,34 @@
+[org/x/editor/preferences/editor]
+scheme='cobalt'
+
+[com/gexperts/Tilix]
+quake-height-percent=40
+sidebar-on-right=false
+terminal-title-style='small'
+window-state=161
+prompt-on-close-process=false
+quake-hide-headerbar=false
+warn-vte-config-issue=false
+terminal-title-show-when-single=false
+window-style='normal'
+
+[com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+palette=['#494948483E3E', '#F9F926267171', '#A6A6E2E22D2D', '#FDFD97971E1E', '#20204A4A8787', '#AEAE8181FFFF', '#A1A1EFEFE4E4', '#F8F8F8F8F2F2', '#757571715E5E', '#FCFC5C5C9393', '#C0C0F1F16161', '#FEFEB2B25757', '#72729F9FCFCF', '#C2C2A1A1FFFF', '#BBBBF7F7EFEF', '#F8F8F8F8F0F0']
+custom-command='/usr/bin/zsh'
+use-system-font=false
+use-custom-command=true
+font='Monospace 14'
+background-color='#070735354242'
+background-transparency-percent=53
+dim-transparency-percent=53
+
+[org/nemo/preferences]
+show-hidden-files=true
+click-policy='single'
+
+[org/cinnamon/desktop/applications/terminal]
+exec='tilix'
+
+[org/pantheon/scratch/settings]
+style-scheme='cobalt'
+
